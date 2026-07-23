@@ -1,0 +1,25 @@
+{% load static %}
+<a href="{% url 'skills:skill_detail' skill.id %}" class="card">
+    <div class="card-body">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">
+            {% if skill.icon %}
+            <img src="{% static 'images/skills/'|add:skill.icon %}"
+                 alt="" style="width:32px;height:32px;">
+            {% endif %}
+            <span class="card-title" style="margin:0;">{{ skill.name }}</span>
+        </div>
+        <div class="element-badges" style="margin-bottom:6px;">
+            <span class="element-badge"
+                  style="background-color: var(--element-{{ skill.element.name }});">
+                <img src="{% static 'images/elements/'|add:skill.element.icon %}"
+                     alt="{{ skill.element.name }}">
+                {{ skill.element.name }}
+            </span>
+        </div>
+        <div style="display:flex;gap:12px;font-size:0.8rem;color:var(--color-text-light);">
+            <span>{{ skill.category }}</span>
+            <span>能耗: {{ skill.energy_cost }}</span>
+            <span>威力: {{ skill.power }}</span>
+        </div>
+    </div>
+</a>

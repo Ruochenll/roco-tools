@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}发布交换{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>发布交换</h1>
+</div>
+
+<div class="detail-section" style="max-width:750px;">
+    <form method="post">
+        {% csrf_token %}
+
+        <div class="form-group">
+            <label>我拥有的精灵蛋 <span style="color:var(--color-text-light);">（点击图标选中/取消，可多选）</span></label>
+            <div class="egg-select-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(60px,1fr));gap:6px;padding:8px;border:1px solid var(--color-border);border-radius:8px;min-height:60px;max-height:360px;overflow-y:auto;">
+                {% for pet in all_pets %}
+                <label class="egg-select-item" style="display:flex;flex-direction:column;align-items:center;padding:6px 2px;cursor:pointer;border-radius:8px;border:2px solid transparent;transition:all 0.15s;text-align:center;">
+                    <input type="checkbox" name="offer_pets" value="{{ pet.id }}" style="display:none;">
+                    {% if pet.egg_image %}
+                    <img src="{% static 'images/eggs/'|add:pet.egg_image.image %}"
+                         style="width:44px;height:44px;object-fit:contain;border-radius:50%;background:#f5f0e8;"
+                         title="{{ pet.name }}">
+                    {% endif %}
+                    <span style="font-size:0.65rem;color:var(--color-text-light);margin-top:2px;max-width:56px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">{{ pet.name }}</span>
+                </label>
+                {% empty %}
+                <div style="grid-column:1/-1;text-align:center;color:var(--color-text-light);padding:20px;">暂无可用精灵蛋数据</div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>我想要的精灵蛋 <span style="color:var(--color-text-light);">（点击图标选中/取消，可多选）</span></label>
+            <div class="egg-select-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(60px,1fr));gap:6px;padding:8px;border:1px solid var(--color-border);border-radius:8px;min-height:60px;max-height:360px;overflow-y:auto;">
+                {% for pet in all_pets %}
+                <label class="egg-select-item" style="display:flex;flex-direction:column;align-items:center;padding:6px 2px;cursor:pointer;border-radius:8px;border:2px solid transparent;transition:all 0.15s;text-align:center;">
+                    <input type="checkbox" name="want_pets" value="{{ pet.id }}" style="display:none;">
+                    {% if pet.egg_image %}
+                    <img src="{% static 'images/eggs/'|add:pet.egg_image.image %}"
+                         style="width:44px;height:44px;object-fit:contain;border-radius:50%;background:#f5f0e8;"
+                         title="{{ pet.name }}">
+                    {% endif %}
+                    <span style="font-size:0.65rem;color:var(--color-text-light);margin-top:2px;max-width:56px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">{{ pet.name }}</span>
+                </label>
+                {% empty %}
+                <div style="grid-column:1/-1;text-align:center;color:var(--color-text-light);padding:20px;">暂无可用精灵蛋数据</div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="game_uid">游戏 UID <span style="color:red;">*</span></label>
+            <input type="text" name="game_uid" id="game_uid" required
+                   placeholder="输入你在游戏中的UID，方便对方联系你">
+        </div>
+
+        <div class="form-group">
+            <label for="notes">备注</label>
+            <textarea name="notes" id="notes" placeholder="可选，填写交换备注信息"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">发布交换</button>
+        <a href="{% url 'market' %}" class="btn btn-secondary" style="margin-left:8px;">取消</a>
+    </form>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<style>
+.egg-select-item:has(input:checked) {
+    border-color: var(--color-primary) !important;
+    background: rgba(74, 144, 217, 0.08);
+}
+</style>
+{% endblock %}

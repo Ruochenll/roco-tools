@@ -1,0 +1,239 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extra_head %}
+<style>
+  .dc-wrap { max-width: 1300px; margin: 20px auto; padding: 0 15px; }
+  .dc-wrap h2 { text-align: center; margin-bottom: 5px; }
+  .dc-wrap .subtitle { text-align: center; color: #999; font-size: 13px; margin-bottom: 20px; }
+  .dc-row { display: flex; gap: 20px; }
+  .dc-panel { flex: 1; background: #fff; border-radius: 12px; border: 1px solid #e8e8e8; padding: 20px; }
+  .dc-panel h3 { margin: 0 0 15px; font-size: 16px; text-align: center; }
+  .dc-panel h3 .atk { color: #e74c3c; } .dc-panel h3 .def { color: #3498db; }
+  .dc-search { width: 100%; padding: 10px 14px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; box-sizing: border-box; }
+  .dc-search:focus { outline: none; border-color: #7c4dff; }
+  .dc-suggest { background: #fff; border: 1px solid #ddd; border-radius: 6px; max-height: 420px; overflow-y: auto; display: none; box-shadow: 0 6px 20px rgba(0,0,0,.1); position: absolute; z-index: 100; left: 20px; right: 20px; }
+  .dc-suggest.active { display: block; }
+  .dc-suggest-item { padding: 10px 14px; cursor: pointer; display: flex; align-items: center; gap: 10px; border-bottom: 1px solid #f0f0f0; }
+  .dc-suggest-item:hover { background: #f3e5ff; }
+  .dc-suggest-item img { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; }
+  .dc-suggest-item .name { font-weight: 600; } .dc-suggest-item .elem { font-size: 12px; color: #888; }
+  .dc-noresult { padding: 12px; color: #999; font-size: 13px; text-align: center; }
+  .dc-elem-tag:hover { opacity: 0.8; }
+  .dc-pet-card { display: none; background: #fafafa; border-radius: 10px; padding: 14px; margin-top: 12px; }
+  .dc-pet-card.active { display: flex; gap: 14px; align-items: flex-start; }
+  .dc-pet-card img { width: 60px; height: 60px; border-radius: 10px; object-fit: cover; flex-shrink: 0; }
+  .dc-pet-card .info { flex: 1; }
+  .dc-pet-card .name { font-size: 18px; font-weight: 700; margin-bottom: 4px; }
+  .dc-pet-card .elements { margin-bottom: 6px; }
+  .dc-pet-card .elem-tag { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; color: #fff; margin-right: 4px; }
+  .dc-pet-card .stats { font-size: 12px; color: #666; line-height: 1.7; }
+  .dc-skill-area label { display: block; font-weight: 600; margin-bottom: 6px; font-size: 14px; }
+  .dc-skill-area select { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 8px; font-size: 13px; background: #fff; }
+  .dc-skill-area .skill-hint { font-size: 12px; color: #999; margin-top: 4px; }
+  .clear-link { font-size: 12px; color: #999; cursor: pointer; float: right; margin-top: -20px; }
+  .clear-link:hover { color: #e74c3c; }
+  .talent-input:focus { outline: none; border-color: #7c4dff !important; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="dc-wrap">
+  <h2>理论伤害计算器</h2>
+  <p class="subtitle">等级60 · 星级5 · 天分/成长默认无加成 · 强化/弱化层数手动选择</p>
+
+  <div class="dc-row">
+    <!-- 进攻方 -->
+    <div class="dc-panel">
+      <h3><span class="atk">⚔️</span> 进攻方</h3>
+      <input type="text" class="dc-search"
+             placeholder="输入精灵名称搜索..."
+             name="search"
+             hx-get="/pvp/pet-search/"
+             hx-trigger="keyup changed delay:200ms, focus"
+             hx-target="#att-suggest"
+             hx-swap="innerHTML"
+             autocomplete="off"
+             id="att-search">
+      <div class="dc-suggest" id="att-suggest"></div>
+      <span class="clear-link" onclick="clearAttacker()">清除</span>
+      <div class="dc-pet-card" id="att-pet-card">
+        <img id="att-img" src="" alt="">
+        <div class="info">
+          <div class="name" id="att-name"></div>
+          <div class="elements" id="att-elems"></div>
+          <div class="stats" id="att-stats"></div>
+        </div>
+      </div>
+      <input type="hidden" id="att-id" value="">
+      <div id="att-stat-card"></div>
+      <div class="boost-row" style="margin-top:8px;padding:0 2px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:12px;">
+        <span style="color:#999;">强化/弱化：</span>
+        <label>物攻 <input type="number" name="att_pa_boost" value="0" style="width:36px;padding:2px 4px;border:1px solid #ddd;border-radius:4px;font-size:12px;">%</label>
+        <label>魔攻 <input type="number" name="att_ma_boost" value="0" style="width:36px;padding:2px 4px;border:1px solid #ddd;border-radius:4px;font-size:12px;">%</label>
+        <label>物防 <input type="number" name="att_pd_boost" value="0" style="width:36px;padding:2px 4px;border:1px solid #ddd;border-radius:4px;font-size:12px;">%</label>
+        <label>魔防 <input type="number" name="att_md_boost" value="0" style="width:36px;padding:2px 4px;border:1px solid #ddd;border-radius:4px;font-size:12px;">%</label>
+      </div>
+      <div class="global-bonus-row" style="margin-top:6px;padding:0 2px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:12px;">
+        <span style="color:#999;">全局加成：</span>
+        <label>威力+ <input type="number" name="att_power_bonus" value="0" style="width:40px;padding:2px 4px;border:1px solid #ddd;border-radius:4px;font-size:12px;"></label>
+        <label>威力× <input type="number" name="att_power_mul" value="1" step="0.1" style="width:44px;padding:2px 4px;border:1px solid #ddd;border-radius:4px;font-size:12px;"></label>
+        <label>连击 <input type="number" name="att_combo" value="1" min="1" style="width:40px;padding:2px 4px;border:1px solid #ddd;border-radius:4px;font-size:12px;"></label>
+      </div>
+      <div id="att-skills"></div>
+    </div>
+
+    <!-- 防守方 -->
+    <div class="dc-panel">
+      <h3><span class="def">🛡️</span> 防守方</h3>
+      <input type="text" class="dc-search"
+             placeholder="输入精灵名称搜索..."
+             name="search"
+             hx-get="/pvp/pet-search/"
+             hx-trigger="keyup changed delay:200ms, focus"
+             hx-target="#def-suggest"
+             hx-swap="innerHTML"
+             autocomplete="off"
+             id="def-search">
+      <div class="dc-suggest" id="def-suggest"></div>
+      <span class="clear-link" onclick="clearDefender()">清除</span>
+      <div class="dc-pet-card" id="def-pet-card">
+        <img id="def-img" src="" alt="">
+        <div class="info">
+          <div class="name" id="def-name"></div>
+          <div class="elements" id="def-elems"></div>
+          <div class="stats" id="def-stats"></div>
+        </div>
+      </div>
+      <input type="hidden" id="def-id" value="">
+      <div id="def-stat-card"></div>
+      <div class="boost-row" style="margin-top:8px;padding:0 2px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:12px;">
+        <span style="color:#999;">强化/弱化：</span>
+        <label>物攻 <input type="number" name="def_pa_boost" value="0" style="width:36px;padding:2px 4px;border:1px solid #ddd;border-radius:4px;font-size:12px;">%</label>
+        <label>魔攻 <input type="number" name="def_ma_boost" value="0" style="width:36px;padding:2px 4px;border:1px solid #ddd;border-radius:4px;font-size:12px;">%</label>
+        <label>物防 <input type="number" name="def_pd_boost" value="0" style="width:36px;padding:2px 4px;border:1px solid #ddd;border-radius:4px;font-size:12px;">%</label>
+        <label>魔防 <input type="number" name="def_md_boost" value="0" style="width:36px;padding:2px 4px;border:1px solid #ddd;border-radius:4px;font-size:12px;">%</label>
+      </div>
+      <div class="global-bonus-row" style="margin-top:6px;padding:0 2px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:12px;">
+        <span style="color:#999;">全局加成：</span>
+        <label>威力+ <input type="number" name="def_power_bonus" value="0" style="width:40px;padding:2px 4px;border:1px solid #ddd;border-radius:4px;font-size:12px;"></label>
+        <label>威力× <input type="number" name="def_power_mul" value="1" step="0.1" style="width:44px;padding:2px 4px;border:1px solid #ddd;border-radius:4px;font-size:12px;"></label>
+        <label>连击 <input type="number" name="def_combo" value="1" min="1" style="width:40px;padding:2px 4px;border:1px solid #ddd;border-radius:4px;font-size:12px;"></label>
+      </div>
+      <div id="def-skills"></div>
+    </div>
+  </div>
+
+  <!-- 伤害结果 -->
+  <div id="damage-results"></div>
+</div>
+
+<script>
+// 强化层数 + 全局加成修改 → 重新计算伤害
+document.addEventListener('change', function(e) {
+  if (e.target.closest('.boost-row') || e.target.closest('.global-bonus-row')) recalcDamages();
+});
+
+// 天分/性格修改 → 重新加载面板值
+function reloadStatCard(field) {
+  var params = new URLSearchParams();
+  params.append('pet_id', document.getElementById(field + '-id').value);
+  params.append('field', field);
+  // 收集该面板的天分值
+  document.querySelectorAll('#card-' + field + ' input[type=number]').forEach(function(el) {
+    if (el.name) params.append(el.name, el.value);
+  });
+  // 收集该面板的性格选择
+  document.querySelectorAll('#card-' + field + ' select').forEach(function(el) {
+    if (el.name) params.append(el.name, el.value);
+  });
+  htmx.ajax('GET', '/pvp/damage-calc/stat-card/?' + params.toString(),
+            {target: '#' + field + '-stat-card'});
+}
+
+// 点击精灵卡片或联想项 → 选中
+document.addEventListener('click', function(e) {
+  var item = e.target.closest('.dc-pet-card-item, .dc-suggest-item');
+  if (!item) return;
+  var petId = item.dataset.petId;
+  var petName = item.dataset.petName;
+  var petImg = item.dataset.petImg;
+  var petElems = item.dataset.petElems;
+  var petStats = item.dataset.petStats;
+  var suggest = item.closest('.dc-suggest');
+  var panel = suggest.parentElement.closest('.dc-panel');
+  var isAtt = panel.querySelector('h3 .atk') != null;
+  var prefix = isAtt ? 'att' : 'def';
+
+  // 关闭联想
+  suggest.classList.remove('active');
+  document.getElementById(prefix+'-search').value = petName;
+
+  // 显示选中卡片
+  document.getElementById(prefix+'-id').value = petId;
+  document.getElementById(prefix+'-img').src = petImg;
+  document.getElementById(prefix+'-name').textContent = petName;
+  document.getElementById(prefix+'-elems').innerHTML = petElems;
+  document.getElementById(prefix+'-stats').innerHTML = petStats;
+  document.getElementById(prefix+'-pet-card').classList.add('active');
+
+  // 加载种族值+天分卡片 + 技能列表
+  htmx.ajax('GET', '/pvp/damage-calc/stat-card/?pet_id='+petId+'&field='+prefix,
+            {target: '#'+prefix+'-stat-card'});
+  htmx.ajax('GET', '/pvp/damage-calc/skills/?pet_id='+petId+'&field='+prefix,
+            {target: '#'+prefix+'-skills'});
+});
+
+// 技能选择后自动计算伤害
+document.addEventListener('change', function(e) {
+  if (e.target.classList.contains('skill-select')) {
+    recalcDamages();
+  }
+});
+
+function recalcDamages() {
+  var params = new URLSearchParams();
+  document.querySelectorAll('#att-stat-card input,#att-stat-card select,' +
+                            '#def-stat-card input,#def-stat-card select,' +
+                            '#att-skills select,#def-skills select,' +
+                            '#att-skills input[type=number],#def-skills input[type=number],' +
+                            '.boost-row input,.global-bonus-row input').forEach(function(el) {
+    if (el.name && el.value) params.append(el.name, el.value);
+  });
+  params.append('att_pet_id', document.getElementById('att-id').value);
+  params.append('def_pet_id', document.getElementById('def-id').value);
+  htmx.ajax('GET', '/pvp/damage-calc/damages/?' + params.toString(),
+            {target: '#damage-results'});
+}
+
+// 联想框显示/隐藏
+document.addEventListener('htmx:afterSwap', function(evt) {
+  var t = evt.detail.target;
+  if (t && t.classList.contains('dc-suggest') && t.children.length > 0) {
+    t.classList.add('active');
+  }
+});
+document.addEventListener('click', function(e) {
+  if (!e.target.closest('.dc-suggest') && !e.target.closest('.dc-search')) {
+    document.querySelectorAll('.dc-suggest').forEach(function(s) { s.classList.remove('active'); });
+  }
+});
+
+function clearAttacker() {
+  document.getElementById('att-id').value = '';
+  document.getElementById('att-search').value = '';
+  document.getElementById('att-pet-card').classList.remove('active');
+  document.getElementById('att-stat-card').innerHTML = '';
+  document.getElementById('att-skills').innerHTML = '';
+  document.getElementById('damage-results').innerHTML = '';
+}
+function clearDefender() {
+  document.getElementById('def-id').value = '';
+  document.getElementById('def-search').value = '';
+  document.getElementById('def-pet-card').classList.remove('active');
+  document.getElementById('def-stat-card').innerHTML = '';
+  document.getElementById('def-skills').innerHTML = '';
+  document.getElementById('damage-results').innerHTML = '';
+}
+</script>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% load static %}
+<div class="evo-tree">
+    <div class="evo-stage">
+        <div class="evo-node {% if node.pet.id == current_pet.id %}current{% endif %}">
+            <a href="{% url 'pet_detail' node.pet.id %}">
+                <img src="{% static 'images/pets/'|add:node.pet.image %}"
+                     alt="{{ node.pet.name }}"
+                     onerror="this.src='{% static 'images/pets/placeholder.png' %}'">
+            </a>
+            <div class="evo-name">{{ node.pet.name }}</div>
+        </div>
+    </div>
+
+    {% if node.evolutions %}
+    <div class="evo-arrow">→</div>
+    <div class="evo-branches" style="display:flex;flex-direction:column;gap:16px;">
+        {% for evo in node.evolutions %}
+        {% include 'pets/evo_tree_node.html' with node=evo current_pet=current_pet %}
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>

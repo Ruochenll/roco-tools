@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}精灵图鉴{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>精灵图鉴</h1>
+    <p>探索 {{ all_elements|length }} 种属性的精灵</p>
+</div>
+
+<div class="filter-bar">
+    <div class="filter-row">
+        <input type="text" id="pet-search-input" class="search-input"
+               placeholder="输入精灵名称搜索..."
+               value="{{ search }}" autocomplete="off">
+        <button id="pet-reset-btn" class="btn btn-secondary btn-sm">重置</button>
+    </div>
+
+    <div class="filter-row" style="align-items:center;">
+        <span class="filter-label">属性筛选：</span>
+        <span id="filter-hint" style="font-size:0.8rem;color:var(--color-text-light);">点击图标筛选，再次点击取消</span>
+    </div>
+
+    <div class="filter-row">
+        <div class="element-grid" id="elem-grid">
+            {% for elem in all_elements %}
+            <span class="element-icon"
+                style="--element-current: var(--element-{{ elem.name }});"
+                title="{{ elem.name }}"
+                data-elem="{{ elem.name }}">
+                <img src="{% static 'images/elements/'|add:elem.icon %}" alt="{{ elem.name }}">
+            </span>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<div id="pet-grid">
+    {% include 'pets/pet_list_partial.html' %}
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+(function(){
+    var searchInput = document.getElementById('pet-search-input');
+    var grid = document.getElementById('pet-grid');
+    var icons = document.querySelectorAll('#elem-grid .element-icon');
+    var filterHint = document.getElementById('filter-hint');
+    var selectedElem = null; // currently selected element name, or null
+
+    function doRequest(params) {
+        var url = '/pets/?' + new URLSearchParams(params).toString();
+        htmx.ajax('GET', url, {target: '#pet-grid'});
+    }
+
+    // ---- Search ----
+    var searchTimer;
+    searchInput.addEventListener('input', function(){
+        // Clear element selection when searching
+        if (selectedElem) {
+            icons.forEach(function(ic){ ic.classList.remove('active'); });
+            selectedElem = null;
+            filterHint.textContent = '点击图标筛选，再次点击取消';
+            filterHint.style.color = '';
+        }
+        clearTimeout(searchTimer);
+        searchTimer = setTimeout(function(){
+            doRequest({search: searchInput.value.trim()});
+        }, 300);
+    });
+
+    // ---- Element icons ----
+    icons.forEach(function(icon){
+        icon.addEventListener('click', function(){
+            var name = icon.dataset.elem;
+            // Clear search when filtering
+            searchInput.value = '';
+
+            if (selectedElem === name) {
+                // Deselect
+                icon.classList.remove('active');
+                selectedElem = null;
+                filterHint.textContent = '点击图标筛选，再次点击取消';
+                filterHint.style.color = '';
+                doRequest({});
+            } else {
+                // Select new one, deselect others
+                icons.forEach(function(ic){ ic.classList.remove('active'); });
+                icon.classList.add('active');
+                selectedElem = name;
+                filterHint.innerHTML = '<span style="display:inline-flex;align-items:center;gap:4px;background:var(--element-'+name+');color:#fff;padding:3px 10px;border-radius:14px;font-size:0.8rem;"><img src="/static/images/elements/'+icon.querySelector('img').src.split('/').pop()+'" style="width:16px;height:16px;">'+name+'</span>';
+                doRequest({elements: name});
+            }
+        });
+    });
+
+    // ---- Reset ----
+    document.getElementById('pet-reset-btn').addEventListener('click', function(){
+        searchInput.value = '';
+        icons.forEach(function(ic){ ic.classList.remove('active'); });
+        selectedElem = null;
+        filterHint.textContent = '点击图标筛选，再次点击取消';
+        filterHint.style.color = '';
+        doRequest({});
+    });
+})();
+</script>
+{% endblock %}

@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}精灵蛋交换市场{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>精灵蛋交换市场</h1>
+    <p>浏览交换信息，找到合适的交换伙伴</p>
+    {% if user.is_authenticated %}
+    <div style="margin-top:12px;">
+        <a href="{% url 'publish_trade' %}" class="btn btn-primary btn-sm">发布交换</a>
+        <a href="{% url 'my_trades' %}" class="btn btn-secondary btn-sm">我的发布</a>
+    </div>
+    {% endif %}
+</div>
+
+<form class="filter-bar"
+      hx-get="{% url 'market' %}"
+      hx-target="#trade-grid"
+      hx-trigger="submit">
+    <div style="display:flex;gap:16px;align-items:flex-end;flex-wrap:wrap;">
+        <div class="form-group search-combobox" style="flex:1;min-width:220px;position:relative;">
+            <label>我拥有的精灵蛋</label>
+            <div class="selected-preview" style="display:flex;align-items:center;gap:8px;min-height:42px;padding:4px 0;">
+                {% if have_obj and have_obj.egg_image %}
+                <img src="{% static 'images/eggs/'|add:have_obj.egg_image.image %}"
+                     style="width:40px;height:40px;object-fit:contain;border-radius:50%;background:#f5f0e8;">
+                <span style="font-size:0.9rem;">{{ have_obj.name }}</span>
+                {% endif %}
+            </div>
+            <input type="text" class="search-text combobox-input"
+                   placeholder="输入精灵名搜索，或点击空白处浏览..."
+                   value="{% if have_obj %}#{{ have_obj.number }} {{ have_obj.name }}{% endif %}"
+                   hx-get="{% url 'search_pets' %}"
+                   hx-trigger="focus, keyup changed delay:250ms"
+                   hx-target="next .search-results"
+                   autocomplete="off">
+            <input type="hidden" name="have" class="search-value" value="{{ have }}">
+            <div class="search-results" style="position:absolute;z-index:100;left:0;right:0;background:var(--color-card);border:1px solid var(--color-border);border-radius:0 0 8px 8px;border-top:none;box-shadow:0 4px 12px rgba(0,0,0,0.1);"></div>
+        </div>
+        <div class="form-group search-combobox" style="flex:1;min-width:220px;position:relative;">
+            <label>我想要的精灵蛋</label>
+            <div class="selected-preview" style="display:flex;align-items:center;gap:8px;min-height:42px;padding:4px 0;">
+                {% if want_obj and want_obj.egg_image %}
+                <img src="{% static 'images/eggs/'|add:want_obj.egg_image.image %}"
+                     style="width:40px;height:40px;object-fit:contain;border-radius:50%;background:#f5f0e8;">
+                <span style="font-size:0.9rem;">{{ want_obj.name }}</span>
+                {% endif %}
+            </div>
+            <input type="text" class="search-text combobox-input"
+                   placeholder="输入精灵名搜索，或点击空白处浏览..."
+                   value="{% if want_obj %}#{{ want_obj.number }} {{ want_obj.name }}{% endif %}"
+                   hx-get="{% url 'search_pets' %}"
+                   hx-trigger="focus, keyup changed delay:250ms"
+                   hx-target="next .search-results"
+                   autocomplete="off">
+            <input type="hidden" name="want" class="search-value" value="{{ want }}">
+            <div class="search-results" style="position:absolute;z-index:100;left:0;right:0;background:var(--color-card);border:1px solid var(--color-border);border-radius:0 0 8px 8px;border-top:none;box-shadow:0 4px 12px rgba(0,0,0,0.1);"></div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-sm">搜索</button>
+        <a href="{% url 'market' %}" class="btn btn-secondary btn-sm">随机浏览</a>
+    </div>
+</form>
+
+<div id="trade-grid">
+    {% include 'eggs/market_partial.html' %}
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+(function(){
+    // ---- Handle egg option clicks (delegated from document) ----
+    document.addEventListener('click', function(e){
+        var egg = e.target.closest('.egg-option');
+        if (!egg) return;
+
+        var box = egg.closest('.search-combobox');
+        if (!box) return;
+
+        // Set the hidden value
+        box.querySelector('.search-value').value = egg.dataset.petId;
+
+        // Set the visible text
+        box.querySelector('.search-text').value = egg.dataset.petLabel;
+
+        // Update the preview
+        var prev = box.querySelector('.selected-preview');
+        if (prev) {
+            var img = egg.querySelector('img');
+            var name = egg.dataset.petLabel.replace(/^#\d+\s*/, '');
+            if (img) {
+                prev.innerHTML = '<img src="' + img.src + '" style="width:40px;height:40px;object-fit:contain;border-radius:50%;background:#f5f0e8;"><span style="font-size:0.9rem;">' + name + '</span>';
+            } else {
+                prev.innerHTML = '<span style="font-size:0.9rem;">' + name + '</span>';
+            }
+        }
+
+        // Close the dropdown
+        box.querySelector('.search-results').innerHTML = '';
+    });
+
+    // ---- Close dropdown: click outside ----
+    document.addEventListener('click', function(e){
+        if (e.target.closest('.egg-option')) return; // handled above
+        var inside = e.target.closest('.search-combobox');
+        document.querySelectorAll('.search-results').forEach(function(dd){
+            if (!inside || !inside.contains(dd)) {
+                dd.innerHTML = '';
+            }
+        });
+    });
+
+    // ---- Close dropdown: Escape key ----
+    document.addEventListener('keydown', function(e){
+        if (e.key === 'Escape') {
+            document.querySelectorAll('.search-results').forEach(function(dd){
+                dd.innerHTML = '';
+            });
+            if (document.activeElement && document.activeElement.closest('.search-combobox')) {
+                document.activeElement.blur();
+            }
+        }
+    });
+})();
+</script>
+{% endblock %}

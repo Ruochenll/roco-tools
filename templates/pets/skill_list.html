@@ -1,0 +1,152 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}技能图鉴{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>技能图鉴</h1>
+    <p>浏览全部技能</p>
+</div>
+
+<div class="filter-bar">
+    <div class="filter-row">
+        <input type="text" id="skill-search-input" class="search-input"
+               placeholder="输入技能名称搜索..."
+               value="{{ search }}" autocomplete="off">
+        <button id="skill-reset-btn" class="btn btn-secondary btn-sm">重置</button>
+    </div>
+
+    <div class="filter-row" style="align-items:center;">
+        <span class="filter-label">属性：</span>
+        <span id="elem-hint" style="font-size:0.8rem;color:var(--color-text-light);">点击图标筛选</span>
+    </div>
+
+    <div class="filter-row">
+        <div class="element-grid" id="skill-elem-grid">
+            {% for elem in all_elements %}
+            <span class="element-icon"
+                style="--element-current: var(--element-{{ elem.name }});"
+                title="{{ elem.name }}"
+                data-elem="{{ elem.name }}">
+                <img src="{% static 'images/elements/'|add:elem.icon %}" alt="{{ elem.name }}">
+            </span>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="filter-row" style="align-items:center;">
+        <span class="filter-label">类型：</span>
+        <span id="cat-hint" style="font-size:0.8rem;color:var(--color-text-light);">点击标签筛选</span>
+    </div>
+
+    <div class="filter-row">
+        <div class="category-btns" id="skill-cat-grid">
+            {% for cat_code, cat_label in all_categories %}
+            <span class="cat-btn" data-cat="{{ cat_code }}">{{ cat_label }}</span>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<div id="skill-grid">
+    {% include 'pets/skill_list_partial.html' %}
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+(function(){
+    var searchInput = document.getElementById('skill-search-input');
+    var grid = document.getElementById('skill-grid');
+    var resetBtn = document.getElementById('skill-reset-btn');
+    var elemHint = document.getElementById('elem-hint');
+    var catHint = document.getElementById('cat-hint');
+
+    var elemIcons = document.querySelectorAll('#skill-elem-grid .element-icon');
+    var catBtns = document.querySelectorAll('#skill-cat-grid .cat-btn');
+
+    var selectedElem = null;
+    var selectedCat = null;
+
+    function buildSearchInput() { return searchInput.value.trim(); }
+
+    function doRequest() {
+        var params = {};
+        var q = buildSearchInput();
+        if (q) params.search = q;
+        if (selectedElem) params.elements = selectedElem;
+        if (selectedCat) params.categories = selectedCat;
+        var url = '/skills/?' + new URLSearchParams(params).toString();
+        htmx.ajax('GET', url, {target: '#skill-grid'});
+    }
+
+    function clearAllFilters() {
+        elemIcons.forEach(function(ic){ ic.classList.remove('active'); });
+        catBtns.forEach(function(b){ b.classList.remove('active'); });
+        selectedElem = null;
+        selectedCat = null;
+        elemHint.textContent = '点击图标筛选';
+        elemHint.style.color = '';
+        catHint.textContent = '点击标签筛选';
+        catHint.style.color = '';
+    }
+
+    // ---- Search ----
+    var searchTimer;
+    searchInput.addEventListener('input', function(){
+        clearAllFilters();
+        clearTimeout(searchTimer);
+        searchTimer = setTimeout(doRequest, 300);
+    });
+
+    // ---- Element icons (keeps category) ----
+    elemIcons.forEach(function(icon){
+        icon.addEventListener('click', function(){
+            var name = icon.dataset.elem;
+            searchInput.value = '';
+
+            if (selectedElem === name) {
+                icon.classList.remove('active');
+                selectedElem = null;
+                elemHint.textContent = '点击图标筛选';
+                elemHint.style.color = '';
+            } else {
+                elemIcons.forEach(function(ic){ ic.classList.remove('active'); });
+                icon.classList.add('active');
+                selectedElem = name;
+                elemHint.innerHTML = '<span style="display:inline-flex;align-items:center;gap:4px;background:var(--element-'+name+');color:#fff;padding:3px 10px;border-radius:14px;font-size:0.8rem;"><img src="/static/images/elements/'+icon.querySelector('img').src.split('/').pop()+'" style="width:16px;height:16px;">'+name+'</span>';
+            }
+            doRequest();
+        });
+    });
+
+    // ---- Category buttons (keeps element) ----
+    catBtns.forEach(function(btn){
+        btn.addEventListener('click', function(){
+            var cat = btn.dataset.cat;
+            searchInput.value = '';
+
+            if (selectedCat === cat) {
+                btn.classList.remove('active');
+                selectedCat = null;
+                catHint.textContent = '点击标签筛选';
+                catHint.style.color = '';
+            } else {
+                catBtns.forEach(function(b){ b.classList.remove('active'); });
+                btn.classList.add('active');
+                selectedCat = cat;
+                catHint.innerHTML = '<span style="display:inline-flex;align-items:center;gap:4px;background:var(--color-primary);color:#fff;padding:3px 10px;border-radius:14px;font-size:0.8rem;">'+btn.textContent+'</span>';
+            }
+            doRequest();
+        });
+    });
+
+    // ---- Reset ----
+    resetBtn.addEventListener('click', function(){
+        searchInput.value = '';
+        clearAllFilters();
+        doRequest();
+    });
+})();
+</script>
+{% endblock %}

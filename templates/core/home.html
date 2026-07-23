@@ -1,0 +1,302 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}洛克王国世界工具合集 - 首页{% endblock %}
+
+{% block extra_head %}
+<style>
+/* ===== Homepage-specific styles ===== */
+.home-wrapper { max-width:var(--max-width); margin:0 auto; padding:0 20px 32px; }
+
+/* Hero */
+.hero { text-align:center; padding:48px 20px 32px; position:relative; overflow:hidden; }
+.hero::before {
+    content:''; position:absolute; top:-60%; left:-20%; width:140%; height:200%;
+    background: radial-gradient(ellipse at 30% 50%, rgba(120,200,80,0.08) 0%, transparent 50%),
+                radial-gradient(ellipse at 70% 50%, rgba(104,144,240,0.08) 0%, transparent 50%),
+                radial-gradient(ellipse at 50% 80%, rgba(240,128,48,0.06) 0%, transparent 50%);
+    z-index:0; pointer-events:none;
+}
+.hero > * { position:relative; z-index:1; }
+.hero h1 { font-size:2.6rem; font-weight:800; letter-spacing:-0.5px; margin-bottom:8px;
+    background:linear-gradient(135deg, var(--element-草), var(--element-水), var(--element-火));
+    -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+.hero p { font-size:1.1rem; color:var(--color-text-light); }
+
+/* Two-panel layout */
+.home-panels { display:grid; grid-template-columns:1.4fr 1fr; gap:24px; margin-bottom:32px; }
+@media (max-width:768px) { .home-panels { grid-template-columns:1fr; } }
+
+/* ===== Carousel ===== */
+.carousel-section { background:var(--color-card); border-radius:12px; box-shadow:var(--shadow); overflow:hidden; }
+.carousel-header { display:flex; justify-content:space-between; align-items:center; padding:16px 20px; border-bottom:1px solid var(--color-border); }
+.carousel-header h2 { font-size:1.1rem; margin:0; padding:0; border:none; }
+.carousel-header a { font-size:0.85rem; color:var(--color-primary); }
+
+.carousel-track {
+    display:flex; overflow-x:auto; scroll-snap-type:x mandatory;
+    scroll-behavior:smooth; -webkit-overflow-scrolling:touch;
+}
+.carousel-track::-webkit-scrollbar { display:none; }
+
+.carousel-slide {
+    flex:0 0 100%; scroll-snap-align:start; position:relative; min-height:280px;
+    display:flex; flex-direction:column;
+}
+.carousel-slide img.cover {
+    width:100%; height:220px; object-fit:cover; display:block;
+}
+.carousel-slide .no-cover {
+    width:100%; height:160px; display:flex; align-items:center; justify-content:center;
+    background:linear-gradient(135deg, var(--color-bg), #e8f0e8);
+    font-size:3rem;
+}
+.carousel-slide .slide-info {
+    padding:16px 20px; flex:1; display:flex; flex-direction:column; gap:8px;
+}
+.carousel-slide .slide-info h3 {
+    font-size:1.1rem; font-weight:700; margin:0; line-height:1.4;
+    display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;
+}
+.carousel-slide .slide-meta { display:flex; align-items:center; gap:12px; font-size:0.8rem; color:var(--color-text-light); }
+.carousel-cat {
+    display:inline-block; padding:2px 10px; border-radius:10px; font-size:0.75rem; font-weight:600;
+}
+.cat-攻略 { background:#e3f2fd; color:#1565c0; }
+.cat-公告 { background:#fff3e0; color:#e65100; }
+.cat-活动 { background:#fce4ec; color:#c62828; }
+.cat-更新 { background:#e8f5e9; color:#2e7d32; }
+
+.carousel-nav { display:flex; justify-content:center; gap:8px; padding:12px 20px; }
+.carousel-dot { width:10px; height:10px; border-radius:50%; border:none; background:var(--color-border); cursor:pointer; transition:all 0.25s; padding:0; }
+.carousel-dot.active { background:var(--color-primary); transform:scale(1.3); }
+.carousel-empty { padding:40px 20px; text-align:center; color:var(--color-text-light); }
+
+/* ===== Quick Entry Panel ===== */
+.quick-section { background:var(--color-card); border-radius:12px; box-shadow:var(--shadow); overflow:hidden; }
+.quick-header { display:flex; justify-content:space-between; align-items:center; padding:16px 20px; border-bottom:1px solid var(--color-border); }
+.quick-header h2 { font-size:1.1rem; margin:0; padding:0; border:none; }
+
+.quick-grid { display:grid; grid-template-columns:1fr; gap:12px; padding:20px; }
+.quick-card { display:flex; align-items:center; gap:14px; padding:16px 18px; border-radius:10px;
+  background:var(--color-bg); transition:all 0.2s; text-decoration:none; border:1px solid transparent; }
+.quick-card:hover { border-color:var(--color-primary); transform:translateX(4px); text-decoration:none; }
+.quick-card .qc-icon { width:48px; height:48px; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:24px; flex-shrink:0; }
+.quick-card .qc-info { flex:1; }
+.quick-card .qc-name { font-size:1rem; font-weight:700; color:var(--color-text); }
+.quick-card .qc-desc { font-size:0.8rem; color:var(--color-text-light); margin-top:2px; }
+.quick-card .qc-arrow { color:var(--color-text-light); font-size:1.2rem; }
+.qc-battle { background:linear-gradient(135deg,#ede9fe,#f3e5ff); }
+.qc-pets { background:linear-gradient(135deg,#dbeafe,#e3f2fd); }
+.qc-skills { background:linear-gradient(135deg,#d1fae5,#e8f5e9); }
+
+/* ===== Trades Row ===== */
+.trades-section { background:var(--color-card); border-radius:12px; box-shadow:var(--shadow); overflow:hidden; margin-bottom:0; }
+.trades-header { display:flex; justify-content:space-between; align-items:center; padding:16px 20px; border-bottom:1px solid var(--color-border); }
+.trades-header h2 { font-size:1.1rem; margin:0; padding:0; border:none; }
+.trades-header a { font-size:0.85rem; color:var(--color-primary); }
+
+.trades-row { display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--color-border); }
+@media (max-width:768px) { .trades-row { grid-template-columns:1fr; } }
+
+.trade-card-home { background:var(--color-card); padding:16px 20px; transition:background 0.2s; }
+.trade-card-home:hover { background:var(--color-bg); }
+.trade-card-home .uid { font-weight:600; color:var(--color-text); margin-bottom:8px; font-size:0.9rem; }
+.trade-card-home .t-row { display:flex; align-items:center; gap:8px; margin-bottom:6px; font-size:0.8rem; }
+.trade-card-home .t-label { color:var(--color-text-light); white-space:nowrap; min-width:32px; }
+.trade-card-home .t-pets { display:flex; flex-wrap:wrap; gap:4px; align-items:center; }
+.trade-card-home .t-pets img { width:28px; height:28px; object-fit:contain; border-radius:50%; background:#f5f0e8; }
+.trade-card-home .t-pets span { font-size:0.78rem; color:var(--color-text); }
+.trade-card-home .t-time { font-size:0.7rem; color:var(--color-text-light); margin-top:4px; }
+
+.empty-state { padding:40px 20px; text-align:center; color:var(--color-text-light); }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="home-wrapper">
+    <!-- Hero -->
+    <div class="hero">
+        <h1>洛克王国世界工具合集</h1>
+        <p>PVP计算 · 精灵图鉴 · 技能查询 · 属性计算 · 孵蛋工具</p>
+    </div>
+
+    <!-- Two panels: Carousel + Hot Pets -->
+    <div class="home-panels">
+        <!-- Carousel -->
+        <section class="carousel-section">
+            <div class="carousel-header">
+                <h2>最新资讯</h2>
+                <a href="{% url 'article_list' %}">查看全部 →</a>
+            </div>
+            {% if latest_articles %}
+            <div class="carousel-track" id="carouselTrack">
+                {% for article in latest_articles %}
+                <a href="{% url 'article_detail' article.id %}" class="carousel-slide">
+                    {% if article.cover_image %}
+                    <img class="cover" src="{{ article.cover_image.url }}" alt="{{ article.title }}">
+                    {% else %}
+                    <div class="no-cover">
+                        {% if article.category == '攻略' %}📖
+                        {% elif article.category == '公告' %}📢
+                        {% elif article.category == '活动' %}🎉
+                        {% else %}🔄{% endif %}
+                    </div>
+                    {% endif %}
+                    <div class="slide-info">
+                        <span class="carousel-cat cat-{{ article.category }}">{{ article.category }}</span>
+                        <h3>{{ article.title }}</h3>
+                        <div class="slide-meta">
+                            <span>{{ article.created_at|date:"Y-m-d" }}</span>
+                            {% if article.author %}<span>· {{ article.author.username }}</span>{% endif %}
+                        </div>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+            <div class="carousel-nav" id="carouselNav">
+                {% for article in latest_articles %}
+                <button class="carousel-dot {% if forloop.first %}active{% endif %}" data-index="{{ forloop.counter0 }}"></button>
+                {% endfor %}
+            </div>
+            {% else %}
+            <div class="carousel-empty">
+                <p style="font-size:2rem;margin-bottom:8px;">📰</p>
+                <p>暂无资讯，敬请期待</p>
+            </div>
+            {% endif %}
+        </section>
+
+        <!-- Quick Entry -->
+        <section class="quick-section">
+            <div class="quick-header">
+                <h2>快速入口</h2>
+            </div>
+            <div class="quick-grid">
+                <a href="/pvp/battle-calc/" class="quick-card qc-battle">
+                    <div class="qc-icon">⚔️</div>
+                    <div class="qc-info">
+                        <div class="qc-name">PVP计算器</div>
+                        <div class="qc-desc">双阵容对战模拟 · 阵容码导入 · 伤害实时计算</div>
+                    </div>
+                    <span class="qc-arrow">→</span>
+                </a>
+                <a href="/pets/" class="quick-card qc-pets">
+                    <div class="qc-icon">📖</div>
+                    <div class="qc-info">
+                        <div class="qc-name">精灵图鉴</div>
+                        <div class="qc-desc">594只精灵 · 种族值 · 技能 · 进化树</div>
+                    </div>
+                    <span class="qc-arrow">→</span>
+                </a>
+                <a href="/skills/" class="quick-card qc-skills">
+                    <div class="qc-icon">✨</div>
+                    <div class="qc-info">
+                        <div class="qc-name">技能图鉴</div>
+                        <div class="qc-desc">557个技能 · 属性 · 威力 · 能耗</div>
+                    </div>
+                    <span class="qc-arrow">→</span>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    {% comment %} <!-- 交换市场暂关 -->
+    <section class="trades-section">
+        <div class="trades-header">
+            <h2>最新交换</h2>
+            <a href="{% url 'market' %}">查看全部 →</a>
+        </div>
+        {% if latest_trades %}
+        <div class="trades-row">
+            {% for trade in latest_trades %}
+            <div class="trade-card-home">
+                <div class="uid">🎮 {{ trade.game_uid }}</div>
+                <div class="t-row">
+                    <span class="t-label">拥有</span>
+                    <div class="t-pets">
+                        {% for item in trade.items.all %}
+                        {% if item.item_type == 'offer' %}
+                        {% if item.pet.egg_image %}
+                        <img src="{% static 'images/eggs/'|add:item.pet.egg_image.image %}" alt="{{ item.pet.name }}">
+                        {% endif %}
+                        <span>{{ item.pet.name }}</span>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="t-row">
+                    <span class="t-label">想要</span>
+                    <div class="t-pets">
+                        {% for item in trade.items.all %}
+                        {% if item.item_type == 'want' %}
+                        {% if item.pet.egg_image %}
+                        <img src="{% static 'images/eggs/'|add:item.pet.egg_image.image %}" alt="{{ item.pet.name }}">
+                        {% endif %}
+                        <span>{{ item.pet.name }}</span>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="t-time">{{ trade.created_at|date:"m-d H:i" }}</div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="empty-state"><p>暂无交换信息，<a href="{% url 'publish_trade' %}">去发布</a></p></div>
+        {% endif %}
+    </section>
+    {% endcomment %}
+</div>
+{% endblock %}
+
+{% block extra_js %}
+{% if latest_articles|length > 1 %}
+<script>
+(function(){
+    var track = document.getElementById('carouselTrack');
+    var dots = document.querySelectorAll('#carouselNav .carousel-dot');
+    if (!track || !dots.length) return;
+
+    var current = 0;
+    var total = dots.length;
+    var autoTimer;
+
+    function goTo(idx) {
+        current = idx;
+        track.scrollTo({ left: track.offsetWidth * idx, behavior: 'smooth' });
+        dots.forEach(function(d, i){ d.classList.toggle('active', i === idx); });
+    }
+
+    // Dot click
+    dots.forEach(function(dot){
+        dot.addEventListener('click', function(){
+            goTo(parseInt(this.dataset.index));
+            resetTimer();
+        });
+    });
+
+    // Detect manual scroll to sync dots
+    var scrollTimeout;
+    track.addEventListener('scroll', function(){
+        clearTimeout(scrollTimeout);
+        scrollTimeout = setTimeout(function(){
+            var idx = Math.round(track.scrollLeft / track.offsetWidth);
+            if (idx !== current && idx >= 0 && idx < total) {
+                current = idx;
+                dots.forEach(function(d, i){ d.classList.toggle('active', i === idx); });
+            }
+        }, 100);
+    });
+
+    function resetTimer() {
+        clearInterval(autoTimer);
+        autoTimer = setInterval(function(){
+            goTo((current + 1) % total);
+        }, 4000);
+    }
+
+    resetTimer();
+})();
+</script>
+{% endif %}
+{% endblock %}

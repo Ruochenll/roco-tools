@@ -1,0 +1,34 @@
+{% load static %}
+{% if results %}
+<h3 style="margin:20px 0 12px;">可孵化的精灵（{{ results|length }} 只）</h3>
+<div class="card-grid">
+    {% for egg in results %}
+    <a href="{% url 'pet_detail' egg.pet.id %}" class="card">
+        <img src="{% static 'images/pets/'|add:egg.pet.image %}"
+             alt="{{ egg.pet.name }}" class="card-img"
+             onerror="this.src='{% static 'images/pets/placeholder.png' %}'">
+        <div class="card-body">
+            <div class="card-subtitle">#{{ egg.pet.number }}</div>
+            <div class="card-title">{{ egg.pet.name }}</div>
+            <div class="element-badges">
+                {% for elem in egg.pet.elements.all %}
+                <span class="element-badge"
+                      style="background-color: var(--element-{{ elem.name }});">
+                    <img src="{% static 'images/elements/'|add:elem.icon %}" alt="{{ elem.name }}">
+                    {{ elem.name }}
+                </span>
+                {% endfor %}
+            </div>
+        </div>
+    </a>
+    {% endfor %}
+</div>
+{% elif height or weight %}
+<div style="text-align:center;padding:40px;color:var(--color-text-light);">
+    <p>没有找到匹配的精灵，试试其他尺寸吧~</p>
+</div>
+{% else %}
+<div style="text-align:center;padding:40px;color:var(--color-text-light);">
+    <p>请输入蛋的身高和体重开始查询</p>
+</div>
+{% endif %}

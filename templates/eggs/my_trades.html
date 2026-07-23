@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}我的发布{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>我的发布</h1>
+    <a href="{% url 'publish_trade' %}" class="btn btn-primary btn-sm" style="margin-top:8px;">发布新交换</a>
+</div>
+
+{% if trades %}
+<div style="display:flex;flex-direction:column;gap:16px;">
+    {% for trade in trades %}
+    <div class="trade-card">
+        <div class="trade-header">
+            <span>状态：<strong>
+                {% if trade.status == 'active' %}🟢 活跃
+                {% elif trade.status == 'completed' %}✅ 已完成
+                {% else %}❌ 已取消{% endif %}
+            </strong></span>
+            <span>{{ trade.created_at|date:"Y-m-d H:i" }}</span>
+        </div>
+        <div class="trade-section">
+            <h4>游戏UID：{{ trade.game_uid }}</h4>
+        </div>
+        <div class="trade-section">
+            <h4>我拥有</h4>
+            <div style="display:flex;flex-wrap:wrap;gap:8px;">
+                {% for item in trade.items.all %}
+                {% if item.item_type == 'offer' %}
+                <span style="display:flex;align-items:center;gap:6px;">
+                    {% if item.pet.egg_image %}
+                    <img src="{% static 'images/eggs/'|add:item.pet.egg_image.image %}"
+                         style="width:36px;height:36px;object-fit:contain;border-radius:50%;background:#f5f0e8;">
+                    {% endif %}
+                    <span style="font-size:0.85rem;">{{ item.pet.name }}</span>
+                </span>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        <div class="trade-section">
+            <h4>我想要</h4>
+            <div style="display:flex;flex-wrap:wrap;gap:8px;">
+                {% for item in trade.items.all %}
+                {% if item.item_type == 'want' %}
+                <span style="display:flex;align-items:center;gap:6px;">
+                    {% if item.pet.egg_image %}
+                    <img src="{% static 'images/eggs/'|add:item.pet.egg_image.image %}"
+                         style="width:36px;height:36px;object-fit:contain;border-radius:50%;background:#f5f0e8;">
+                    {% endif %}
+                    <span style="font-size:0.85rem;">{{ item.pet.name }}</span>
+                </span>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        {% if trade.notes %}<div style="font-size:0.85rem;color:var(--color-text-light);">"{{ trade.notes }}"</div>{% endif %}
+
+        {% if trade.status == 'active' %}
+        <div style="margin-top:12px;display:flex;gap:8px;">
+            <a href="{% url 'edit_trade' trade.id %}" class="btn btn-sm btn-primary">编辑</a>
+            <form method="post" action="{% url 'delist_trade' trade.id %}"
+                  onsubmit="return confirm('确定下架该交换？');" style="display:inline;">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-sm btn-danger">下架</button>
+            </form>
+        </div>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+<div style="text-align:center;padding:40px;color:var(--color-text-light);">
+    <p>还没有发布过交换信息</p>
+</div>
+{% endif %}
+{% endblock %}

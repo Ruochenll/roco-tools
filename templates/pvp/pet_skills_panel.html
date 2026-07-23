@@ -1,0 +1,30 @@
+{% if skills %}
+<div style="margin-top:12px;padding:0 2px;">
+  <div style="font-weight:600;font-size:14px;margin-bottom:6px;">选择技能</div>
+  {% for i in "1234"|make_list %}
+  <div style="margin-bottom:6px;">
+    <div style="display:flex;align-items:center;gap:8px;">
+      <span style="font-size:12px;color:#999;min-width:16px;">{{ forloop.counter }}</span>
+      <select name="{{ field }}_skill_{{ forloop.counter }}"
+              class="skill-select"
+              onchange="recalcDamages()"
+              style="flex:1;padding:6px 8px;border:1px solid #ddd;border-radius:6px;font-size:12px;">
+        <option value="">-- 空 --</option>
+        {% for s in skills %}
+        <option value="{{ s.id }}"
+                data-power="{{ s.power }}"
+                data-category="{{ s.category }}">
+          {{ s.name }} {% if s.power > 0 %}[{{ s.power }} {{ s.category }}]{% else %}[{{ s.category }}]{% endif %} {{ s.element }}
+        </option>
+        {% endfor %}
+      </select>
+    </div>
+    <div style="display:flex;gap:8px;align-items:center;margin-top:3px;padding-left:24px;font-size:11px;">
+      <label>威力+ <input type="number" name="{{ field }}_skill_{{ forloop.counter }}_pbonus" value="0" onchange="recalcDamages()" style="width:40px;padding:1px 3px;border:1px solid #ddd;border-radius:3px;font-size:11px;"></label>
+      <label>威力× <input type="number" name="{{ field }}_skill_{{ forloop.counter }}_pmul" value="1" step="0.1" onchange="recalcDamages()" style="width:44px;padding:1px 3px;border:1px solid #ddd;border-radius:3px;font-size:11px;"></label>
+      <label>连击 <input type="number" name="{{ field }}_skill_{{ forloop.counter }}_combo" value="1" min="1" onchange="recalcDamages()" style="width:40px;padding:1px 3px;border:1px solid #ddd;border-radius:3px;font-size:11px;"></label>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}

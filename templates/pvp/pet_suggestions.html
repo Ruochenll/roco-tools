@@ -1,0 +1,53 @@
+{% load static %}
+<div style="padding:10px;">
+  <!-- 属性筛选标签 -->
+  <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid #eee;">
+    {% for elem in all_elements %}
+    <span class="dc-elem-tag"
+          style="display:inline-block;padding:4px 10px;border-radius:14px;font-size:12px;cursor:pointer;
+                 {% if elem.name == active_element %}background:#7c4dff;color:#fff;{% else %}background:#f0f0f0;color:#555;{% endif %}
+                 border:1px solid {% if elem.name == active_element %}#7c4dff{% else %}#e0e0e0{% endif %};"
+          hx-get="/pvp/pet-search/?element={{ elem.name|urlencode }}&search={{ query|urlencode }}"
+          hx-target="closest .dc-suggest"
+          hx-trigger="click"
+          hx-swap="innerHTML">
+      {{ elem.name }}
+    </span>
+    {% endfor %}
+    {% if active_element %}
+    <span style="display:inline-block;padding:4px 10px;border-radius:14px;font-size:12px;cursor:pointer;background:#fafafa;color:#e74c3c;border:1px solid #e74c3c;"
+          hx-get="/pvp/pet-search/?search={{ query|urlencode }}"
+          hx-target="closest .dc-suggest"
+          hx-trigger="click"
+          hx-swap="innerHTML">
+      ✕ 清除筛选
+    </span>
+    {% endif %}
+  </div>
+
+  <!-- 精灵列表 -->
+  {% if pets %}
+  <div style="display:flex;flex-wrap:wrap;gap:8px;max-height:300px;overflow-y:auto;">
+    {% for pet in pets %}
+    <div class="dc-pet-card-item"
+         data-pet-id="{{ pet.id }}"
+         data-pet-name="{{ pet.name }}"
+         data-pet-img="{% static 'images/pets/'|add:pet.image %}"
+         data-pet-elems="{% for e in pet.elements.all %}<span class='elem-tag'>{{ e.name }}</span>{% endfor %}"
+         data-pet-stats="物攻 {{ pet.physical_attack }} &nbsp; 魔攻 {{ pet.magical_attack }} &nbsp; 物防 {{ pet.physical_defense }} &nbsp; 魔防 {{ pet.magical_defense }} &nbsp; HP {{ pet.hp }} &nbsp; 速度 {{ pet.speed }}"
+         style="display:flex;flex-direction:column;align-items:center;padding:8px;border-radius:8px;cursor:pointer;width:72px;"
+         onmouseover="this.style.background='#f3e5ff'" onmouseout="this.style.background='transparent'">
+      <img src="{% static 'images/pets/'|add:pet.image %}" alt="{{ pet.name }}"
+           style="width:50px;height:50px;border-radius:50%;object-fit:cover;margin-bottom:4px;">
+      <span style="font-size:11px;text-align:center;line-height:1.2;max-width:70px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">{{ pet.name }}</span>
+    </div>
+    {% endfor %}
+  </div>
+  {% elif active_element %}
+  <div class="dc-noresult">该属性下暂无精灵数据</div>
+  {% elif query %}
+  <div class="dc-noresult">未找到匹配精灵</div>
+  {% else %}
+  <div class="dc-noresult" style="color:#aaa;">输入名称搜索或点击属性标签筛选</div>
+  {% endif %}
+</div>

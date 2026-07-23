@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}属性克制计算器{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>属性克制计算器</h1>
+    <p>选择精灵的属性组合，查看各攻击属性的克制与抵抗情况</p>
+</div>
+
+<div class="filter-bar" style="margin-bottom:24px;">
+    <form hx-get="{% url 'type_calc' %}"
+          hx-target="#calc-results"
+          hx-trigger="change from:.calc-picker"
+          style="display:flex;flex-wrap:wrap;gap:24px;align-items:flex-start;">
+
+        <div>
+            <span class="filter-label">主属性：</span>
+            <div class="element-grid" style="margin-top:8px;">
+                {% for elem in all_elements %}
+                <label class="element-icon calc-picker {% if primary == elem.name %}active{% endif %}"
+                    style="--element-current: var(--element-{{ elem.name }});"
+                    title="{{ elem.name }}">
+                    <input type="radio" name="primary" value="{{ elem.name }}" style="display:none;"
+                           {% if primary == elem.name %}checked{% endif %}>
+                    <img src="{% static 'images/elements/'|add:elem.icon %}" alt="{{ elem.name }}">
+                </label>
+                {% endfor %}
+            </div>
+            <button type="button" class="btn btn-sm btn-secondary clear-btn" style="margin-top:8px;"
+                    data-clear="primary">清除主属性</button>
+        </div>
+
+        <div>
+            <span class="filter-label">副属性（可选）：</span>
+            <div class="element-grid" style="margin-top:8px;">
+                {% for elem in all_elements %}
+                <label class="element-icon calc-picker {% if secondary == elem.name %}active{% endif %}"
+                    style="--element-current: var(--element-{{ elem.name }});"
+                    title="{{ elem.name }}">
+                    <input type="radio" name="secondary" value="{{ elem.name }}" style="display:none;"
+                           {% if secondary == elem.name %}checked{% endif %}>
+                    <img src="{% static 'images/elements/'|add:elem.icon %}" alt="{{ elem.name }}">
+                </label>
+                {% endfor %}
+            </div>
+            <button type="button" class="btn btn-sm btn-secondary clear-btn" style="margin-top:8px;"
+                    data-clear="secondary">清除副属性</button>
+        </div>
+    </form>
+</div>
+
+<div id="calc-results">
+    {% include 'pets/type_calc_partial.html' %}
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+(function(){
+    var form = document.querySelector('#calc-results').previousElementSibling.querySelector('form');
+    var primaries = document.querySelectorAll('input[name=primary]');
+    var secondaries = document.querySelectorAll('input[name=secondary]');
+
+    // ---- Clear buttons ----
+    document.querySelectorAll('.clear-btn').forEach(function(btn){
+        btn.addEventListener('click', function(){
+            var which = this.dataset.clear;
+            if (which === 'primary') {
+                primaries.forEach(function(r){ r.checked = false; });
+            } else {
+                secondaries.forEach(function(r){ r.checked = false; });
+            }
+            // Manually trigger HTMX request
+            var params = {};
+            var checkedPrimary = form.querySelector('input[name=primary]:checked');
+            var checkedSecondary = form.querySelector('input[name=secondary]:checked');
+            if (checkedPrimary) params.primary = checkedPrimary.value;
+            if (checkedSecondary) params.secondary = checkedSecondary.value;
+            var url = '/type-calc/?' + new URLSearchParams(params).toString();
+            htmx.ajax('GET', url, {target: '#calc-results'});
+        });
+    });
+
+    // ---- Same attribute guard: auto-clear secondary if same as primary ----
+    function checkDup(){
+        var p = form.querySelector('input[name=primary]:checked');
+        var s = form.querySelector('input[name=secondary]:checked');
+        if (p && s && p.value === s.value) {
+            s.checked = false;
+            // Update visual state
+            document.querySelectorAll('.calc-picker').forEach(function(label){
+                var inp = label.querySelector('input[name=secondary]');
+                if (inp && inp === s) label.classList.remove('active');
+            });
+        }
+    }
+    primaries.forEach(function(r){ r.addEventListener('change', checkDup); });
+    secondaries.forEach(function(r){ r.addEventListener('change', checkDup); });
+})();
+</script>
+{% endblock %}

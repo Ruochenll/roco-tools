@@ -1,0 +1,56 @@
+{% load static %}
+{% if trades %}
+<div class="card-grid" style="grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));">
+    {% for trade in trades %}
+    <div class="trade-card">
+        <div class="trade-header">
+            <span>UID: {{ trade.game_uid }}</span>
+            <span>{{ trade.created_at|date:"Y-m-d" }}</span>
+        </div>
+        <div class="trade-section">
+            <h4>我拥有</h4>
+            <div style="display:flex;flex-wrap:wrap;gap:8px;">
+                {% for item in trade.items.all %}
+                {% if item.item_type == 'offer' %}
+                <a href="{% url 'pet_detail' item.pet.id %}"
+                   style="display:flex;align-items:center;gap:6px;text-decoration:none;color:var(--color-text);">
+                    {% if item.pet.egg_image %}
+                    <img src="{% static 'images/eggs/'|add:item.pet.egg_image.image %}"
+                         style="width:36px;height:36px;object-fit:contain;border-radius:50%;background:#f5f0e8;">
+                    {% endif %}
+                    <span style="font-size:0.85rem;">{{ item.pet.name }}</span>
+                </a>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        <div class="trade-section">
+            <h4>我想要</h4>
+            <div style="display:flex;flex-wrap:wrap;gap:8px;">
+                {% for item in trade.items.all %}
+                {% if item.item_type == 'want' %}
+                <a href="{% url 'pet_detail' item.pet.id %}"
+                   style="display:flex;align-items:center;gap:6px;text-decoration:none;color:var(--color-text);">
+                    {% if item.pet.egg_image %}
+                    <img src="{% static 'images/eggs/'|add:item.pet.egg_image.image %}"
+                         style="width:36px;height:36px;object-fit:contain;border-radius:50%;background:#f5f0e8;">
+                    {% endif %}
+                    <span style="font-size:0.85rem;">{{ item.pet.name }}</span>
+                </a>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        {% if trade.notes %}
+        <div style="font-size:0.85rem;color:var(--color-text-light);margin-top:8px;font-style:italic;">
+            "{{ trade.notes }}"
+        </div>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+<div style="text-align:center;padding:40px;color:var(--color-text-light);">
+    <p>暂无交换信息，去发布一个吧~</p>
+</div>
+{% endif %}

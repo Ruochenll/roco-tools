@@ -1,0 +1,20 @@
+{% load static %}
+<a href="{% url 'pet_detail' pet.id %}" class="card">
+    <img src="{% static 'images/pets/'|add:pet.image %}"
+         alt="{{ pet.name }}" class="card-img"
+         onerror="this.src='{% static 'images/pets/placeholder.png' %}'">
+    <div class="card-body">
+        <div class="card-subtitle">#{{ pet.number }}</div>
+        <div class="card-title">{{ pet.name }}</div>
+        <div class="element-badges">
+            {% for elem in pet.elements.all %}
+            <span class="element-badge"
+                  style="background-color: var(--element-{{ elem.name }});">
+                <img src="{% static 'images/elements/'|add:elem.icon %}"
+                     alt="{{ elem.name }}">
+                {{ elem.name }}
+            </span>
+            {% endfor %}
+        </div>
+    </div>
+</a>

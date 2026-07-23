@@ -1,0 +1,219 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}PVP计算器{% endblock %}
+
+{% block extra_head %}
+<style>
+.ua-wrap { max-width: 1400px; margin: 20px auto; padding: 0 10px; }
+.ua-wrap h2 { text-align: center; margin-bottom: 5px; }
+.ua-wrap .sub { text-align: center; color: #999; font-size: 13px; margin-bottom: 16px; }
+.ua-body { display: flex; gap: 14px; }
+.ua-side { width: 110px; flex-shrink: 0; }
+.ua-mid { flex: 1; min-width: 0; }
+.ua-cols { display: flex; flex-direction: row; gap: 12px; }
+.ua-card { flex: 1; background: #fff; border-radius: 12px; border: 1px solid #e8e8e8; padding: 14px; }
+.ua-card h5 { margin: 0 0 8px; font-size: 14px; }
+.ua-card.atk h5 { color: #e74c3c; } .ua-card.def h5 { color: #3498db; }
+.ua-empty { color: #bbb; text-align: center; padding: 40px 0; font-size: 13px; }
+
+.slot-col { display: flex; flex-direction: column; gap: 8px; }
+.slot-col h4 { margin: 0 0 6px; font-size: 13px; text-align: center; color: #555; }
+.slt { width: 100%; height: 100px; border-radius: 12px; border: 2px solid #e0e0e0; background: #fafafa;
+  display: flex; align-items: center; justify-content: center; cursor: pointer; position: relative;
+  transition: all 0.15s; overflow: hidden; box-sizing: border-box; }
+.slt:hover { border-color: #7c4dff; background: #f3e5ff; }
+.slt.sel { border-color: #7c4dff; box-shadow: 0 0 0 3px rgba(124,77,255,.25); }
+.slt.has { border-color: #c4b5fd; background: #fff; }
+.slt img { width: 100%; height: 100%; object-fit: cover; }
+.slt .empty { font-size: 22px; color: #ccc; }
+.slt .pos { position: absolute; top: 2px; left: 6px; font-size: 10px; color: #888; font-weight: 700; }
+.slt .tag { position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,.55); color: #fff; font-size: 10px; text-align: center; padding: 2px 0; }
+.slt .gear { position: absolute; top: 2px; right: 4px; font-size: 12px; background: rgba(124,77,255,.8);
+  color: #fff; border-radius: 4px; padding: 1px 5px; display: none; cursor: pointer; z-index: 2; }
+.slt.has .gear { display: block; }
+
+.ctrl { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 10px; }
+.code { width: 100%; max-width: 180px; padding: 6px 10px; border: 1px solid #ddd; border-radius: 6px; font-size: 12px; box-sizing: border-box; }
+.code:focus { outline: none; border-color: #7c4dff; }
+.btn { padding: 6px 12px; border-radius: 6px; border: 1px solid #ddd; background: #fff; font-size: 12px; cursor: pointer; white-space: nowrap; }
+.btn:hover { background: #f3e5ff; border-color: #7c4dff; }
+.btn.a { background: #7c4dff; color: #fff; border-color: #7c4dff; }
+.btn.a:hover { background: #651fff; }
+.pup { padding: 6px 10px; border-radius: 6px; border: 1px solid #ddd; font-size: 12px; background: #fff; }
+
+.overlay { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,.35); z-index: 200; align-items: center; justify-content: center; }
+.overlay.on { display: flex; }
+.picker { background: #fff; border-radius: 14px; width: 520px; max-height: 70vh; overflow: hidden;
+  box-shadow: 0 12px 40px rgba(0,0,0,.15); display: flex; flex-direction: column; position: relative; }
+.picker .ps { padding: 14px; border-bottom: 1px solid #f0f0f0; }
+.picker .ps input { width: 100%; padding: 10px 14px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; box-sizing: border-box; }
+.picker .pl { flex: 1; overflow-y: auto; padding: 8px; }
+.picker .pi { display: flex; align-items: center; gap: 10px; padding: 10px; border-radius: 8px; cursor: pointer; }
+.picker .pi:hover { background: #f3e5ff; }
+.picker .pi img { width: 44px; height: 44px; border-radius: 8px; object-fit: cover; }
+.picker .pi .pn { font-weight: 600; font-size: 14px; }
+.picker .pi .psub { font-size: 12px; color: #888; }
+.picker .px { position: absolute; top: 8px; right: 10px; background: none; border: none; font-size: 22px; cursor: pointer; color: #999; }
+
+.boost-row { margin-top:6px; display:flex; flex-wrap:wrap; gap:8px; align-items:center; font-size:12px; }
+.boost-row input { width:36px; padding:2px 4px; border:1px solid #ddd; border-radius:4px; font-size:12px; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="ua-wrap">
+  <h2>PVP计算器</h2>
+  <p class="sub">点击空位选精灵 · 点击已填位设攻/防 · ⚙ 换精灵</p>
+
+  <div class="ua-body">
+    <div class="ua-side">
+      <div class="slot-col"><h4>⚔️ 己方</h4>
+        {% for i in "123456"|make_list %}
+        <div class="slt" id="own-slt-{{ forloop.counter }}" data-side="own" data-pos="{{ forloop.counter }}" onclick="slotClick('own',{{ forloop.counter }})">
+          <span class="pos">#{{ forloop.counter }}</span><span class="empty">+</span>
+          <span class="gear" onclick="event.stopPropagation();slotGear('own',{{ forloop.counter }})">⚙</span>
+        </div>{% endfor %}
+      </div>
+      <div class="ctrl" style="margin-top:8px;">
+        <input class="code" id="rc" placeholder="阵容码..."><button class="btn a" onclick="importRoster()">导入</button>
+      </div>
+    </div>
+
+    <div class="ua-mid">
+      <div class="ua-cols">
+        <div class="ua-card atk" id="att-card"><h5>⚔️ 进攻方</h5><div class="ua-empty">点击左侧精灵</div><div id="att-cfg" style="display:none;"></div></div>
+        <div class="ua-card def" id="def-card"><h5>🛡️ 防守方</h5><div class="ua-empty">点击右侧精灵</div><div id="def-cfg" style="display:none;"></div></div>
+      </div>
+      <div id="dr" style="margin-top:14px;"></div>
+    </div>
+
+    <div class="ua-side">
+      <div class="slot-col"><h4>🛡️ 敌方</h4>
+        {% for i in "123456"|make_list %}
+        <div class="slt" id="enemy-slt-{{ forloop.counter }}" data-side="enemy" data-pos="{{ forloop.counter }}" onclick="slotClick('enemy',{{ forloop.counter }})">
+          <span class="pos">#{{ forloop.counter }}</span><span class="empty">+</span>
+          <span class="gear" onclick="event.stopPropagation();slotGear('enemy',{{ forloop.counter }})">⚙</span>
+        </div>{% endfor %}
+      </div>
+      <div class="ctrl" style="margin-top:8px;">
+        <select class="pup" id="psel" onchange="loadPopular(this.value)"><option value="">-- 热门 --</option>
+          {% for t in popular_teams %}<option value="{{ t.id }}">{{ t.name }}</option>{% endfor %}
+        </select>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="overlay" id="ov" onclick="if(event.target===this)cP()">
+  <div class="picker"><div class="ps"><input id="pq" placeholder="搜索精灵..." oninput="sP()" autocomplete="off"><button class="px" onclick="cP()">&times;</button></div>
+  <div class="pl" id="pl"><div style="text-align:center;color:#aaa;padding:20px;">输入名称搜索</div></div></div>
+</div>
+
+<script>
+var oT = Array(6).fill(null), eT = Array(6).fill(null), tP = null, cA = null, cD = null;
+
+function slotClick(s, p) {
+  var t = s==='own'?oT:eT;
+  if (t[p-1]) { if (s==='own') selA(s,p); else selD(s,p); }
+  else oP(s, p);
+}
+function slotGear(s, p) { oP(s, p); }
+
+function oP(s, p) { tP = {side:s,pos:p}; document.getElementById('pq').value=''; sP(); document.getElementById('ov').classList.add('on'); setTimeout(function(){document.getElementById('pq').focus();},100); }
+function cP() { document.getElementById('ov').classList.remove('on'); }
+
+function sP() {
+  var q = document.getElementById('pq').value;
+  fetch('/pvp/battle-calc/pet-search/?q='+encodeURIComponent(q)).then(r=>r.json()).then(d=>{
+    var h=''; d.pets.forEach(function(p){h+='<div class="pi" onclick="selP('+p.id+',\''+e(p.name)+'\',\''+(p.image||'')+'\','+p.hp+','+p.physical_attack+','+p.magical_attack+','+p.physical_defense+','+p.magical_defense+','+p.speed+')">'+(p.image?'<img src="/static/images/pets/'+p.image+'">':'')+'<div><div class="pn">#'+p.number+' '+p.name+'</div><div class="psub">HP:'+p.hp+' 物攻:'+p.physical_attack+' 魔攻:'+p.magical_attack+' 速度:'+p.speed+'</div></div></div>';});
+    document.getElementById('pl').innerHTML=h||'<div style="text-align:center;color:#aaa;padding:20px;">无匹配</div>';
+  });
+}
+
+function selP(id,nm,img,hp,pa,ma,pd,md,sp) {
+  if(!tP)return; var t=tP.side==='own'?oT:eT;
+  t[tP.pos-1]={pet_id:id,pet_name:nm,image:img,level:60,star:5,growth:0,talent_hp:0,talent_pa:0,talent_ma:0,talent_pd:0,talent_md:0,talent_sp:0,nature_up:'',nature_down:'',skills:[],hp:hp,physical_attack:pa,magical_attack:ma,physical_defense:pd,magical_defense:md,speed:sp};
+  rS(); cP();
+}
+
+function selA(s,p) { syncBack('att'); cA={side:s,pos:p,data:(s==='own'?oT:eT)[p-1]}; showCard('att'); uH(); }
+function selD(s,p) { syncBack('def'); cD={side:s,pos:p,data:(s==='own'?oT:eT)[p-1]}; showCard('def'); uH(); }
+
+function syncBack(f) {
+  var cur = f==='att'?cA:cD; if(!cur||!cur.data) return;
+  var bs = document.getElementById('bs-'+f); if(!bs) return;
+  var tmap = {'physical_attack_talent':'talent_pa','magical_attack_talent':'talent_ma','physical_defense_talent':'talent_pd','magical_defense_talent':'talent_md','speed_talent':'talent_sp','hp_talent':'talent_hp'};
+  for(var k in tmap){ var v=bs.querySelector('[name='+f+'_'+k+']'); if(v) cur.data[tmap[k]]=parseInt(v.value)||0; }
+  var nu=bs.querySelector('[name='+f+'_nature_up]'); if(nu) cur.data.nature_up=nu.value;
+  var nd=bs.querySelector('[name='+f+'_nature_down]'); if(nd) cur.data.nature_down=nd.value;
+  cur.data.skills=[]; for(var i=1;i<=4;i++){ var sel=document.querySelector('[name='+f+'_skill_'+i+']'); if(sel&&sel.value) cur.data.skills.push({id:parseInt(sel.value)}); }
+}
+
+function showCard(f) {
+  var pt = (f==='att'?cA:cD).data;
+  document.getElementById(f+'-card').querySelector('.ua-empty').style.display='none';
+  document.getElementById(f+'-cfg').style.display='block';
+  ldC(f, pt);
+}
+
+function ldC(f,pt) {
+  var el=document.getElementById(f+'-cfg');
+  el.innerHTML='<div style="display:flex;gap:14px;align-items:flex-start;margin-bottom:10px;">'+(pt.image?'<img src="/static/images/pets/'+pt.image+'" style="width:48px;height:48px;border-radius:10px;object-fit:cover;">':'')+'<div><div style="font-size:15px;font-weight:700;">'+pt.pet_name+'</div><div style="font-size:12px;color:#666;">HP:'+pt.hp+' 物攻:'+pt.physical_attack+' 魔攻:'+pt.magical_attack+'</div></div></div><div id="bs-'+f+'"></div><div class="boost-row"><span style="color:#999;">强化/弱化层数：</span><label>物攻 <input type="number" name="'+f+'_pa_boost" value="0" style="width:36px;padding:2px 4px;border:1px solid #ddd;border-radius:4px;font-size:12px;" onchange="cd()"></label><label>魔攻 <input type="number" name="'+f+'_ma_boost" value="0" style="width:36px;padding:2px 4px;border:1px solid #ddd;border-radius:4px;font-size:12px;" onchange="cd()"></label><label>物防 <input type="number" name="'+f+'_pd_boost" value="0" style="width:36px;padding:2px 4px;border:1px solid #ddd;border-radius:4px;font-size:12px;" onchange="cd()"></label><label>魔防 <input type="number" name="'+f+'_md_boost" value="0" style="width:36px;padding:2px 4px;border:1px solid #ddd;border-radius:4px;font-size:12px;" onchange="cd()"></label></div><div style="margin-top:6px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:12px;"><span style="color:#999;">全局加成：</span><label>威力+ <input type="number" name="'+f+'_power_bonus" value="0" style="width:40px;padding:2px 4px;border:1px solid #ddd;border-radius:4px;font-size:12px;" onchange="cd()"></label><label>威力× <input type="number" name="'+f+'_power_mul" value="1" step="0.1" style="width:44px;padding:2px 4px;border:1px solid #ddd;border-radius:4px;font-size:12px;" onchange="cd()"></label><label>连击 <input type="number" name="'+f+'_combo" value="1" min="1" style="width:40px;padding:2px 4px;border:1px solid #ddd;border-radius:4px;font-size:12px;" onchange="cd()"></label></div><div id="bk-'+f+'" style="margin-top:8px;"></div>';
+  var ps='pet_id='+pt.pet_id+'&field='+f+'&level='+(pt.level||60)+'&star='+(pt.star||5);
+  ['hp_talent','physical_attack_talent','magical_attack_talent','physical_defense_talent','magical_defense_talent','speed_talent'].forEach(function(k,i){ps+='&'+f+'_'+k+'='+((pt[['talent_hp','talent_pa','talent_ma','talent_pd','talent_md','talent_sp'][i]]!=null)?pt[['talent_hp','talent_pa','talent_ma','talent_pd','talent_md','talent_sp'][i]]:0);});
+  if(pt.nature_up)ps+='&'+f+'_nature_up='+pt.nature_up; if(pt.nature_down)ps+='&'+f+'_nature_down='+pt.nature_down;
+  htmx.ajax('GET','/pvp/damage-calc/stat-card/?'+ps,{target:'#bs-'+f});
+  htmx.ajax('GET','/pvp/damage-calc/skills/?pet_id='+pt.pet_id+'&field='+f,{target:'#bk-'+f});
+  // HTMX技能加载完后回填
+  document.addEventListener('htmx:afterSwap', function skillsHandler(e){
+    if(e.detail.target.id!==('bk-'+f))return;
+    document.removeEventListener('htmx:afterSwap', skillsHandler);
+    if(pt.skills) pt.skills.forEach(function(sk,i){
+      var sel=document.querySelector('[name='+f+'_skill_'+(i+1)+']');
+      if(sel&&sk.id) sel.value=sk.id;
+    });
+    if(cA&&cD) cd();
+  });
+}
+
+function cd() { if(!cA||!cD)return; var p=new URLSearchParams(); p.append('att_pet_id',cA.data.pet_id); p.append('def_pet_id',cD.data.pet_id);
+  ['att','def'].forEach(function(f){var e=document.getElementById('bs-'+f);if(e){e.querySelectorAll('input,select').forEach(function(i){if(i.name)p.append(i.name,i.value||'0');});}
+  var c=document.getElementById(f+'-cfg');if(c){c.querySelectorAll('input').forEach(function(i){if(i.name&&!p.has(i.name))p.append(i.name,i.value||'0');});}
+  var s=document.getElementById('bk-'+f);if(s)s.querySelectorAll('select').forEach(function(i){if(i.name&&i.value)p.append(i.name,i.value);});});
+  htmx.ajax('GET','/pvp/damage-calc/damages/?'+p.toString(),{target:'#dr'});}
+
+function rS() { [['own',oT],['enemy',eT]].forEach(function(p){ for(var i=0;i<6;i++){ var s=document.getElementById(p[0]+'-slt-'+(i+1)); if(!s)continue;
+  s.innerHTML='<span class="pos">#'+(i+1)+'</span><span class="gear" onclick="event.stopPropagation();slotGear(\''+p[0]+'\','+(i+1)+')">⚙</span>';
+  if(p[1][i]){ s.classList.add('has'); var m=document.createElement('img'); m.src=p[1][i].image?'/static/images/pets/'+p[1][i].image:''; m.alt=p[1][i].pet_name; s.appendChild(m); s.title=p[1][i].pet_name;
+  var t=document.createElement('div');t.className='tag';t.textContent=p[1][i].pet_name;s.appendChild(t);}
+  else { s.classList.remove('has'); var x=document.createElement('span');x.className='empty';x.textContent='+';s.appendChild(x); } }}); uH(); }
+function uH() { document.querySelectorAll('.slt').forEach(function(s){s.classList.remove('sel');}); if(cA)document.getElementById(cA.side+'-slt-'+cA.pos).classList.add('sel'); if(cD)document.getElementById(cD.side+'-slt-'+cD.pos).classList.add('sel'); }
+
+function importRoster() { var c=document.getElementById('rc').value.trim(); if(!c)return alert('请输入阵容码'); var f=new FormData();f.append('code',c);
+  fetch('/pvp/battle-calc/import-roster/',{method:'POST',body:f,headers:{'X-CSRFToken':gCSRF()}}).then(r=>r.json()).then(d=>{ if(d.error)return alert(d.error);
+  oT=Array(6).fill(null); d.roster.forEach(function(e,i){if(i>=6||!e.pet_id)return;
+  oT[i]={pet_id:e.pet_id,pet_name:e.pet_name,image:e.image||'',skills:e.skills||[],level:60,star:5,growth:0,talent_hp:e.talent_hp!=null?e.talent_hp:0,talent_pa:e.talent_pa!=null?e.talent_pa:0,talent_ma:e.talent_ma!=null?e.talent_ma:0,talent_pd:e.talent_pd!=null?e.talent_pd:0,talent_md:e.talent_md!=null?e.talent_md:0,talent_sp:e.talent_sp!=null?e.talent_sp:0,nature_up:e.nature_up||'',nature_down:e.nature_down||'',hp:e.hp,physical_attack:e.physical_attack,magical_attack:e.magical_attack,physical_defense:e.physical_defense,magical_defense:e.magical_defense,speed:e.speed};});
+  cA=null;cD=null;rS(); document.getElementById('att-card').querySelector('.ua-empty').style.display=''; document.getElementById('att-cfg').style.display='none'; document.getElementById('def-card').querySelector('.ua-empty').style.display=''; document.getElementById('def-cfg').style.display='none'; document.getElementById('dr').innerHTML=''; }).catch(function(e){alert('失败:'+e);});}
+
+function loadPopular(id) { if(!id){eT=Array(6).fill(null);cD=null;rS();return;}
+  fetch('/pvp/battle-calc/load-team/'+id+'/').then(r=>r.json()).then(d=>{ eT=Array(6).fill(null); d.team.pets.forEach(function(e,i){if(i>=6)return;eT[i]=e;});
+  cD=null;rS(); document.getElementById('def-card').querySelector('.ua-empty').style.display=''; document.getElementById('def-cfg').style.display='none'; document.getElementById('dr').innerHTML=''; });}
+
+function gCSRF(){var c=document.cookie.split(';');for(var i=0;i<c.length;i++){var kv=c[i].trim().split('=');if(kv[0]==='csrftoken')return kv[1];}return'';}
+function e(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+
+// ── 实时重算 ──
+function reloadStatCard(f) {
+  var cur=f==='att'?cA:cD; if(!cur)return;
+  var p=new URLSearchParams(); p.append('pet_id',cur.data.pet_id); p.append('field',f);
+  var bs=document.getElementById('bs-'+f);
+  if(bs){bs.querySelectorAll('input[type=number]').forEach(function(i){if(i.name)p.append(i.name,i.value);});
+  bs.querySelectorAll('select').forEach(function(i){if(i.name)p.append(i.name,i.value);});}
+  htmx.ajax('GET','/pvp/damage-calc/stat-card/?'+p.toString(),{target:'#bs-'+f});
+}
+function recalcDamages(){cd();}
+document.addEventListener('htmx:afterSwap',function(e){var id=e.detail.target.id;if(id&&id.startsWith('bs-')){var f=id.slice(3);var cur=f==='att'?cA:cD;if(!cur||!cur.data)return;var bs=document.getElementById('bs-'+f);if(!bs)return;var tmap={'physical_attack_talent':'talent_pa','magical_attack_talent':'talent_ma','physical_defense_talent':'talent_pd','magical_defense_talent':'talent_md','speed_talent':'talent_sp','hp_talent':'talent_hp'};for(var k in tmap){var v=bs.querySelector('[name='+f+'_'+k+']');if(v)cur.data[tmap[k]]=parseInt(v.value)||0;}var nu=bs.querySelector('[name='+f+'_nature_up]');if(nu)cur.data.nature_up=nu.value;var nd=bs.querySelector('[name='+f+'_nature_down]');if(nd)cur.data.nature_down=nd.value;var s1=document.querySelector('[name='+f+'_skill_1]');if(s1){cur.data.skills=[];for(var i=1;i<=4;i++){var sel=document.querySelector('[name='+f+'_skill_'+i+']');if(sel&&sel.value)cur.data.skills.push({id:parseInt(sel.value)});}}if(cA&&cD)setTimeout(cd,100);}});
+document.addEventListener('change',function(e){if(e.target.closest('#att-cfg')||e.target.closest('#def-cfg')){if(cA&&cD)setTimeout(cd,80);}});
+</script>
+{% endblock %}

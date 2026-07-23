@@ -1,0 +1,224 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}{{ pet.name }} - 精灵图鉴{% endblock %}
+
+{% block content %}
+<div class="pet-detail">
+    <!-- Basic Info -->
+    <div class="detail-section">
+        <div class="pet-basic">
+            <img src="{% static 'images/pets/'|add:pet.image %}"
+                 alt="{{ pet.name }}" class="pet-image-large"
+                 onerror="this.src='{% static 'images/pets/placeholder.png' %}'">
+            <div class="pet-info">
+                <div class="pet-number">#{{ pet.number }}</div>
+                <h1>{{ pet.name }}</h1>
+                <div class="element-badges" style="margin-top:8px;">
+                    {% for elem in pet.elements.all %}
+                    <span class="element-badge"
+                          style="background-color: var(--element-{{ elem.name }});">
+                        <img src="{% static 'images/elements/'|add:elem.icon %}"
+                             alt="{{ elem.name }}">
+                        {{ elem.name }}
+                    </span>
+                    {% endfor %}
+                </div>
+                <div class="pet-meta">
+                    <span>身高：{{ pet.height_min }}m ~ {{ pet.height_max }}m</span>
+                    <span>体重：{{ pet.weight_min }}kg ~ {{ pet.weight_max }}kg</span>
+                    {% if pet.distribution %}<span>分布：{{ pet.distribution }}</span>{% endif %}
+                    {% if pet.form %}<span>形态：{{ pet.form }}</span>{% endif %}
+                    {% if pet.description %}<p style="margin-top:8px;color:var(--color-text);">{{ pet.description }}</p>{% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ability -->
+    {% if pet.ability_name or pet.ability_effect %}
+    <div class="detail-section">
+        <h2>特性</h2>
+        <div style="display:flex;align-items:center;gap:16px;">
+            {% if pet.ability_icon %}
+            <img src="{% static 'images/abilities/'|add:pet.ability_icon %}"
+                 alt="{{ pet.ability_name }}" style="width:48px;height:48px;">
+            {% endif %}
+            <div>
+                <strong style="font-size:1.1rem;">{{ pet.ability_name }}</strong>
+                {% if pet.ability_effect %}
+                <p style="color:var(--color-text-light);margin-top:4px;">{{ pet.ability_effect }}</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Base Stats -->
+    <div class="detail-section">
+        <h2>种族值 <span style="font-weight:400;font-size:0.9rem;color:var(--color-text-light);">（总和：{{ pet.stat_total }}）</span></h2>
+        <div class="stat-list">
+            {% for label, value, css_class in stats %}
+            <div class="stat-item">
+                <span class="stat-label">{{ label }}</span>
+                <span class="stat-value">{{ value }}</span>
+                <div class="stat-bar">
+                    <div class="stat-fill stat-fill-{{ css_class }}"
+                         style="width: {% widthratio value stat_max 100 %}%;"></div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Evolution Tree -->
+    <div class="detail-section">
+        <h2>进化链</h2>
+        {% with tree=evolution_tree %}
+        {% include 'pets/evo_tree_node.html' with node=tree current_pet=pet %}
+        {% endwith %}
+    </div>
+
+    <!-- Type Matchups -->
+    <div class="detail-section">
+        <h2>属性克制关系</h2>
+        {% if type_matchups.3.0 or type_matchups.2.0 or type_matchups.0.5 or type_matchups.0.25 %}
+            {% for tier, elems in type_matchups.items %}
+            <div class="tier-group">
+                <div class="tier-heading">
+                    {% if tier == 3.0 %}
+                    <span class="tier-badge tier-badge-x3">3倍受到伤害</span>
+                    {% elif tier == 2.0 %}
+                    <span class="tier-badge tier-badge-x2">2倍受到伤害</span>
+                    {% elif tier == 0.5 %}
+                    <span class="tier-badge tier-badge-x05">0.5倍受到伤害</span>
+                    {% elif tier == 0.25 %}
+                    <span class="tier-badge tier-badge-x025">0.25倍受到伤害</span>
+                    {% endif %}
+                </div>
+                <div class="tier-icons">
+                    {% for elem in elems %}
+                    <div class="element-icon"
+                         title="{{ elem.name }}">
+                        <img src="{% static 'images/elements/'|add:elem.icon %}"
+                             alt="{{ elem.name }}">
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        {% else %}
+        <p class="tier-none">暂无克制数据</p>
+        {% endif %}
+    </div>
+
+    <!-- Skills (3 Tabs) -->
+    <div class="detail-section">
+        <h2>可学技能</h2>
+        <div class="tabs">
+            <div class="tab-nav">
+                <button class="tab-btn active" onclick="switchTab(event, 'tab-level')">升级技能</button>
+                <button class="tab-btn" onclick="switchTab(event, 'tab-bloodline')">血脉技能</button>
+                <button class="tab-btn" onclick="switchTab(event, 'tab-stone')">技能石</button>
+            </div>
+
+            <div id="tab-level" class="tab-panel active">
+                {% if level_up_skills %}
+                <table class="skill-table">
+                    <thead><tr><th>等级</th><th>技能</th><th>属性</th><th>类别</th><th>威力</th><th>能耗</th><th>效果</th></tr></thead>
+                    <tbody>
+                    {% for ps in level_up_skills %}
+                    <tr>
+                        <td>Lv.{{ ps.learn_level }}</td>
+                        <td>
+                            {% if ps.skill.icon %}
+                            <img src="{% static 'images/skills/'|add:ps.skill.icon %}"
+                                 alt="" style="width:20px;height:20px;vertical-align:middle;">
+                            {% endif %}
+                            <a href="{% url 'skills:skill_detail' ps.skill.id %}">{{ ps.skill.name }}</a>
+                        </td>
+                        <td>
+                            <span class="element-badge" style="background-color: var(--element-{{ ps.skill.element.name }});">
+                                {{ ps.skill.element.name }}
+                            </span>
+                        </td>
+                        <td>{{ ps.skill.category }}</td>
+                        <td>{{ ps.skill.power }}</td>
+                        <td>{{ ps.skill.energy_cost }}</td>
+                        <td style="font-size:0.85rem;color:var(--color-text-light);">{{ ps.skill.description }}</td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+                {% else %}
+                <p class="tier-none">暂无升级技能</p>
+                {% endif %}
+            </div>
+
+            <div id="tab-bloodline" class="tab-panel">
+                {% if bloodline_skills %}
+                <table class="skill-table">
+                    <thead><tr><th>技能</th><th>属性</th><th>类别</th><th>威力</th><th>能耗</th><th>效果</th></tr></thead>
+                    <tbody>
+                    {% for ps in bloodline_skills %}
+                    <tr>
+                        <td>
+                            {% if ps.skill.icon %}
+                            <img src="{% static 'images/skills/'|add:ps.skill.icon %}" alt="" style="width:20px;height:20px;vertical-align:middle;">
+                            {% endif %}
+                            <a href="{% url 'skills:skill_detail' ps.skill.id %}">{{ ps.skill.name }}</a>
+                        </td>
+                        <td><span class="element-badge" style="background-color: var(--element-{{ ps.skill.element.name }});">{{ ps.skill.element.name }}</span></td>
+                        <td>{{ ps.skill.category }}</td>
+                        <td>{{ ps.skill.power }}</td>
+                        <td>{{ ps.skill.energy_cost }}</td>
+                        <td style="font-size:0.85rem;color:var(--color-text-light);">{{ ps.skill.description }}</td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+                {% else %}
+                <p class="tier-none">暂无血脉技能</p>
+                {% endif %}
+            </div>
+
+            <div id="tab-stone" class="tab-panel">
+                {% if stone_skills %}
+                <table class="skill-table">
+                    <thead><tr><th>技能</th><th>属性</th><th>类别</th><th>威力</th><th>能耗</th><th>效果</th></tr></thead>
+                    <tbody>
+                    {% for ps in stone_skills %}
+                    <tr>
+                        <td>
+                            {% if ps.skill.icon %}
+                            <img src="{% static 'images/skills/'|add:ps.skill.icon %}" alt="" style="width:20px;height:20px;vertical-align:middle;">
+                            {% endif %}
+                            <a href="{% url 'skills:skill_detail' ps.skill.id %}">{{ ps.skill.name }}</a>
+                        </td>
+                        <td><span class="element-badge" style="background-color: var(--element-{{ ps.skill.element.name }});">{{ ps.skill.element.name }}</span></td>
+                        <td>{{ ps.skill.category }}</td>
+                        <td>{{ ps.skill.power }}</td>
+                        <td>{{ ps.skill.energy_cost }}</td>
+                        <td style="font-size:0.85rem;color:var(--color-text-light);">{{ ps.skill.description }}</td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+                {% else %}
+                <p class="tier-none">暂无技能石</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+function switchTab(event, tabId) {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    document.getElementById(tabId).classList.add('active');
+}
+</script>
+{% endblock %}

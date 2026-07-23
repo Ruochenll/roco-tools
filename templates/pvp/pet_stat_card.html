@@ -1,0 +1,41 @@
+{% if pet %}
+  <div id="card-{{ field }}">
+    <div style="margin-top:12px;padding:14px;background:#fafafa;border-radius:10px;">
+      <div style="font-weight:700;font-size:15px;margin-bottom:4px;">
+        {{ pet.name }} · 面板值
+      </div>
+      <div style="font-size:11px;color:#999;margin-bottom:10px;">Lv.60 · ★5 · 成长0 · 天分0~10</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+        {% for key, label, value, talent in stats %}
+        <div style="display:flex;align-items:center;gap:6px;
+                    padding:6px 10px;background:#fff;border-radius:8px;border:1px solid #eee;">
+          <span style="font-size:13px;color:#666;min-width:32px;">{{ label }}</span>
+          <strong id="s-{{ field }}-{{ key }}" style="font-size:15px;min-width:30px;text-align:right;{% if talent > 0 %}color:#7c4dff;{% endif %}">{{ value }}</strong>
+          <input type="number" name="{{ field }}_{{ key }}_talent"
+                 min="0" max="10" value="{{ talent }}"
+                 onchange="reloadStatCard('{{ field }}')"
+                 style="width:44px;padding:3px 5px;border:1px solid #ddd;border-radius:4px;font-size:12px;margin-left:auto;">
+        </div>
+        {% endfor %}
+      </div>
+      <div style="margin-top:10px;display:flex;gap:10px;align-items:center;font-size:13px;">
+        <span style="color:#666;">性格：</span>
+        <select name="{{ field }}_nature_up" onchange="reloadStatCard('{{ field }}')" style="padding:4px 8px;border:1px solid #ddd;border-radius:6px;">
+          <option value="-">-- 加成 +10% --</option>
+          {% for key, label, _, _ in stats %}
+          <option value="{{ key }}" {% if key == nature_up %}selected{% endif %}>{{ label }}</option>
+          {% endfor %}
+        </select>
+        <span style="color:#4caf50;">↑</span>
+        <select name="{{ field }}_nature_down" onchange="reloadStatCard('{{ field }}')" style="padding:4px 8px;border:1px solid #ddd;border-radius:6px;">
+          <option value="-">-- 削弱 -10% --</option>
+          {% for key, label, _, _ in stats %}
+          <option value="{{ key }}" {% if key == nature_down %}selected{% endif %}>{{ label }}</option>
+          {% endfor %}
+        </select>
+        <span style="color:#e74c3c;">↓</span>
+      </div>
+    </div>
+  </div>
+
+{% endif %}

@@ -1,0 +1,56 @@
+{% load static %}
+{% if primary %}
+<h3 style="margin-bottom:16px;">
+    当前精灵属性：
+    {% if primary_obj %}
+    <span class="element-badge" style="background-color: var(--element-{{ primary_obj.name }});">
+        <img src="{% static 'images/elements/'|add:primary_obj.icon %}" alt="{{ primary_obj.name }}">
+        {{ primary_obj.name }}
+    </span>
+    {% endif %}
+    {% if secondary_obj %}
+    <span class="element-badge" style="background-color: var(--element-{{ secondary_obj.name }});">
+        <img src="{% static 'images/elements/'|add:secondary_obj.icon %}" alt="{{ secondary_obj.name }}">
+        {{ secondary_obj.name }}
+    </span>
+    {% endif %}
+</h3>
+
+{% if tiers.3.0 or tiers.2.0 or tiers.0.5 or tiers.0.25 %}
+    {% for tier, elems in tiers.items %}
+    <div class="tier-group">
+        <div class="tier-heading">
+            {% if tier == 3.0 %}
+            <span class="tier-badge tier-badge-x3">3倍受到伤害</span>
+            {% elif tier == 2.0 %}
+            <span class="tier-badge tier-badge-x2">2倍受到伤害</span>
+            {% elif tier == 0.5 %}
+            <span class="tier-badge tier-badge-x05">0.5倍受到伤害</span>
+            {% elif tier == 0.25 %}
+            <span class="tier-badge tier-badge-x025">0.25倍受到伤害</span>
+            {% endif %}
+        </div>
+        <div class="tier-icons">
+            {% if elems %}
+                {% for elem in elems %}
+                <div class="element-icon"
+                     style="--element-current: var(--element-{{ elem.name }});"
+                     title="{{ elem.name }}">
+                    <img src="{% static 'images/elements/'|add:elem.icon %}" alt="{{ elem.name }}">
+                </div>
+                {% endfor %}
+            {% else %}
+                <span class="tier-none">无</span>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+{% else %}
+    <p class="tier-none">该属性组合暂无克制数据</p>
+{% endif %}
+
+{% else %}
+<div style="text-align:center;padding:40px;color:var(--color-text-light);">
+    <p style="font-size:1.2rem;">请在上方选择主属性开始计算</p>
+</div>
+{% endif %}

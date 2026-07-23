@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block title %}游戏资讯{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>游戏资讯</h1>
+    <p>洛克王国世界最新攻略与公告</p>
+</div>
+
+<div class="filter-bar">
+    <div class="category-btns">
+        <a href="{% url 'article_list' %}"
+           class="cat-btn {% if not current_category %}active{% endif %}">全部</a>
+        {% for cat_code, cat_label in categories %}
+        <a href="?category={{ cat_code }}"
+           class="cat-btn {% if current_category == cat_code %}active{% endif %}">{{ cat_label }}</a>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="article-list">
+    {% for article in articles %}
+    <a href="{% url 'article_detail' article.id %}" class="article-card" style="display:block;overflow:hidden;">
+        {% if article.cover_image %}
+        <img src="{{ article.cover_image.url }}" alt="{{ article.title }}"
+             style="width:100%;max-height:200px;object-fit:cover;margin:-20px -20px 16px -20px;display:block;">
+        {% endif %}
+        <h3>{{ article.title }}</h3>
+        <div class="article-meta">
+            <span>{{ article.category }}</span> ·
+            <span>{{ article.author.username }}</span> ·
+            <span>{{ article.created_at|date:"Y-m-d" }}</span>
+        </div>
+        {% if article.summary %}
+        <p style="color:var(--color-text-light);font-size:0.9rem;">{{ article.summary }}</p>
+        {% endif %}
+    </a>
+    {% empty %}
+    <div style="text-align:center;padding:40px;color:var(--color-text-light);">
+        <p>暂无文章</p>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

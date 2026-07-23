@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}孵蛋查询{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>孵蛋查询</h1>
+    <p>输入蛋的身高和体重，查询可以孵化的精灵</p>
+</div>
+
+<div class="filter-bar">
+    <form hx-get="{% url 'hatch_lookup' %}" hx-target="#hatch-results" hx-trigger="submit">
+        <div style="display:flex;gap:16px;align-items:flex-end;flex-wrap:wrap;">
+            <div class="form-group" style="flex:1;min-width:150px;">
+                <label for="height">身高 (m)</label>
+                <input type="number" step="0.01" name="height" id="height"
+                       value="{{ height }}" placeholder="例：0.36" required>
+            </div>
+            <div class="form-group" style="flex:1;min-width:150px;">
+                <label for="weight">体重 (kg)</label>
+                <input type="number" step="0.001" name="weight" id="weight"
+                       value="{{ weight }}" placeholder="例：6.42" required>
+            </div>
+            <button type="submit" class="btn btn-primary" style="flex:0;min-width:100px;">查询</button>
+        </div>
+    </form>
+</div>
+
+<div id="hatch-results">
+    {% include 'eggs/hatch_lookup_partial.html' %}
+</div>
+{% endblock %}

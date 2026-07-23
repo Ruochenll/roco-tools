@@ -1,0 +1,27 @@
+<nav class="navbar">
+    <div class="nav-inner">
+        <a href="{% url 'home' %}" class="nav-brand">洛克王国世界工具合集</a>
+        <ul class="nav-links">
+            <li><a href="{% url 'home' %}">首页</a></li>
+            <li><a href="/pvp/battle-calc/">PVP计算器</a></li>
+            <li><a href="/pvp/damage-calc/">伤害计算器</a></li>
+            <li><a href="/pets/">精灵图鉴</a></li>
+            <li><a href="/skills/">技能图鉴</a></li>
+            <li><a href="/type-calc/">克制计算器</a></li>
+            <li><a href="/eggs/hatch/">孵蛋查询</a></li>
+            {% comment %} <li><a href="/eggs/market/">交换市场</a></li> {% endcomment %}
+            <li><a href="/articles/">资讯</a></li>
+        </ul>
+        {% comment %} <!-- 登录注册暂关 -->
+        <div class="nav-auth">
+            {% if user.is_authenticated %}
+                <span class="nav-user">{{ user.username }}</span>
+                <a href="{% url 'logout' %}">登出</a>
+            {% else %}
+                <a href="{% url 'login' %}">登录</a>
+                <a href="{% url 'register' %}">注册</a>
+            {% endif %}
+        </div>
+        {% endcomment %}
+    </div>
+</nav>

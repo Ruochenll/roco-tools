@@ -1,0 +1,111 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}{{ skill.name }} - 技能图鉴{% endblock %}
+
+{% block content %}
+<div class="detail-section" style="margin-bottom:24px;">
+    <div style="display:flex;align-items:center;gap:16px;margin-bottom:20px;">
+        {% if skill.icon %}
+        <img src="{% static 'images/skills/'|add:skill.icon %}"
+             alt="" style="width:64px;height:64px;">
+        {% endif %}
+        <div>
+            <h1 style="margin:0;font-size:2rem;">{{ skill.name }}</h1>
+            <div style="display:flex;gap:8px;margin-top:8px;">
+                <span class="element-badge"
+                      style="background-color: var(--element-{{ skill.element.name }});">
+                    <img src="{% static 'images/elements/'|add:skill.element.icon %}"
+                         alt="{{ skill.element.name }}">
+                    {{ skill.element.name }}
+                </span>
+                <span class="cat-btn active">{{ skill.category }}</span>
+            </div>
+        </div>
+    </div>
+
+    <div style="display:flex;gap:32px;margin-bottom:16px;font-size:1rem;">
+        <div><strong>威力：</strong>{{ skill.power }}</div>
+        <div><strong>能耗：</strong>{{ skill.energy_cost }}</div>
+    </div>
+
+    {% if skill.description %}
+    <div style="background:var(--color-bg);padding:16px;border-radius:8px;">
+        <strong>技能效果：</strong>{{ skill.description }}
+    </div>
+    {% endif %}
+</div>
+
+<div class="detail-section">
+    <h2>可学习该技能的精灵</h2>
+    <div class="tabs">
+        <div class="tab-nav">
+            <button class="tab-btn active" onclick="switchTab(event, 'tab-level')">升级习得</button>
+            <button class="tab-btn" onclick="switchTab(event, 'tab-bloodline')">血脉技能</button>
+            <button class="tab-btn" onclick="switchTab(event, 'tab-stone')">可学技能石</button>
+        </div>
+
+        <div id="tab-level" class="tab-panel active">
+            {% if level_up_pets %}
+            <div class="card-grid" style="grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));">
+                {% for ps in level_up_pets %}
+                <a href="{% url 'pet_detail' ps.pet.id %}" class="card">
+                    <img src="{% static 'images/pets/'|add:ps.pet.image %}"
+                         alt="{{ ps.pet.name }}" class="card-img"
+                         onerror="this.src='{% static 'images/pets/placeholder.png' %}'">
+                    <div class="card-body">
+                        <div class="card-title">{{ ps.pet.name }}</div>
+                        <div class="card-subtitle">Lv.{{ ps.learn_level }}</div>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+            {% else %}<p class="tier-none">暂无</p>{% endif %}
+        </div>
+
+        <div id="tab-bloodline" class="tab-panel">
+            {% if bloodline_pets %}
+            <div class="card-grid" style="grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));">
+                {% for ps in bloodline_pets %}
+                <a href="{% url 'pet_detail' ps.pet.id %}" class="card">
+                    <img src="{% static 'images/pets/'|add:ps.pet.image %}"
+                         alt="{{ ps.pet.name }}" class="card-img"
+                         onerror="this.src='{% static 'images/pets/placeholder.png' %}'">
+                    <div class="card-body">
+                        <div class="card-title">{{ ps.pet.name }}</div>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+            {% else %}<p class="tier-none">暂无</p>{% endif %}
+        </div>
+
+        <div id="tab-stone" class="tab-panel">
+            {% if stone_pets %}
+            <div class="card-grid" style="grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));">
+                {% for ps in stone_pets %}
+                <a href="{% url 'pet_detail' ps.pet.id %}" class="card">
+                    <img src="{% static 'images/pets/'|add:ps.pet.image %}"
+                         alt="{{ ps.pet.name }}" class="card-img"
+                         onerror="this.src='{% static 'images/pets/placeholder.png' %}'">
+                    <div class="card-body">
+                        <div class="card-title">{{ ps.pet.name }}</div>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+            {% else %}<p class="tier-none">暂无</p>{% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+function switchTab(event, tabId) {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    document.getElementById(tabId).classList.add('active');
+}
+</script>
+{% endblock %}
