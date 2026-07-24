@@ -3,4 +3,3 @@ __pycache__/
 *.log
 db.sqlite3
 /media/
-/static/images/
