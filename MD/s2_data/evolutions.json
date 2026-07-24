@@ -1,0 +1,2706 @@
+[
+  {
+    "pet_from": "旋叶虫",
+    "pet_to": "蓬叶虫",
+    "condition": "等级25",
+    "_from_id": "pet_000303",
+    "_to_id": "pet_000383",
+    "_evo_key": "evo_000114"
+  },
+  {
+    "pet_from": "蓬叶虫",
+    "pet_to": "风滚暮虫",
+    "condition": "等级45",
+    "_from_id": "pet_000383",
+    "_to_id": "pet_000304",
+    "_evo_key": "evo_000114"
+  },
+  {
+    "pet_from": "裘洛",
+    "pet_to": "裘力",
+    "condition": "等级20",
+    "_from_id": "pet_000140",
+    "_to_id": "pet_000141",
+    "_evo_key": "evo_000056"
+  },
+  {
+    "pet_from": "裘力",
+    "pet_to": "裘卡",
+    "condition": "等级32",
+    "_from_id": "pet_000141",
+    "_to_id": "pet_000142",
+    "_evo_key": "evo_000056"
+  },
+  {
+    "pet_from": "小夜",
+    "pet_to": "紫夜",
+    "condition": "等级26且雌性",
+    "_from_id": "pet_000128",
+    "_to_id": "pet_000129",
+    "_evo_key": "evo_000052"
+  },
+  {
+    "pet_from": "紫夜",
+    "pet_to": "朔夜伊芙",
+    "condition": "等级44且雌性",
+    "_from_id": "pet_000129",
+    "_to_id": "pet_000130",
+    "_evo_key": "evo_000052"
+  },
+  {
+    "pet_from": "矮脚爬爬",
+    "pet_to": "恶魔红钻",
+    "condition": "等级36",
+    "_from_id": "pet_000157",
+    "_to_id": "pet_000158",
+    "_evo_key": "evo_000062"
+  },
+  {
+    "pet_from": "星尘虫",
+    "pet_to": "落星虫",
+    "condition": "等级20",
+    "_from_id": "pet_000320",
+    "_to_id": "pet_000321",
+    "_evo_key": "evo_000121"
+  },
+  {
+    "pet_from": "落星虫",
+    "pet_to": "陨星虫",
+    "condition": "等级40",
+    "_from_id": "pet_000321",
+    "_to_id": "pet_000322",
+    "_evo_key": "evo_000121"
+  },
+  {
+    "pet_from": "梦游",
+    "pet_to": "梦悠悠",
+    "condition": "等级32",
+    "_from_id": "pet_000342",
+    "_to_id": "pet_000343",
+    "_evo_key": "evo_000132"
+  },
+  {
+    "pet_from": "蝴蝶陶陶",
+    "pet_to": "铆钉毛毛",
+    "condition": "等级32",
+    "_from_id": "pet_000291",
+    "_to_id": "pet_000292",
+    "_evo_key": "evo_000229"
+  },
+  {
+    "pet_from": "铆钉毛毛",
+    "pet_to": "徘徊爪爪",
+    "condition": "等级50",
+    "_from_id": "pet_000292",
+    "_to_id": "pet_000293",
+    "_evo_key": "evo_000229"
+  },
+  {
+    "pet_from": "小灵面",
+    "pet_to": "暗影灵面",
+    "condition": "等级20且18点至次日6点期间",
+    "_from_id": "pet_000052",
+    "_to_id": "pet_000053",
+    "_evo_key": "evo_000025"
+  },
+  {
+    "pet_from": "暗影灵面",
+    "pet_to": "幽冥眼",
+    "condition": "等级32且时间段18点~次日6点",
+    "_from_id": "pet_000053",
+    "_to_id": "pet_000326",
+    "_evo_key": "evo_000025"
+  },
+  {
+    "pet_from": "嘟嘟煲",
+    "pet_to": "嘟嘟锅",
+    "condition": "等级38",
+    "_from_id": "pet_000294",
+    "_to_id": "pet_000295",
+    "_evo_key": "evo_000112"
+  },
+  {
+    "pet_from": "拉特",
+    "pet_to": "酷拉",
+    "condition": "等级40",
+    "_from_id": "pet_000165",
+    "_to_id": "pet_000166",
+    "_evo_key": "evo_000065"
+  },
+  {
+    "pet_from": "粉粉星",
+    "pet_to": "小皮球",
+    "condition": "等级32",
+    "_from_id": "pet_000175",
+    "_to_id": "pet_000176",
+    "_evo_key": "evo_000069"
+  },
+  {
+    "pet_from": "毛毛",
+    "pet_to": "爬爬",
+    "condition": "等级20",
+    "_from_id": "pet_000122",
+    "_to_id": "pet_000123",
+    "_evo_key": "evo_000181"
+  },
+  {
+    "pet_from": "爬爬",
+    "pet_to": "化蝶",
+    "condition": "等级35",
+    "_from_id": "pet_000123",
+    "_to_id": "pet_000373",
+    "_evo_key": "evo_000181"
+  },
+  {
+    "pet_from": "石肤蜥",
+    "pet_to": "石刺蜥",
+    "condition": "等级32",
+    "_from_id": "pet_000095",
+    "_to_id": "pet_000096",
+    "_evo_key": "evo_000041"
+  },
+  {
+    "pet_from": "石刺蜥",
+    "pet_to": "石冠王蜥",
+    "condition": "等级48",
+    "_from_id": "pet_000096",
+    "_to_id": "pet_000097",
+    "_evo_key": "evo_000041"
+  },
+  {
+    "pet_from": "波波螺",
+    "pet_to": "消波螺",
+    "condition": "等级16",
+    "_from_id": "pet_000403",
+    "_to_id": "pet_000404",
+    "_evo_key": "evo_000152"
+  },
+  {
+    "pet_from": "消波螺",
+    "pet_to": "嗜波螺",
+    "condition": "等级32",
+    "_from_id": "pet_000404",
+    "_to_id": "pet_000405",
+    "_evo_key": "evo_000152"
+  },
+  {
+    "pet_from": "咕咕帽",
+    "pet_to": "咕德帽帽",
+    "condition": "等级36且累计跟随1分钟",
+    "_from_id": "pet_000492",
+    "_to_id": "pet_000493",
+    "_evo_key": "evo_000211"
+  },
+  {
+    "pet_from": "双灯鱼",
+    "pet_to": "利灯鱼",
+    "condition": "等级30",
+    "_from_id": "pet_000309",
+    "_to_id": "pet_000310",
+    "_evo_key": "evo_000117"
+  },
+  {
+    "pet_from": "蹦蹦种子",
+    "pet_to": "蹦蹦草",
+    "condition": "等级16",
+    "_from_id": "pet_000248",
+    "_to_id": "pet_000251",
+    "_evo_key": "evo_000099"
+  },
+  {
+    "pet_from": "蹦蹦草",
+    "pet_to": "蹦蹦花",
+    "condition": "等级32",
+    "_from_id": "pet_000251",
+    "_to_id": "pet_000254",
+    "_evo_key": "evo_000099"
+  },
+  {
+    "pet_from": "海豹战士",
+    "pet_to": "海豹船长",
+    "condition": "等级40",
+    "_from_id": "pet_000189",
+    "_to_id": "pet_000190",
+    "_evo_key": "evo_000075"
+  },
+  {
+    "pet_from": "圆眼蜘蛛",
+    "pet_to": "尖角蜘蛛",
+    "condition": "等级24",
+    "_from_id": "pet_000119",
+    "_to_id": "pet_000120",
+    "_evo_key": "evo_000049"
+  },
+  {
+    "pet_from": "尖角蜘蛛",
+    "pet_to": "芋香巨角蛛",
+    "condition": "等级40",
+    "_from_id": "pet_000120",
+    "_to_id": "pet_000121",
+    "_evo_key": "evo_000049"
+  },
+  {
+    "pet_from": "小翼龙",
+    "pet_to": "翼龙",
+    "condition": "等级40",
+    "_from_id": "pet_000186",
+    "_to_id": "pet_000187",
+    "_evo_key": "evo_000073"
+  },
+  {
+    "pet_from": "棋棋",
+    "pet_to": "棋骑士",
+    "condition": "等级26且生涯击败[棋骑士]3只 + 雄性",
+    "_from_id": "pet_000437",
+    "_to_id": "pet_000438",
+    "_evo_key": "evo_000194"
+  },
+  {
+    "pet_from": "奇丽草",
+    "pet_to": "奇丽叶",
+    "condition": "等级16",
+    "_from_id": "pet_000026",
+    "_to_id": "pet_000027",
+    "_evo_key": "evo_000016"
+  },
+  {
+    "pet_from": "奇丽叶",
+    "pet_to": "奇丽花",
+    "condition": "等级32",
+    "_from_id": "pet_000027",
+    "_to_id": "pet_000028",
+    "_evo_key": "evo_000016"
+  },
+  {
+    "pet_from": "咔咔羽毛",
+    "pet_to": "咔咔雀",
+    "condition": "等级18",
+    "_from_id": "pet_000154",
+    "_to_id": "pet_000155",
+    "_evo_key": "evo_000061"
+  },
+  {
+    "pet_from": "咔咔雀",
+    "pet_to": "咔咔鸟",
+    "condition": "等级36",
+    "_from_id": "pet_000155",
+    "_to_id": "pet_000156",
+    "_evo_key": "evo_000061"
+  },
+  {
+    "pet_from": "丢丢",
+    "pet_to": "卡卡虫",
+    "condition": "等级16",
+    "_from_id": "pet_000238",
+    "_to_id": "pet_000241",
+    "_evo_key": "evo_000095"
+  },
+  {
+    "pet_from": "卡卡虫",
+    "pet_to": "卡瓦重",
+    "condition": "等级36",
+    "_from_id": "pet_000241",
+    "_to_id": "pet_000244",
+    "_evo_key": "evo_000095"
+  },
+  {
+    "pet_from": "小狮鹫",
+    "pet_to": "神圣狮鹫",
+    "condition": "等级32",
+    "_from_id": "pet_000116",
+    "_to_id": "pet_000117",
+    "_evo_key": "evo_000048"
+  },
+  {
+    "pet_from": "神圣狮鹫",
+    "pet_to": "皇家狮鹫",
+    "condition": "等级46",
+    "_from_id": "pet_000117",
+    "_to_id": "pet_000118",
+    "_evo_key": "evo_000048"
+  },
+  {
+    "pet_from": "栗鼠",
+    "pet_to": "壳栗丝鼠",
+    "condition": "等级32",
+    "_from_id": "pet_000442",
+    "_to_id": "pet_000443",
+    "_evo_key": "evo_000157"
+  },
+  {
+    "pet_from": "仪使者",
+    "pet_to": "仪式之星",
+    "condition": "等级35",
+    "_from_id": "pet_000098",
+    "_to_id": "pet_000099",
+    "_evo_key": "evo_000042"
+  },
+  {
+    "pet_from": "仪式之星",
+    "pet_to": "仪式巨像",
+    "condition": "等级45",
+    "_from_id": "pet_000099",
+    "_to_id": "pet_000100",
+    "_evo_key": "evo_000042"
+  },
+  {
+    "pet_from": "加灵",
+    "pet_to": "加益",
+    "condition": "等级28且累计突破1次",
+    "_from_id": "pet_000196",
+    "_to_id": "pet_000197",
+    "_evo_key": "evo_000241"
+  },
+  {
+    "pet_from": "加益",
+    "pet_to": "黑化加尔",
+    "condition": "等级40且累计突破2次 + [幽]血脉",
+    "_from_id": "pet_000197",
+    "_to_id": "pet_000199",
+    "_evo_key": "evo_000241"
+  },
+  {
+    "pet_from": "雪灵兽",
+    "pet_to": "幻雪兽",
+    "condition": "等级32",
+    "_from_id": "pet_000275",
+    "_to_id": "pet_000276",
+    "_evo_key": "evo_000240"
+  },
+  {
+    "pet_from": "幻雪兽",
+    "pet_to": "饮雪狂兽",
+    "condition": "等级46",
+    "_from_id": "pet_000276",
+    "_to_id": "pet_000277",
+    "_evo_key": "evo_000240"
+  },
+  {
+    "pet_from": "甜田螺",
+    "pet_to": "壳乙螺",
+    "condition": "等级32",
+    "_from_id": "pet_000101",
+    "_to_id": "pet_000102",
+    "_evo_key": "evo_000043"
+  },
+  {
+    "pet_from": "壳乙螺",
+    "pet_to": "卡洛儿",
+    "condition": "等级44",
+    "_from_id": "pet_000102",
+    "_to_id": "pet_000103",
+    "_evo_key": "evo_000043"
+  },
+  {
+    "pet_from": "瑰眼仔",
+    "pet_to": "耳翎瑰魅",
+    "condition": "等级28",
+    "_from_id": "pet_000162",
+    "_to_id": "pet_000163",
+    "_evo_key": "evo_000064"
+  },
+  {
+    "pet_from": "耳翎瑰魅",
+    "pet_to": "邪眼巨魔",
+    "condition": "等级38",
+    "_from_id": "pet_000163",
+    "_to_id": "pet_000164",
+    "_evo_key": "evo_000064"
+  },
+  {
+    "pet_from": "苞米仔",
+    "pet_to": "炮米花",
+    "condition": "等级32",
+    "_from_id": "pet_000530",
+    "_to_id": "pet_000531",
+    "_evo_key": "evo_000238"
+  },
+  {
+    "pet_from": "猴麦仔",
+    "pet_to": "音碟吼",
+    "condition": "等级32",
+    "_from_id": "pet_000506",
+    "_to_id": "pet_000507",
+    "_evo_key": "evo_000218"
+  },
+  {
+    "pet_from": "点点",
+    "pet_to": "珀尔鼬",
+    "condition": "等级36",
+    "_from_id": "pet_000528",
+    "_to_id": "pet_000529",
+    "_evo_key": "evo_000236"
+  },
+  {
+    "pet_from": "豆丁鱼",
+    "pet_to": "快鳍鱼",
+    "condition": "等级20",
+    "_from_id": "pet_000311",
+    "_to_id": "pet_000312",
+    "_evo_key": "evo_000118"
+  },
+  {
+    "pet_from": "快鳍鱼",
+    "pet_to": "龙鱼",
+    "condition": "等级32",
+    "_from_id": "pet_000312",
+    "_to_id": "pet_000313",
+    "_evo_key": "evo_000118"
+  },
+  {
+    "pet_from": "绿翼鸟",
+    "pet_to": "魔翼鸟",
+    "condition": "等级20",
+    "_from_id": "pet_000226",
+    "_to_id": "pet_000227",
+    "_evo_key": "evo_000091"
+  },
+  {
+    "pet_from": "魔翼鸟",
+    "pet_to": "魔眷鸟",
+    "condition": "等级32",
+    "_from_id": "pet_000227",
+    "_to_id": "pet_000228",
+    "_evo_key": "evo_000091"
+  },
+  {
+    "pet_from": "蒲公英",
+    "pet_to": "蒲公英娃娃",
+    "condition": "等级26",
+    "_from_id": "pet_000031",
+    "_to_id": "pet_000024",
+    "_evo_key": "evo_000014"
+  },
+  {
+    "pet_from": "卡波",
+    "pet_to": "卡拉波斯",
+    "condition": "等级40",
+    "_from_id": "pet_000220",
+    "_to_id": "pet_000221",
+    "_evo_key": "evo_000088"
+  },
+  {
+    "pet_from": "乖乖鹄",
+    "pet_to": "蓝珠天鹅",
+    "condition": "等级20",
+    "_from_id": "pet_000278",
+    "_to_id": "pet_000279",
+    "_evo_key": "evo_000108"
+  },
+  {
+    "pet_from": "蓝珠天鹅",
+    "pet_to": "翠顶夫人",
+    "condition": "等级40",
+    "_from_id": "pet_000279",
+    "_to_id": "pet_000280",
+    "_evo_key": "evo_000108"
+  },
+  {
+    "pet_from": "火豆丁",
+    "pet_to": "火蛮人",
+    "condition": "等级28",
+    "_from_id": "pet_000525",
+    "_to_id": "pet_000526",
+    "_evo_key": "evo_000235"
+  },
+  {
+    "pet_from": "火蛮人",
+    "pet_to": "火巨人",
+    "condition": "等级40",
+    "_from_id": "pet_000526",
+    "_to_id": "pet_000527",
+    "_evo_key": "evo_000235"
+  },
+  {
+    "pet_from": "蜜果骸",
+    "pet_to": "半朽蜜果灵",
+    "condition": "等级36且任选可可果树/无花果树/魔力果树中的一种累计交互3次",
+    "_from_id": "pet_000498",
+    "_to_id": "pet_000499",
+    "_evo_key": "evo_000214"
+  },
+  {
+    "pet_from": "脆筒甜甜",
+    "pet_to": "香草甜甜",
+    "condition": "等级28",
+    "_from_id": "pet_000113",
+    "_to_id": "pet_000114",
+    "_evo_key": "evo_000171"
+  },
+  {
+    "pet_from": "香草甜甜",
+    "pet_to": "圣代甜甜",
+    "condition": "等级40",
+    "_from_id": "pet_000114",
+    "_to_id": "pet_000359",
+    "_evo_key": "evo_000171"
+  },
+  {
+    "pet_from": "棋棋",
+    "pet_to": "棋齐垒",
+    "condition": "等级26且生涯累计击败[棋齐垒]3只 + 雄性",
+    "_from_id": "pet_000437",
+    "_to_id": "pet_000440",
+    "_evo_key": "evo_000196"
+  },
+  {
+    "pet_from": "空空颅",
+    "pet_to": "夜宿颅",
+    "condition": "等级30且生涯使用[勾魂]3次",
+    "_from_id": "pet_000134",
+    "_to_id": "pet_000135",
+    "_evo_key": "evo_000054"
+  },
+  {
+    "pet_from": "夜宿颅",
+    "pet_to": "夜枭",
+    "condition": "等级50",
+    "_from_id": "pet_000135",
+    "_to_id": "pet_000136",
+    "_evo_key": "evo_000054"
+  },
+  {
+    "pet_from": "吸泥鸥",
+    "pet_to": "泥吼牙",
+    "condition": "等级36",
+    "_from_id": "pet_000390",
+    "_to_id": "pet_000391",
+    "_evo_key": "evo_000148"
+  },
+  {
+    "pet_from": "森豆丁",
+    "pet_to": "森蛮人",
+    "condition": "等级28",
+    "_from_id": "pet_000520",
+    "_to_id": "pet_000521",
+    "_evo_key": "evo_000233"
+  },
+  {
+    "pet_from": "森蛮人",
+    "pet_to": "森巨人",
+    "condition": "等级40",
+    "_from_id": "pet_000521",
+    "_to_id": "pet_000522",
+    "_evo_key": "evo_000233"
+  },
+  {
+    "pet_from": "格兰种子",
+    "pet_to": "格兰花",
+    "condition": "等级16",
+    "_from_id": "pet_000063",
+    "_to_id": "pet_000064",
+    "_evo_key": "evo_000031"
+  },
+  {
+    "pet_from": "格兰花",
+    "pet_to": "格兰球",
+    "condition": "等级32",
+    "_from_id": "pet_000064",
+    "_to_id": "pet_000065",
+    "_evo_key": "evo_000031"
+  },
+  {
+    "pet_from": "优优",
+    "pet_to": "绒光优优",
+    "condition": "等级36",
+    "_from_id": "pet_000496",
+    "_to_id": "pet_000497",
+    "_evo_key": "evo_000213"
+  },
+  {
+    "pet_from": "恶魔叮",
+    "pet_to": "叮叮恶魔",
+    "condition": "等级40",
+    "_from_id": "pet_000009",
+    "_to_id": "pet_000036",
+    "_evo_key": "evo_000006"
+  },
+  {
+    "pet_from": "矿晶虫",
+    "pet_to": "晶石蜗",
+    "condition": "等级40且与蓝晶碧玺/紫莲刚玉/黄石榴石/黑晶琉璃中的任意一种累计交互6次",
+    "_from_id": "pet_000256",
+    "_to_id": "pet_000352",
+    "_evo_key": "evo_000170"
+  },
+  {
+    "pet_from": "小灵面",
+    "pet_to": "暗影灵面",
+    "condition": "等级20且6点至18点期间",
+    "_from_id": "pet_000052",
+    "_to_id": "pet_000381",
+    "_evo_key": "evo_000182"
+  },
+  {
+    "pet_from": "暗影灵面",
+    "pet_to": "幽冥眼",
+    "condition": "等级32且6点至18点期间",
+    "_from_id": "pet_000381",
+    "_to_id": "pet_000382",
+    "_evo_key": "evo_000182"
+  },
+  {
+    "pet_from": "火红尾",
+    "pet_to": "雅丹鬃",
+    "condition": "等级36",
+    "_from_id": "pet_000515",
+    "_to_id": "pet_000516",
+    "_evo_key": "evo_000231"
+  },
+  {
+    "pet_from": "墨鱿士",
+    "pet_to": "秩序鱿墨",
+    "condition": "等级32且击败3只恶系精灵",
+    "_from_id": "pet_000449",
+    "_to_id": "pet_000451",
+    "_evo_key": "evo_000228"
+  },
+  {
+    "pet_from": "治愈兔",
+    "pet_to": "红丝绒",
+    "condition": "等级16",
+    "_from_id": "pet_000072",
+    "_to_id": "pet_000073",
+    "_evo_key": "evo_000034"
+  },
+  {
+    "pet_from": "红丝绒",
+    "pet_to": "红绒十字",
+    "condition": "等级36",
+    "_from_id": "pet_000073",
+    "_to_id": "pet_000284",
+    "_evo_key": "evo_000034"
+  },
+  {
+    "pet_from": "雪娃娃",
+    "pet_to": "冰封怨灵",
+    "condition": "等级26",
+    "_from_id": "pet_000272",
+    "_to_id": "pet_000273",
+    "_evo_key": "evo_000107"
+  },
+  {
+    "pet_from": "冰封怨灵",
+    "pet_to": "雪灵",
+    "condition": "等级42",
+    "_from_id": "pet_000273",
+    "_to_id": "pet_000274",
+    "_evo_key": "evo_000107"
+  },
+  {
+    "pet_from": "花怨鳗",
+    "pet_to": "鳗尾兽",
+    "condition": "等级26",
+    "_from_id": "pet_000401",
+    "_to_id": "pet_000402",
+    "_evo_key": "evo_000151"
+  },
+  {
+    "pet_from": "矿晶虫",
+    "pet_to": "晶石蜗",
+    "condition": "等级40且与任意黄石榴石累计交互3次",
+    "_from_id": "pet_000256",
+    "_to_id": "pet_000350",
+    "_evo_key": "evo_000168"
+  },
+  {
+    "pet_from": "伊雷龙",
+    "pet_to": "伊兰亚龙",
+    "condition": "等级40",
+    "_from_id": "pet_000188",
+    "_to_id": "pet_000331",
+    "_evo_key": "evo_000074"
+  },
+  {
+    "pet_from": "钨丝贝贝",
+    "pet_to": "辉光幕机",
+    "condition": "等级28且突破1次",
+    "_from_id": "pet_000508",
+    "_to_id": "pet_000509",
+    "_evo_key": "evo_000219"
+  },
+  {
+    "pet_from": "辉光幕机",
+    "pet_to": "机幕方舟",
+    "condition": "等级40且突破2次",
+    "_from_id": "pet_000509",
+    "_to_id": "pet_000510",
+    "_evo_key": "evo_000219"
+  },
+  {
+    "pet_from": "碎晶蝎",
+    "pet_to": "晶尾蝎",
+    "condition": "等级20",
+    "_from_id": "pet_000323",
+    "_to_id": "pet_000324",
+    "_evo_key": "evo_000122"
+  },
+  {
+    "pet_from": "晶尾蝎",
+    "pet_to": "蝎子王",
+    "condition": "等级40",
+    "_from_id": "pet_000324",
+    "_to_id": "pet_000325",
+    "_evo_key": "evo_000122"
+  },
+  {
+    "pet_from": "布是石",
+    "pet_to": "布是岩",
+    "condition": "等级16",
+    "_from_id": "pet_000092",
+    "_to_id": "pet_000093",
+    "_evo_key": "evo_000040"
+  },
+  {
+    "pet_from": "布是岩",
+    "pet_to": "布克棱岩",
+    "condition": "等级32",
+    "_from_id": "pet_000093",
+    "_to_id": "pet_000094",
+    "_evo_key": "evo_000040"
+  },
+  {
+    "pet_from": "小箱怪",
+    "pet_to": "迷迷箱怪",
+    "condition": "等级36",
+    "_from_id": "pet_000483",
+    "_to_id": "pet_000484",
+    "_evo_key": "evo_000165"
+  },
+  {
+    "pet_from": "爆焰仔",
+    "pet_to": "爆焰喷喷",
+    "condition": "等级40且生涯使用[流星火雨]15次",
+    "_from_id": "pet_000447",
+    "_to_id": "pet_000448",
+    "_evo_key": "evo_000226"
+  },
+  {
+    "pet_from": "小草虫",
+    "pet_to": "草衣虫",
+    "condition": "等级20",
+    "_from_id": "pet_000125",
+    "_to_id": "pet_000126",
+    "_evo_key": "evo_000051"
+  },
+  {
+    "pet_from": "草衣虫",
+    "pet_to": "花衣蝶",
+    "condition": "等级36",
+    "_from_id": "pet_000126",
+    "_to_id": "pet_000127",
+    "_evo_key": "evo_000051"
+  },
+  {
+    "pet_from": "小丑豆豆",
+    "pet_to": "小丑兔",
+    "condition": "等级16且累计跟随1分钟",
+    "_from_id": "pet_000387",
+    "_to_id": "pet_000388",
+    "_evo_key": "evo_000225"
+  },
+  {
+    "pet_from": "小丑兔",
+    "pet_to": "小丑公爵",
+    "condition": "等级36",
+    "_from_id": "pet_000388",
+    "_to_id": "pet_000389",
+    "_evo_key": "evo_000225"
+  },
+  {
+    "pet_from": "凡雀",
+    "pet_to": "紫翎鹰",
+    "condition": "等级28且突破1次",
+    "_from_id": "pet_000314",
+    "_to_id": "pet_000315",
+    "_evo_key": "evo_000119"
+  },
+  {
+    "pet_from": "紫翎鹰",
+    "pet_to": "凡鹰",
+    "condition": "等级40且突破2次",
+    "_from_id": "pet_000315",
+    "_to_id": "pet_000316",
+    "_evo_key": "evo_000119"
+  },
+  {
+    "pet_from": "胆小鳗鱼",
+    "pet_to": "闪电鳗鱼",
+    "condition": "等级36",
+    "_from_id": "pet_000222",
+    "_to_id": "pet_000223",
+    "_evo_key": "evo_000089"
+  },
+  {
+    "pet_from": "书魔虫",
+    "pet_to": "书卷守护",
+    "condition": "等级16",
+    "_from_id": "pet_000475",
+    "_to_id": "pet_000476",
+    "_evo_key": "evo_000203"
+  },
+  {
+    "pet_from": "书卷守护",
+    "pet_to": "古卷执政官",
+    "condition": "等级36且击败3只武系精灵",
+    "_from_id": "pet_000476",
+    "_to_id": "pet_000477",
+    "_evo_key": "evo_000203"
+  },
+  {
+    "pet_from": "布鲁斯",
+    "pet_to": "雪顶布鲁斯",
+    "condition": "等级26",
+    "_from_id": "pet_000215",
+    "_to_id": "pet_000216",
+    "_evo_key": "evo_000086"
+  },
+  {
+    "pet_from": "雪顶布鲁斯",
+    "pet_to": "冰钻布鲁斯",
+    "condition": "等级42",
+    "_from_id": "pet_000216",
+    "_to_id": "pet_000217",
+    "_evo_key": "evo_000086"
+  },
+  {
+    "pet_from": "丢丢",
+    "pet_to": "卡卡虫",
+    "condition": "等级16",
+    "_from_id": "pet_000239",
+    "_to_id": "pet_000242",
+    "_evo_key": "evo_000096"
+  },
+  {
+    "pet_from": "卡卡虫",
+    "pet_to": "卡瓦重",
+    "condition": "等级36",
+    "_from_id": "pet_000242",
+    "_to_id": "pet_000245",
+    "_evo_key": "evo_000096"
+  },
+  {
+    "pet_from": "十字蝌蚪",
+    "pet_to": "十字蛙",
+    "condition": "等级24且小雨/大雨天气下",
+    "_from_id": "pet_000456",
+    "_to_id": "pet_000457",
+    "_evo_key": "evo_000222"
+  },
+  {
+    "pet_from": "十字蛙",
+    "pet_to": "深渊蛙",
+    "condition": "等级42",
+    "_from_id": "pet_000457",
+    "_to_id": "pet_000458",
+    "_evo_key": "evo_000222"
+  },
+  {
+    "pet_from": "呆小路",
+    "pet_to": "舞动路路",
+    "condition": "等级26",
+    "_from_id": "pet_000084",
+    "_to_id": "pet_000085",
+    "_evo_key": "evo_000038"
+  },
+  {
+    "pet_from": "舞动路路",
+    "pet_to": "白发路路",
+    "condition": "等级40",
+    "_from_id": "pet_000085",
+    "_to_id": "pet_000086",
+    "_evo_key": "evo_000038"
+  },
+  {
+    "pet_from": "波波螺",
+    "pet_to": "消波螺",
+    "condition": "等级16",
+    "_from_id": "pet_000406",
+    "_to_id": "pet_000407",
+    "_evo_key": "evo_000221"
+  },
+  {
+    "pet_from": "消波螺",
+    "pet_to": "嗜波螺",
+    "condition": "等级32",
+    "_from_id": "pet_000407",
+    "_to_id": "pet_000408",
+    "_evo_key": "evo_000221"
+  },
+  {
+    "pet_from": "炫光迪迪",
+    "pet_to": "霹雳迪迪",
+    "condition": "等级32",
+    "_from_id": "pet_000511",
+    "_to_id": "pet_000512",
+    "_evo_key": "evo_000220"
+  },
+  {
+    "pet_from": "加油海葵",
+    "pet_to": "加油蟹",
+    "condition": "等级28",
+    "_from_id": "pet_000486",
+    "_to_id": "pet_000514",
+    "_evo_key": "evo_000237"
+  },
+  {
+    "pet_from": "足尖元件",
+    "pet_to": "离心舞者",
+    "condition": "等级36且生涯击败[足尖元件]6只",
+    "_from_id": "pet_000504",
+    "_to_id": "pet_000505",
+    "_evo_key": "evo_000217"
+  },
+  {
+    "pet_from": "火尾瓦特",
+    "pet_to": "火尾战士",
+    "condition": "等级20",
+    "_from_id": "pet_000081",
+    "_to_id": "pet_000082",
+    "_evo_key": "evo_000037"
+  },
+  {
+    "pet_from": "火尾战士",
+    "pet_to": "烈火守护",
+    "condition": "等级40",
+    "_from_id": "pet_000082",
+    "_to_id": "pet_000083",
+    "_evo_key": "evo_000037"
+  },
+  {
+    "pet_from": "多多",
+    "pet_to": "多啦多",
+    "condition": "等级16",
+    "_from_id": "pet_000137",
+    "_to_id": "pet_000138",
+    "_evo_key": "evo_000055"
+  },
+  {
+    "pet_from": "多啦多",
+    "pet_to": "古啦多",
+    "condition": "等级36",
+    "_from_id": "pet_000138",
+    "_to_id": "pet_000139",
+    "_evo_key": "evo_000055"
+  },
+  {
+    "pet_from": "咬咬小子",
+    "pet_to": "胡桃王子",
+    "condition": "等级36且生涯击败[咬咬小子]6只",
+    "_from_id": "pet_000502",
+    "_to_id": "pet_000503",
+    "_evo_key": "evo_000216"
+  },
+  {
+    "pet_from": "闪电环",
+    "pet_to": "刺电环",
+    "condition": "等级28",
+    "_from_id": "pet_000172",
+    "_to_id": "pet_000173",
+    "_evo_key": "evo_000068"
+  },
+  {
+    "pet_from": "刺电环",
+    "pet_to": "荆棘电环",
+    "condition": "等级40",
+    "_from_id": "pet_000173",
+    "_to_id": "pet_000174",
+    "_evo_key": "evo_000068"
+  },
+  {
+    "pet_from": "加油海葵",
+    "pet_to": "加油蟹",
+    "condition": "等级28且在他人世界中",
+    "_from_id": "pet_000486",
+    "_to_id": "pet_000487",
+    "_evo_key": "evo_000208"
+  },
+  {
+    "pet_from": "叮叮卯",
+    "pet_to": "飞飞钥",
+    "condition": "等级32",
+    "_from_id": "pet_000523",
+    "_to_id": "pet_000524",
+    "_evo_key": "evo_000234"
+  },
+  {
+    "pet_from": "矿晶虫",
+    "pet_to": "晶石蜗",
+    "condition": "等级40且任选蓝晶碧玺累计交互3次",
+    "_from_id": "pet_000256",
+    "_to_id": "pet_000257",
+    "_evo_key": "evo_000101"
+  },
+  {
+    "pet_from": "雪绒鸟",
+    "pet_to": "冬羽雀",
+    "condition": "等级5",
+    "_from_id": "pet_000230",
+    "_to_id": "pet_000233",
+    "_evo_key": "evo_000093"
+  },
+  {
+    "pet_from": "冬羽雀",
+    "pet_to": "岚鸟",
+    "condition": "等级30",
+    "_from_id": "pet_000233",
+    "_to_id": "pet_000236",
+    "_evo_key": "evo_000093"
+  },
+  {
+    "pet_from": "莫比乌乌",
+    "pet_to": "克莱因龙",
+    "condition": "等级36",
+    "_from_id": "pet_000518",
+    "_to_id": "pet_000519",
+    "_evo_key": "evo_000232"
+  },
+  {
+    "pet_from": "稻草人",
+    "pet_to": "稻草守护者",
+    "condition": "等级40且累计击败3只翼系精灵",
+    "_from_id": "pet_000494",
+    "_to_id": "pet_000495",
+    "_evo_key": "evo_000212"
+  },
+  {
+    "pet_from": "烟花团",
+    "pet_to": "烟花伯爵",
+    "condition": "等级36且跟随1分钟",
+    "_from_id": "pet_000490",
+    "_to_id": "pet_000491",
+    "_evo_key": "evo_000210"
+  },
+  {
+    "pet_from": "小狮鹫",
+    "pet_to": "神圣狮鹫",
+    "condition": "等级32",
+    "_from_id": "pet_000368",
+    "_to_id": "pet_000369",
+    "_evo_key": "evo_000141"
+  },
+  {
+    "pet_from": "神圣狮鹫",
+    "pet_to": "皇家狮鹫",
+    "condition": "等级46",
+    "_from_id": "pet_000369",
+    "_to_id": "pet_000370",
+    "_evo_key": "evo_000141"
+  },
+  {
+    "pet_from": "脆筒甜甜",
+    "pet_to": "香草甜甜",
+    "condition": "等级28",
+    "_from_id": "pet_000113",
+    "_to_id": "pet_000380",
+    "_evo_key": "evo_000175"
+  },
+  {
+    "pet_from": "香草甜甜",
+    "pet_to": "圣代甜甜",
+    "condition": "等级40",
+    "_from_id": "pet_000380",
+    "_to_id": "pet_000363",
+    "_evo_key": "evo_000175"
+  },
+  {
+    "pet_from": "守夜烛",
+    "pet_to": "流明坎德拉",
+    "condition": "等级36且时间段18点~次日6点",
+    "_from_id": "pet_000488",
+    "_to_id": "pet_000489",
+    "_evo_key": "evo_000209"
+  },
+  {
+    "pet_from": "小鼓象",
+    "pet_to": "巨鼓象",
+    "condition": "等级36且累计跟随1分钟",
+    "_from_id": "pet_000500",
+    "_to_id": "pet_000501",
+    "_evo_key": "evo_000215"
+  },
+  {
+    "pet_from": "小独角兽",
+    "pet_to": "白金独角兽",
+    "condition": "等级40",
+    "_from_id": "pet_000054",
+    "_to_id": "pet_000055",
+    "_evo_key": "evo_000026"
+  },
+  {
+    "pet_from": "画精灵",
+    "pet_to": "画像守护",
+    "condition": "等级16",
+    "_from_id": "pet_000471",
+    "_to_id": "pet_000472",
+    "_evo_key": "evo_000201"
+  },
+  {
+    "pet_from": "画像守护",
+    "pet_to": "画间法师手",
+    "condition": "等级36且累计击败3只武系精灵",
+    "_from_id": "pet_000472",
+    "_to_id": "pet_000473",
+    "_evo_key": "evo_000201"
+  },
+  {
+    "pet_from": "绒绒",
+    "pet_to": "小绒茧",
+    "condition": "等级27且星光值≥1200",
+    "_from_id": "pet_000207",
+    "_to_id": "pet_000208",
+    "_evo_key": "evo_000083"
+  },
+  {
+    "pet_from": "小绒茧",
+    "pet_to": "绒仙子",
+    "condition": "等级47",
+    "_from_id": "pet_000208",
+    "_to_id": "pet_000209",
+    "_evo_key": "evo_000083"
+  },
+  {
+    "pet_from": "粉星仔",
+    "pet_to": "落陨星兔",
+    "condition": "等级32且[幽]血脉",
+    "_from_id": "pet_000264",
+    "_to_id": "pet_000385",
+    "_evo_key": "evo_000206"
+  },
+  {
+    "pet_from": "雪绒鸟",
+    "pet_to": "冬羽雀",
+    "condition": "等级5",
+    "_from_id": "pet_000420",
+    "_to_id": "pet_000025",
+    "_evo_key": "evo_000015"
+  },
+  {
+    "pet_from": "冬羽雀",
+    "pet_to": "岚鸟",
+    "condition": "等级30",
+    "_from_id": "pet_000025",
+    "_to_id": "pet_000034",
+    "_evo_key": "evo_000015"
+  },
+  {
+    "pet_from": "石石",
+    "pet_to": "巨灵石",
+    "condition": "等级40",
+    "_from_id": "pet_000149",
+    "_to_id": "pet_000150",
+    "_evo_key": "evo_000059"
+  },
+  {
+    "pet_from": "脆筒甜甜",
+    "pet_to": "香草甜甜",
+    "condition": "等级28",
+    "_from_id": "pet_000113",
+    "_to_id": "pet_000379",
+    "_evo_key": "evo_000176"
+  },
+  {
+    "pet_from": "香草甜甜",
+    "pet_to": "圣代甜甜",
+    "condition": "等级40",
+    "_from_id": "pet_000379",
+    "_to_id": "pet_000364",
+    "_evo_key": "evo_000176"
+  },
+  {
+    "pet_from": "书魔虫",
+    "pet_to": "书卷守护",
+    "condition": "等级16",
+    "_from_id": "pet_000475",
+    "_to_id": "pet_000476",
+    "_evo_key": "evo_000204"
+  },
+  {
+    "pet_from": "书卷守护",
+    "pet_to": "古卷匣魔像",
+    "condition": "等级36且累计击败3只幻系精灵",
+    "_from_id": "pet_000476",
+    "_to_id": "pet_000478",
+    "_evo_key": "evo_000204"
+  },
+  {
+    "pet_from": "画精灵",
+    "pet_to": "画像守护",
+    "condition": "等级16",
+    "_from_id": "pet_000471",
+    "_to_id": "pet_000472",
+    "_evo_key": "evo_000202"
+  },
+  {
+    "pet_from": "画像守护",
+    "pet_to": "画间沉铁兽",
+    "condition": "等级36且击败3只幻系精灵",
+    "_from_id": "pet_000472",
+    "_to_id": "pet_000474",
+    "_evo_key": "evo_000202"
+  },
+  {
+    "pet_from": "一窝蜂",
+    "pet_to": "黄蜂后",
+    "condition": "等级21且雌性",
+    "_from_id": "pet_000050",
+    "_to_id": "pet_000051",
+    "_evo_key": "evo_000024"
+  },
+  {
+    "pet_from": "黄蜂后",
+    "pet_to": "花魁蜂后",
+    "condition": "等级38且雌性",
+    "_from_id": "pet_000051",
+    "_to_id": "pet_000143",
+    "_evo_key": "evo_000024"
+  },
+  {
+    "pet_from": "嗜光嗡嗡",
+    "pet_to": "窃光蚊",
+    "condition": "等级28且击败3只光系精灵",
+    "_from_id": "pet_000479",
+    "_to_id": "pet_000480",
+    "_evo_key": "evo_000163"
+  },
+  {
+    "pet_from": "春团",
+    "pet_to": "春兔",
+    "condition": "等级21",
+    "_from_id": "pet_000144",
+    "_to_id": "pet_000145",
+    "_evo_key": "evo_000057"
+  },
+  {
+    "pet_from": "春兔",
+    "pet_to": "春花兔",
+    "condition": "等级38",
+    "_from_id": "pet_000145",
+    "_to_id": "pet_000299",
+    "_evo_key": "evo_000057"
+  },
+  {
+    "pet_from": "刺轮砣",
+    "pet_to": "月亮砣",
+    "condition": "等级36且时间段0点~12点",
+    "_from_id": "pet_000454",
+    "_to_id": "pet_000455",
+    "_evo_key": "evo_000200"
+  },
+  {
+    "pet_from": "喵喵",
+    "pet_to": "喵呜",
+    "condition": "等级16",
+    "_from_id": "pet_000001",
+    "_to_id": "pet_000022",
+    "_evo_key": "evo_000004"
+  },
+  {
+    "pet_from": "喵呜",
+    "pet_to": "魔力猫",
+    "condition": "等级32",
+    "_from_id": "pet_000022",
+    "_to_id": "pet_000007",
+    "_evo_key": "evo_000004"
+  },
+  {
+    "pet_from": "多西",
+    "pet_to": "库多西",
+    "condition": "等级32",
+    "_from_id": "pet_000183",
+    "_to_id": "pet_000184",
+    "_evo_key": "evo_000072"
+  },
+  {
+    "pet_from": "库多西",
+    "pet_to": "波多西",
+    "condition": "等级48",
+    "_from_id": "pet_000184",
+    "_to_id": "pet_000185",
+    "_evo_key": "evo_000072"
+  },
+  {
+    "pet_from": "乖乖鹄",
+    "pet_to": "蓝珠天鹅",
+    "condition": "等级20",
+    "_from_id": "pet_000278",
+    "_to_id": "pet_000279",
+    "_evo_key": "evo_000198"
+  },
+  {
+    "pet_from": "蓝珠天鹅",
+    "pet_to": "黑羽夫人",
+    "condition": "等级40且[恶]血脉",
+    "_from_id": "pet_000279",
+    "_to_id": "pet_000446",
+    "_evo_key": "evo_000198"
+  },
+  {
+    "pet_from": "刺轮砣",
+    "pet_to": "月亮砣",
+    "condition": "等级36且12点至次日0点期间",
+    "_from_id": "pet_000452",
+    "_to_id": "pet_000453",
+    "_evo_key": "evo_000199"
+  },
+  {
+    "pet_from": "棋棋",
+    "pet_to": "棋祈督",
+    "condition": "等级26且生涯击败[棋祈督]3只 + 雄性",
+    "_from_id": "pet_000437",
+    "_to_id": "pet_000441",
+    "_evo_key": "evo_000197"
+  },
+  {
+    "pet_from": "海盔虫",
+    "pet_to": "刺盔虫",
+    "condition": "等级26",
+    "_from_id": "pet_000376",
+    "_to_id": "pet_000377",
+    "_evo_key": "evo_000142"
+  },
+  {
+    "pet_from": "刺盔虫",
+    "pet_to": "千棘盔",
+    "condition": "等级42",
+    "_from_id": "pet_000377",
+    "_to_id": "pet_000378",
+    "_evo_key": "evo_000142"
+  },
+  {
+    "pet_from": "棋棋",
+    "pet_to": "棋绮后",
+    "condition": "等级26且生涯累计击败[棋绮后]3只 + 雌性",
+    "_from_id": "pet_000437",
+    "_to_id": "pet_000439",
+    "_evo_key": "evo_000195"
+  },
+  {
+    "pet_from": "护主犬",
+    "pet_to": "音速犬",
+    "condition": "等级26",
+    "_from_id": "pet_000061",
+    "_to_id": "pet_000062",
+    "_evo_key": "evo_000030"
+  },
+  {
+    "pet_from": "棋棋",
+    "pet_to": "棋齐垒",
+    "condition": "等级26且生涯击败[棋齐垒]3只 + 雄性",
+    "_from_id": "pet_000432",
+    "_to_id": "pet_000435",
+    "_evo_key": "evo_000192"
+  },
+  {
+    "pet_from": "小鹬",
+    "pet_to": "鄙目鹬",
+    "condition": "等级16",
+    "_from_id": "pet_000210",
+    "_to_id": "pet_000211",
+    "_evo_key": "evo_000084"
+  },
+  {
+    "pet_from": "鄙目鹬",
+    "pet_to": "高脚鹬",
+    "condition": "等级32",
+    "_from_id": "pet_000211",
+    "_to_id": "pet_000212",
+    "_evo_key": "evo_000084"
+  },
+  {
+    "pet_from": "矿晶虫",
+    "pet_to": "晶石蜗",
+    "condition": "等级40且与任意紫莲刚玉累计交互3次",
+    "_from_id": "pet_000256",
+    "_to_id": "pet_000349",
+    "_evo_key": "evo_000167"
+  },
+  {
+    "pet_from": "棋棋",
+    "pet_to": "棋骑士",
+    "condition": "等级26且生涯累计击败[棋骑士]3只 + 雄性",
+    "_from_id": "pet_000432",
+    "_to_id": "pet_000433",
+    "_evo_key": "evo_000190"
+  },
+  {
+    "pet_from": "丢丢",
+    "pet_to": "卡卡虫",
+    "condition": "等级16",
+    "_from_id": "pet_000240",
+    "_to_id": "pet_000243",
+    "_evo_key": "evo_000097"
+  },
+  {
+    "pet_from": "卡卡虫",
+    "pet_to": "卡瓦重",
+    "condition": "等级36",
+    "_from_id": "pet_000243",
+    "_to_id": "pet_000246",
+    "_evo_key": "evo_000097"
+  },
+  {
+    "pet_from": "乌达",
+    "pet_to": "迷你乌",
+    "condition": "等级30且时间段18点~次日6点",
+    "_from_id": "pet_000426",
+    "_to_id": "pet_000427",
+    "_evo_key": "evo_000189"
+  },
+  {
+    "pet_from": "迷你乌",
+    "pet_to": "乌拉塔",
+    "condition": "等级50且18点至次日6点期间",
+    "_from_id": "pet_000427",
+    "_to_id": "pet_000428",
+    "_evo_key": "evo_000189"
+  },
+  {
+    "pet_from": "雪绒鸟",
+    "pet_to": "冬羽雀",
+    "condition": "等级5",
+    "_from_id": "pet_000229",
+    "_to_id": "pet_000232",
+    "_evo_key": "evo_000092"
+  },
+  {
+    "pet_from": "冬羽雀",
+    "pet_to": "岚鸟",
+    "condition": "等级30",
+    "_from_id": "pet_000232",
+    "_to_id": "pet_000235",
+    "_evo_key": "evo_000092"
+  },
+  {
+    "pet_from": "乌达",
+    "pet_to": "迷你乌",
+    "condition": "等级30且6点至18点期间",
+    "_from_id": "pet_000423",
+    "_to_id": "pet_000424",
+    "_evo_key": "evo_000188"
+  },
+  {
+    "pet_from": "迷你乌",
+    "pet_to": "乌拉塔",
+    "condition": "等级50且6点至18点期间",
+    "_from_id": "pet_000424",
+    "_to_id": "pet_000425",
+    "_evo_key": "evo_000188"
+  },
+  {
+    "pet_from": "阿米亚特",
+    "pet_to": "阿米樱",
+    "condition": "等级30",
+    "_from_id": "pet_000013",
+    "_to_id": "pet_000014",
+    "_evo_key": "evo_000010"
+  },
+  {
+    "pet_from": "阿米樱",
+    "pet_to": "罗隐",
+    "condition": "等级50",
+    "_from_id": "pet_000014",
+    "_to_id": "pet_000015",
+    "_evo_key": "evo_000010"
+  },
+  {
+    "pet_from": "果冻",
+    "pet_to": "熔岩布丁",
+    "condition": "等级30且[火]血脉",
+    "_from_id": "pet_000107",
+    "_to_id": "pet_000415",
+    "_evo_key": "evo_000187"
+  },
+  {
+    "pet_from": "大耳帽兜",
+    "pet_to": "帽兜娃娃",
+    "condition": "等级32",
+    "_from_id": "pet_000110",
+    "_to_id": "pet_000111",
+    "_evo_key": "evo_000046"
+  },
+  {
+    "pet_from": "帽兜娃娃",
+    "pet_to": "雪影娃娃",
+    "condition": "等级48",
+    "_from_id": "pet_000111",
+    "_to_id": "pet_000112",
+    "_evo_key": "evo_000046"
+  },
+  {
+    "pet_from": "果冻",
+    "pet_to": "椰浆布丁",
+    "condition": "等级30且血脉[冰]",
+    "_from_id": "pet_000107",
+    "_to_id": "pet_000414",
+    "_evo_key": "evo_000186"
+  },
+  {
+    "pet_from": "水蓝蓝",
+    "pet_to": "波波拉",
+    "condition": "等级16",
+    "_from_id": "pet_000002",
+    "_to_id": "pet_000030",
+    "_evo_key": "evo_000001"
+  },
+  {
+    "pet_from": "波波拉",
+    "pet_to": "水灵",
+    "condition": "等级36",
+    "_from_id": "pet_000030",
+    "_to_id": "pet_000005",
+    "_evo_key": "evo_000001"
+  },
+  {
+    "pet_from": "地鼠",
+    "pet_to": "遁鼠",
+    "condition": "等级16",
+    "_from_id": "pet_000019",
+    "_to_id": "pet_000020",
+    "_evo_key": "evo_000012"
+  },
+  {
+    "pet_from": "遁鼠",
+    "pet_to": "遁地鼠",
+    "condition": "等级36",
+    "_from_id": "pet_000020",
+    "_to_id": "pet_000021",
+    "_evo_key": "evo_000012"
+  },
+  {
+    "pet_from": "小电企鹅",
+    "pet_to": "电企鹅",
+    "condition": "等级32",
+    "_from_id": "pet_000338",
+    "_to_id": "pet_000339",
+    "_evo_key": "evo_000130"
+  },
+  {
+    "pet_from": "板板壳",
+    "pet_to": "咔咔壳",
+    "condition": "等级16",
+    "_from_id": "pet_000409",
+    "_to_id": "pet_000410",
+    "_evo_key": "evo_000145"
+  },
+  {
+    "pet_from": "咔咔壳",
+    "pet_to": "水泡壳",
+    "condition": "等级36",
+    "_from_id": "pet_000410",
+    "_to_id": "pet_000411",
+    "_evo_key": "evo_000145"
+  },
+  {
+    "pet_from": "脆筒甜甜",
+    "pet_to": "香草甜甜",
+    "condition": "等级28",
+    "_from_id": "pet_000113",
+    "_to_id": "pet_000114",
+    "_evo_key": "evo_000047"
+  },
+  {
+    "pet_from": "香草甜甜",
+    "pet_to": "圣代甜甜",
+    "condition": "等级40",
+    "_from_id": "pet_000114",
+    "_to_id": "pet_000115",
+    "_evo_key": "evo_000047"
+  },
+  {
+    "pet_from": "矿晶虫",
+    "pet_to": "晶石蜗",
+    "condition": "等级40且任选蓝晶碧玺/紫莲刚玉/黄石榴石/黑晶琉璃中的一种累计交互9次",
+    "_from_id": "pet_000256",
+    "_to_id": "pet_000386",
+    "_evo_key": "evo_000183"
+  },
+  {
+    "pet_from": "脆筒甜甜",
+    "pet_to": "香草甜甜",
+    "condition": "等级28",
+    "_from_id": "pet_000113",
+    "_to_id": "pet_000114",
+    "_evo_key": "evo_000172"
+  },
+  {
+    "pet_from": "香草甜甜",
+    "pet_to": "圣代甜甜",
+    "condition": "等级40",
+    "_from_id": "pet_000114",
+    "_to_id": "pet_000360",
+    "_evo_key": "evo_000172"
+  },
+  {
+    "pet_from": "毛毛",
+    "pet_to": "爬爬",
+    "condition": "等级20",
+    "_from_id": "pet_000122",
+    "_to_id": "pet_000123",
+    "_evo_key": "evo_000180"
+  },
+  {
+    "pet_from": "爬爬",
+    "pet_to": "化蝶",
+    "condition": "等级35",
+    "_from_id": "pet_000123",
+    "_to_id": "pet_000372",
+    "_evo_key": "evo_000180"
+  },
+  {
+    "pet_from": "锥尾羊",
+    "pet_to": "铃兰羊",
+    "condition": "等级20",
+    "_from_id": "pet_000042",
+    "_to_id": "pet_000043",
+    "_evo_key": "evo_000020"
+  },
+  {
+    "pet_from": "铃兰羊",
+    "pet_to": "花影羚羊",
+    "condition": "等级32",
+    "_from_id": "pet_000043",
+    "_to_id": "pet_000044",
+    "_evo_key": "evo_000020"
+  },
+  {
+    "pet_from": "觅觅蝠",
+    "pet_to": "翻翻蝠",
+    "condition": "等级16且时间段18点~次日6点",
+    "_from_id": "pet_000266",
+    "_to_id": "pet_000267",
+    "_evo_key": "evo_000105"
+  },
+  {
+    "pet_from": "翻翻蝠",
+    "pet_to": "夜游魔",
+    "condition": "等级32且时间段18点~次日6点",
+    "_from_id": "pet_000267",
+    "_to_id": "pet_000268",
+    "_evo_key": "evo_000105"
+  },
+  {
+    "pet_from": "脆筒甜甜",
+    "pet_to": "香草甜甜",
+    "condition": "等级28",
+    "_from_id": "pet_000113",
+    "_to_id": "pet_000380",
+    "_evo_key": "evo_000173"
+  },
+  {
+    "pet_from": "香草甜甜",
+    "pet_to": "圣代甜甜",
+    "condition": "等级40",
+    "_from_id": "pet_000380",
+    "_to_id": "pet_000361",
+    "_evo_key": "evo_000173"
+  },
+  {
+    "pet_from": "脆筒甜甜",
+    "pet_to": "香草甜甜",
+    "condition": "等级28",
+    "_from_id": "pet_000113",
+    "_to_id": "pet_000379",
+    "_evo_key": "evo_000178"
+  },
+  {
+    "pet_from": "香草甜甜",
+    "pet_to": "圣代甜甜",
+    "condition": "等级40",
+    "_from_id": "pet_000379",
+    "_to_id": "pet_000366",
+    "_evo_key": "evo_000178"
+  },
+  {
+    "pet_from": "绿草精灵",
+    "pet_to": "魔草巫灵",
+    "condition": "等级32",
+    "_from_id": "pet_000023",
+    "_to_id": "pet_000032",
+    "_evo_key": "evo_000013"
+  },
+  {
+    "pet_from": "布瓜蝌",
+    "pet_to": "上岸蛙",
+    "condition": "等级33",
+    "_from_id": "pet_000374",
+    "_to_id": "pet_000375",
+    "_evo_key": "evo_000139"
+  },
+  {
+    "pet_from": "脆筒甜甜",
+    "pet_to": "香草甜甜",
+    "condition": "等级28",
+    "_from_id": "pet_000113",
+    "_to_id": "pet_000379",
+    "_evo_key": "evo_000177"
+  },
+  {
+    "pet_from": "香草甜甜",
+    "pet_to": "圣代甜甜",
+    "condition": "等级40",
+    "_from_id": "pet_000379",
+    "_to_id": "pet_000365",
+    "_evo_key": "evo_000177"
+  },
+  {
+    "pet_from": "脆筒甜甜",
+    "pet_to": "香草甜甜",
+    "condition": "等级28",
+    "_from_id": "pet_000113",
+    "_to_id": "pet_000380",
+    "_evo_key": "evo_000174"
+  },
+  {
+    "pet_from": "香草甜甜",
+    "pet_to": "圣代甜甜",
+    "condition": "等级40",
+    "_from_id": "pet_000380",
+    "_to_id": "pet_000362",
+    "_evo_key": "evo_000174"
+  },
+  {
+    "pet_from": "牵线木偶",
+    "pet_to": "帅帅魔偶",
+    "condition": "等级40",
+    "_from_id": "pet_000200",
+    "_to_id": "pet_000201",
+    "_evo_key": "evo_000080"
+  },
+  {
+    "pet_from": "可立鸡",
+    "pet_to": "晕晕鸡",
+    "condition": "等级16",
+    "_from_id": "pet_000077",
+    "_to_id": "pet_000078",
+    "_evo_key": "evo_000036"
+  },
+  {
+    "pet_from": "晕晕鸡",
+    "pet_to": "绅士鸡",
+    "condition": "等级36",
+    "_from_id": "pet_000078",
+    "_to_id": "pet_000079",
+    "_evo_key": "evo_000036"
+  },
+  {
+    "pet_from": "毛毛",
+    "pet_to": "爬爬",
+    "condition": "等级20",
+    "_from_id": "pet_000122",
+    "_to_id": "pet_000123",
+    "_evo_key": "evo_000179"
+  },
+  {
+    "pet_from": "爬爬",
+    "pet_to": "化蝶",
+    "condition": "等级35",
+    "_from_id": "pet_000123",
+    "_to_id": "pet_000371",
+    "_evo_key": "evo_000179"
+  },
+  {
+    "pet_from": "地鼠",
+    "pet_to": "遁鼠",
+    "condition": "等级16",
+    "_from_id": "pet_000355",
+    "_to_id": "pet_000356",
+    "_evo_key": "evo_000140"
+  },
+  {
+    "pet_from": "遁鼠",
+    "pet_to": "遁地鼠",
+    "condition": "等级36",
+    "_from_id": "pet_000356",
+    "_to_id": "pet_000357",
+    "_evo_key": "evo_000140"
+  },
+  {
+    "pet_from": "棋棋",
+    "pet_to": "棋绮后",
+    "condition": "等级26且生涯击败[棋绮后]3只 + 雌性",
+    "_from_id": "pet_000432",
+    "_to_id": "pet_000434",
+    "_evo_key": "evo_000191"
+  },
+  {
+    "pet_from": "灵狐",
+    "pet_to": "九尾狐",
+    "condition": "等级30",
+    "_from_id": "pet_000066",
+    "_to_id": "pet_000067",
+    "_evo_key": "evo_000032"
+  },
+  {
+    "pet_from": "九尾狐",
+    "pet_to": "尖嘴狐仙",
+    "condition": "等级50",
+    "_from_id": "pet_000067",
+    "_to_id": "pet_000068",
+    "_evo_key": "evo_000032"
+  },
+  {
+    "pet_from": "小帕尔",
+    "pet_to": "帕尔萨斯",
+    "condition": "等级28且累计突破1次",
+    "_from_id": "pet_000159",
+    "_to_id": "pet_000160",
+    "_evo_key": "evo_000063"
+  },
+  {
+    "pet_from": "帕尔萨斯",
+    "pet_to": "龙息帕尔",
+    "condition": "等级40且累计突破2次",
+    "_from_id": "pet_000160",
+    "_to_id": "pet_000161",
+    "_evo_key": "evo_000063"
+  },
+  {
+    "pet_from": "可立鸡",
+    "pet_to": "晕晕鸡",
+    "condition": "等级16",
+    "_from_id": "pet_000077",
+    "_to_id": "pet_000078",
+    "_evo_key": "evo_000166"
+  },
+  {
+    "pet_from": "晕晕鸡",
+    "pet_to": "武者鸡",
+    "condition": "等级36且击败3只恶系精灵",
+    "_from_id": "pet_000078",
+    "_to_id": "pet_000080",
+    "_evo_key": "evo_000166"
+  },
+  {
+    "pet_from": "绿耳松鼠",
+    "pet_to": "抱枕松鼠",
+    "condition": "等级32",
+    "_from_id": "pet_000087",
+    "_to_id": "pet_000088",
+    "_evo_key": "evo_000039"
+  },
+  {
+    "pet_from": "抱枕松鼠",
+    "pet_to": "蹦床松鼠",
+    "condition": "等级46",
+    "_from_id": "pet_000088",
+    "_to_id": "pet_000089",
+    "_evo_key": "evo_000039"
+  },
+  {
+    "pet_from": "墨鱿士",
+    "pet_to": "混乱鱿彩",
+    "condition": "等级32且累计击败3只萌系精灵",
+    "_from_id": "pet_000449",
+    "_to_id": "pet_000450",
+    "_evo_key": "evo_000227"
+  },
+  {
+    "pet_from": "不咕钟",
+    "pet_to": "溯源钟",
+    "condition": "等级36且时间段18点~次日6点",
+    "_from_id": "pet_000481",
+    "_to_id": "pet_000482",
+    "_evo_key": "evo_000164"
+  },
+  {
+    "pet_from": "毛头小蛛",
+    "pet_to": "捕尘长绒",
+    "condition": "等级30且身高50%~100%",
+    "_from_id": "pet_000468",
+    "_to_id": "pet_000469",
+    "_evo_key": "evo_000162"
+  },
+  {
+    "pet_from": "小勇狮",
+    "pet_to": "炽焰狮",
+    "condition": "等级16",
+    "_from_id": "pet_000465",
+    "_to_id": "pet_000466",
+    "_evo_key": "evo_000161"
+  },
+  {
+    "pet_from": "炽焰狮",
+    "pet_to": "炽心勇狮",
+    "condition": "等级36",
+    "_from_id": "pet_000466",
+    "_to_id": "pet_000467",
+    "_evo_key": "evo_000161"
+  },
+  {
+    "pet_from": "海盔虫",
+    "pet_to": "刺盔虫",
+    "condition": "等级26",
+    "_from_id": "pet_000269",
+    "_to_id": "pet_000270",
+    "_evo_key": "evo_000106"
+  },
+  {
+    "pet_from": "刺盔虫",
+    "pet_to": "千棘盔",
+    "condition": "等级42",
+    "_from_id": "pet_000270",
+    "_to_id": "pet_000271",
+    "_evo_key": "evo_000106"
+  },
+  {
+    "pet_from": "小星光",
+    "pet_to": "星光狮",
+    "condition": "等级36",
+    "_from_id": "pet_000170",
+    "_to_id": "pet_000171",
+    "_evo_key": "evo_000067"
+  },
+  {
+    "pet_from": "水滴蛇",
+    "pet_to": "水蛇锁",
+    "condition": "等级16",
+    "_from_id": "pet_000462",
+    "_to_id": "pet_000463",
+    "_evo_key": "evo_000160"
+  },
+  {
+    "pet_from": "水蛇锁",
+    "pet_to": "游蛇魔使",
+    "condition": "等级36",
+    "_from_id": "pet_000463",
+    "_to_id": "pet_000464",
+    "_evo_key": "evo_000160"
+  },
+  {
+    "pet_from": "松仔",
+    "pet_to": "松叶羊",
+    "condition": "等级16",
+    "_from_id": "pet_000459",
+    "_to_id": "pet_000460",
+    "_evo_key": "evo_000159"
+  },
+  {
+    "pet_from": "松叶羊",
+    "pet_to": "针叶巡林",
+    "condition": "等级36",
+    "_from_id": "pet_000460",
+    "_to_id": "pet_000461",
+    "_evo_key": "evo_000159"
+  },
+  {
+    "pet_from": "丢丢",
+    "pet_to": "卡卡虫",
+    "condition": "等级16",
+    "_from_id": "pet_000037",
+    "_to_id": "pet_000038",
+    "_evo_key": "evo_000018"
+  },
+  {
+    "pet_from": "卡卡虫",
+    "pet_to": "卡瓦重",
+    "condition": "等级36",
+    "_from_id": "pet_000038",
+    "_to_id": "pet_000039",
+    "_evo_key": "evo_000018"
+  },
+  {
+    "pet_from": "小黑猫",
+    "pet_to": "黑猫巫师",
+    "condition": "等级40",
+    "_from_id": "pet_000444",
+    "_to_id": "pet_000445",
+    "_evo_key": "evo_000158"
+  },
+  {
+    "pet_from": "圣剑侍从",
+    "pet_to": "圣剑-X",
+    "condition": "等级40",
+    "_from_id": "pet_000429",
+    "_to_id": "pet_000430",
+    "_evo_key": "evo_000156"
+  },
+  {
+    "pet_from": "斑斑",
+    "pet_to": "斑枭",
+    "condition": "等级30",
+    "_from_id": "pet_000421",
+    "_to_id": "pet_000422",
+    "_evo_key": "evo_000155"
+  },
+  {
+    "pet_from": "号儿鱼",
+    "pet_to": "圆号鱼",
+    "condition": "等级36",
+    "_from_id": "pet_000416",
+    "_to_id": "pet_000417",
+    "_evo_key": "evo_000154"
+  },
+  {
+    "pet_from": "毛头小蛛",
+    "pet_to": "食尘短绒",
+    "condition": "等级30且身高0%~50%",
+    "_from_id": "pet_000468",
+    "_to_id": "pet_000470",
+    "_evo_key": "evo_000207"
+  },
+  {
+    "pet_from": "雪绒鸟",
+    "pet_to": "冬羽雀",
+    "condition": "等级5",
+    "_from_id": "pet_000231",
+    "_to_id": "pet_000234",
+    "_evo_key": "evo_000094"
+  },
+  {
+    "pet_from": "冬羽雀",
+    "pet_to": "岚鸟",
+    "condition": "等级30",
+    "_from_id": "pet_000234",
+    "_to_id": "pet_000237",
+    "_evo_key": "evo_000094"
+  },
+  {
+    "pet_from": "电动长颈鹿",
+    "pet_to": "奔乐鹿",
+    "condition": "等级28",
+    "_from_id": "pet_000288",
+    "_to_id": "pet_000289",
+    "_evo_key": "evo_000111"
+  },
+  {
+    "pet_from": "奔乐鹿",
+    "pet_to": "爵士鹿",
+    "condition": "等级40",
+    "_from_id": "pet_000289",
+    "_to_id": "pet_000290",
+    "_evo_key": "evo_000111"
+  },
+  {
+    "pet_from": "螺旋帕帕",
+    "pet_to": "帕帕斯卡",
+    "condition": "等级36",
+    "_from_id": "pet_000384",
+    "_to_id": "pet_000431",
+    "_evo_key": "evo_000147"
+  },
+  {
+    "pet_from": "幽星光",
+    "pet_to": "曜星光",
+    "condition": "等级21",
+    "_from_id": "pet_000296",
+    "_to_id": "pet_000297",
+    "_evo_key": "evo_000146"
+  },
+  {
+    "pet_from": "曜星光",
+    "pet_to": "暮星辰",
+    "condition": "等级38",
+    "_from_id": "pet_000297",
+    "_to_id": "pet_000298",
+    "_evo_key": "evo_000146"
+  },
+  {
+    "pet_from": "旋叶虫",
+    "pet_to": "蓬叶虫",
+    "condition": "等级25",
+    "_from_id": "pet_000394",
+    "_to_id": "pet_000395",
+    "_evo_key": "evo_000184"
+  },
+  {
+    "pet_from": "蓬叶虫",
+    "pet_to": "风滚暮虫",
+    "condition": "等级45",
+    "_from_id": "pet_000395",
+    "_to_id": "pet_000396",
+    "_evo_key": "evo_000184"
+  },
+  {
+    "pet_from": "矿晶虫",
+    "pet_to": "晶石蜗",
+    "condition": "等级40且与任意黑晶琉璃累计交互3次",
+    "_from_id": "pet_000256",
+    "_to_id": "pet_000351",
+    "_evo_key": "evo_000169"
+  },
+  {
+    "pet_from": "翡翠水母",
+    "pet_to": "琉璃水母",
+    "condition": "等级26",
+    "_from_id": "pet_000108",
+    "_to_id": "pet_000109",
+    "_evo_key": "evo_000136"
+  },
+  {
+    "pet_from": "小星光",
+    "pet_to": "星光狮",
+    "condition": "等级36",
+    "_from_id": "pet_000346",
+    "_to_id": "pet_000347",
+    "_evo_key": "evo_000134"
+  },
+  {
+    "pet_from": "梦游",
+    "pet_to": "梦悠悠",
+    "condition": "等级32",
+    "_from_id": "pet_000344",
+    "_to_id": "pet_000345",
+    "_evo_key": "evo_000133"
+  },
+  {
+    "pet_from": "伊贝儿",
+    "pet_to": "伊贝粉粉",
+    "condition": "等级28",
+    "_from_id": "pet_000040",
+    "_to_id": "pet_000041",
+    "_evo_key": "evo_000019"
+  },
+  {
+    "pet_from": "呼呼猪",
+    "pet_to": "獠牙猪",
+    "condition": "等级33",
+    "_from_id": "pet_000218",
+    "_to_id": "pet_000219",
+    "_evo_key": "evo_000087"
+  },
+  {
+    "pet_from": "柴渣虫",
+    "pet_to": "燃薪虫",
+    "condition": "等级40且生涯累计使用[引燃]3次",
+    "_from_id": "pet_000340",
+    "_to_id": "pet_000341",
+    "_evo_key": "evo_000131"
+  },
+  {
+    "pet_from": "石肤蜥",
+    "pet_to": "石刺蜥",
+    "condition": "等级32",
+    "_from_id": "pet_000398",
+    "_to_id": "pet_000399",
+    "_evo_key": "evo_000185"
+  },
+  {
+    "pet_from": "石刺蜥",
+    "pet_to": "石冠王蜥",
+    "condition": "等级48",
+    "_from_id": "pet_000399",
+    "_to_id": "pet_000400",
+    "_evo_key": "evo_000185"
+  },
+  {
+    "pet_from": "草头鸭",
+    "pet_to": "卷毛鸭",
+    "condition": "等级40",
+    "_from_id": "pet_000008",
+    "_to_id": "pet_000059",
+    "_evo_key": "evo_000005"
+  },
+  {
+    "pet_from": "粉星仔",
+    "pet_to": "粉耳星兔",
+    "condition": "等级32",
+    "_from_id": "pet_000264",
+    "_to_id": "pet_000265",
+    "_evo_key": "evo_000104"
+  },
+  {
+    "pet_from": "小怂猫",
+    "pet_to": "怒目怂猫",
+    "condition": "等级36",
+    "_from_id": "pet_000202",
+    "_to_id": "pet_000203",
+    "_evo_key": "evo_000081"
+  },
+  {
+    "pet_from": "厉毒小萝",
+    "pet_to": "厉毒修萝",
+    "condition": "等级40",
+    "_from_id": "pet_000332",
+    "_to_id": "pet_000333",
+    "_evo_key": "evo_000125"
+  },
+  {
+    "pet_from": "权杖-Ⅱ",
+    "pet_to": "权杖-V",
+    "condition": "等级40",
+    "_from_id": "pet_000329",
+    "_to_id": "pet_000330",
+    "_evo_key": "evo_000124"
+  },
+  {
+    "pet_from": "缇塔",
+    "pet_to": "声波缇塔",
+    "condition": "等级40",
+    "_from_id": "pet_000327",
+    "_to_id": "pet_000328",
+    "_evo_key": "evo_000123"
+  },
+  {
+    "pet_from": "里奥",
+    "pet_to": "灵羽勇士",
+    "condition": "等级28且突破1次",
+    "_from_id": "pet_000317",
+    "_to_id": "pet_000318",
+    "_evo_key": "evo_000120"
+  },
+  {
+    "pet_from": "灵羽勇士",
+    "pet_to": "圣羽翼王",
+    "condition": "等级40且累计突破2次",
+    "_from_id": "pet_000318",
+    "_to_id": "pet_000319",
+    "_evo_key": "evo_000120"
+  },
+  {
+    "pet_from": "小雪人",
+    "pet_to": "雪怪",
+    "condition": "等级40且生涯使用[滚雪球]15次",
+    "_from_id": "pet_000418",
+    "_to_id": "pet_000419",
+    "_evo_key": "evo_000224"
+  },
+  {
+    "pet_from": "电咩咩",
+    "pet_to": "粉咩咩",
+    "condition": "等级30",
+    "_from_id": "pet_000167",
+    "_to_id": "pet_000168",
+    "_evo_key": "evo_000066"
+  },
+  {
+    "pet_from": "粉咩咩",
+    "pet_to": "电球咩咩",
+    "condition": "等级42",
+    "_from_id": "pet_000168",
+    "_to_id": "pet_000169",
+    "_evo_key": "evo_000066"
+  },
+  {
+    "pet_from": "菇菇丁",
+    "pet_to": "多菇丁",
+    "condition": "等级36且天气小雨/大雨",
+    "_from_id": "pet_000305",
+    "_to_id": "pet_000306",
+    "_evo_key": "evo_000115"
+  },
+  {
+    "pet_from": "多菇丁",
+    "pet_to": "九幽菇",
+    "condition": "等级48且天气小雨/大雨",
+    "_from_id": "pet_000306",
+    "_to_id": "pet_000307",
+    "_evo_key": "evo_000115"
+  },
+  {
+    "pet_from": "芽眼魔",
+    "pet_to": "叶眼魔",
+    "condition": "等级30",
+    "_from_id": "pet_000281",
+    "_to_id": "pet_000282",
+    "_evo_key": "evo_000109"
+  },
+  {
+    "pet_from": "叶眼魔",
+    "pet_to": "障眼魔",
+    "condition": "等级50",
+    "_from_id": "pet_000282",
+    "_to_id": "pet_000283",
+    "_evo_key": "evo_000109"
+  },
+  {
+    "pet_from": "霹雳宝宝",
+    "pet_to": "雷鸣小子",
+    "condition": "等级22",
+    "_from_id": "pet_000285",
+    "_to_id": "pet_000286",
+    "_evo_key": "evo_000110"
+  },
+  {
+    "pet_from": "雷鸣小子",
+    "pet_to": "雷神之子",
+    "condition": "等级40",
+    "_from_id": "pet_000286",
+    "_to_id": "pet_000287",
+    "_evo_key": "evo_000110"
+  },
+  {
+    "pet_from": "逗逗",
+    "pet_to": "气球猫",
+    "condition": "等级20",
+    "_from_id": "pet_000300",
+    "_to_id": "pet_000301",
+    "_evo_key": "evo_000113"
+  },
+  {
+    "pet_from": "气球猫",
+    "pet_to": "梦想三三",
+    "condition": "等级32",
+    "_from_id": "pet_000301",
+    "_to_id": "pet_000302",
+    "_evo_key": "evo_000113"
+  },
+  {
+    "pet_from": "小鼠獭",
+    "pet_to": "燕尾獭",
+    "condition": "等级30",
+    "_from_id": "pet_000261",
+    "_to_id": "pet_000262",
+    "_evo_key": "evo_000103"
+  },
+  {
+    "pet_from": "燕尾獭",
+    "pet_to": "卷胡巨獭",
+    "condition": "等级48",
+    "_from_id": "pet_000262",
+    "_to_id": "pet_000263",
+    "_evo_key": "evo_000103"
+  },
+  {
+    "pet_from": "板板壳",
+    "pet_to": "咔咔壳",
+    "condition": "等级16",
+    "_from_id": "pet_000047",
+    "_to_id": "pet_000048",
+    "_evo_key": "evo_000023"
+  },
+  {
+    "pet_from": "咔咔壳",
+    "pet_to": "水泡壳",
+    "condition": "等级36",
+    "_from_id": "pet_000048",
+    "_to_id": "pet_000049",
+    "_evo_key": "evo_000023"
+  },
+  {
+    "pet_from": "小甲虫",
+    "pet_to": "铠甲虫",
+    "condition": "等级40",
+    "_from_id": "pet_000035",
+    "_to_id": "pet_000012",
+    "_evo_key": "evo_000009"
+  },
+  {
+    "pet_from": "小灵菇",
+    "pet_to": "幻灵菇",
+    "condition": "等级20",
+    "_from_id": "pet_000131",
+    "_to_id": "pet_000132",
+    "_evo_key": "evo_000053"
+  },
+  {
+    "pet_from": "幻灵菇",
+    "pet_to": "幻影灵菇",
+    "condition": "等级32",
+    "_from_id": "pet_000132",
+    "_to_id": "pet_000133",
+    "_evo_key": "evo_000053"
+  },
+  {
+    "pet_from": "犀角鸟",
+    "pet_to": "光纤兽",
+    "condition": "等级27且星光值≥1200",
+    "_from_id": "pet_000258",
+    "_to_id": "pet_000259",
+    "_evo_key": "evo_000102"
+  },
+  {
+    "pet_from": "光纤兽",
+    "pet_to": "疾光千兽",
+    "condition": "等级47",
+    "_from_id": "pet_000259",
+    "_to_id": "pet_000260",
+    "_evo_key": "evo_000102"
+  },
+  {
+    "pet_from": "蹦蹦种子",
+    "pet_to": "蹦蹦草",
+    "condition": "等级16",
+    "_from_id": "pet_000249",
+    "_to_id": "pet_000252",
+    "_evo_key": "evo_000100"
+  },
+  {
+    "pet_from": "蹦蹦草",
+    "pet_to": "蹦蹦花",
+    "condition": "等级32",
+    "_from_id": "pet_000252",
+    "_to_id": "pet_000255",
+    "_evo_key": "evo_000100"
+  },
+  {
+    "pet_from": "烈钻鸟",
+    "pet_to": "长尾火鸟",
+    "condition": "等级25",
+    "_from_id": "pet_000069",
+    "_to_id": "pet_000070",
+    "_evo_key": "evo_000033"
+  },
+  {
+    "pet_from": "长尾火鸟",
+    "pet_to": "火羽",
+    "condition": "等级35",
+    "_from_id": "pet_000070",
+    "_to_id": "pet_000071",
+    "_evo_key": "evo_000033"
+  },
+  {
+    "pet_from": "蹦蹦种子",
+    "pet_to": "蹦蹦草",
+    "condition": "等级16",
+    "_from_id": "pet_000247",
+    "_to_id": "pet_000250",
+    "_evo_key": "evo_000098"
+  },
+  {
+    "pet_from": "蹦蹦草",
+    "pet_to": "蹦蹦花",
+    "condition": "等级32",
+    "_from_id": "pet_000250",
+    "_to_id": "pet_000253",
+    "_evo_key": "evo_000098"
+  },
+  {
+    "pet_from": "大头骨龙",
+    "pet_to": "寂灭骨龙",
+    "condition": "等级40",
+    "_from_id": "pet_000224",
+    "_to_id": "pet_000225",
+    "_evo_key": "evo_000090"
+  },
+  {
+    "pet_from": "雪豆丁",
+    "pet_to": "雪蛮人",
+    "condition": "等级28",
+    "_from_id": "pet_000151",
+    "_to_id": "pet_000152",
+    "_evo_key": "evo_000060"
+  },
+  {
+    "pet_from": "雪蛮人",
+    "pet_to": "雪巨人",
+    "condition": "等级40",
+    "_from_id": "pet_000152",
+    "_to_id": "pet_000153",
+    "_evo_key": "evo_000060"
+  },
+  {
+    "pet_from": "忽幽狸",
+    "pet_to": "影狸",
+    "condition": "等级36",
+    "_from_id": "pet_000057",
+    "_to_id": "pet_000058",
+    "_evo_key": "evo_000028"
+  },
+  {
+    "pet_from": "奔波鼠",
+    "pet_to": "流浪鼠",
+    "condition": "等级32且收集10个道具",
+    "_from_id": "pet_000213",
+    "_to_id": "pet_000214",
+    "_evo_key": "evo_000085"
+  },
+  {
+    "pet_from": "哭哭菇",
+    "pet_to": "怖须菇",
+    "condition": "等级24",
+    "_from_id": "pet_000204",
+    "_to_id": "pet_000205",
+    "_evo_key": "evo_000082"
+  },
+  {
+    "pet_from": "怖须菇",
+    "pet_to": "怖哭菇",
+    "condition": "等级38",
+    "_from_id": "pet_000205",
+    "_to_id": "pet_000206",
+    "_evo_key": "evo_000082"
+  },
+  {
+    "pet_from": "加灵",
+    "pet_to": "加益",
+    "condition": "等级28且累计突破1次",
+    "_from_id": "pet_000196",
+    "_to_id": "pet_000197",
+    "_evo_key": "evo_000079"
+  },
+  {
+    "pet_from": "加益",
+    "pet_to": "加尔",
+    "condition": "等级40且累计突破2次 + [萌]血脉",
+    "_from_id": "pet_000197",
+    "_to_id": "pet_000198",
+    "_evo_key": "evo_000079"
+  },
+  {
+    "pet_from": "果冻",
+    "pet_to": "抹茶布丁",
+    "condition": "等级30且血脉[草]",
+    "_from_id": "pet_000107",
+    "_to_id": "pet_000413",
+    "_evo_key": "evo_000045"
+  },
+  {
+    "pet_from": "友爱天天",
+    "pet_to": "友爱星飞",
+    "condition": "等级32",
+    "_from_id": "pet_000194",
+    "_to_id": "pet_000195",
+    "_evo_key": "evo_000078"
+  },
+  {
+    "pet_from": "古钟蛇",
+    "pet_to": "寒音蛇",
+    "condition": "等级38",
+    "_from_id": "pet_000191",
+    "_to_id": "pet_000192",
+    "_evo_key": "evo_000076"
+  },
+  {
+    "pet_from": "贝瑟",
+    "pet_to": "贝加尔",
+    "condition": "等级28",
+    "_from_id": "pet_000180",
+    "_to_id": "pet_000181",
+    "_evo_key": "evo_000071"
+  },
+  {
+    "pet_from": "贝加尔",
+    "pet_to": "贝古斯",
+    "condition": "等级38",
+    "_from_id": "pet_000181",
+    "_to_id": "pet_000182",
+    "_evo_key": "evo_000071"
+  },
+  {
+    "pet_from": "机械方方",
+    "pet_to": "多彩方方",
+    "condition": "等级28且需在他人世界",
+    "_from_id": "pet_000177",
+    "_to_id": "pet_000178",
+    "_evo_key": "evo_000070"
+  },
+  {
+    "pet_from": "多彩方方",
+    "pet_to": "立方人",
+    "condition": "等级40",
+    "_from_id": "pet_000178",
+    "_to_id": "pet_000179",
+    "_evo_key": "evo_000070"
+  },
+  {
+    "pet_from": "伏地兽",
+    "pet_to": "贪食鼹",
+    "condition": "等级20且累计击败3只虫系精灵",
+    "_from_id": "pet_000146",
+    "_to_id": "pet_000147",
+    "_evo_key": "evo_000058"
+  },
+  {
+    "pet_from": "贪食鼹",
+    "pet_to": "巨噬针鼹",
+    "condition": "等级32",
+    "_from_id": "pet_000147",
+    "_to_id": "pet_000148",
+    "_evo_key": "evo_000058"
+  },
+  {
+    "pet_from": "火花",
+    "pet_to": "焰火",
+    "condition": "等级16",
+    "_from_id": "pet_000003",
+    "_to_id": "pet_000029",
+    "_evo_key": "evo_000002"
+  },
+  {
+    "pet_from": "焰火",
+    "pet_to": "火神",
+    "condition": "等级36",
+    "_from_id": "pet_000029",
+    "_to_id": "pet_000006",
+    "_evo_key": "evo_000002"
+  },
+  {
+    "pet_from": "毛毛",
+    "pet_to": "爬爬",
+    "condition": "等级20",
+    "_from_id": "pet_000122",
+    "_to_id": "pet_000123",
+    "_evo_key": "evo_000050"
+  },
+  {
+    "pet_from": "爬爬",
+    "pet_to": "化蝶",
+    "condition": "等级35",
+    "_from_id": "pet_000123",
+    "_to_id": "pet_000124",
+    "_evo_key": "evo_000050"
+  },
+  {
+    "pet_from": "白发懒人",
+    "pet_to": "动力猿",
+    "condition": "等级18",
+    "_from_id": "pet_000045",
+    "_to_id": "pet_000090",
+    "_evo_key": "evo_000021"
+  },
+  {
+    "pet_from": "动力猿",
+    "pet_to": "瞌睡王",
+    "condition": "等级36",
+    "_from_id": "pet_000090",
+    "_to_id": "pet_000091",
+    "_evo_key": "evo_000021"
+  },
+  {
+    "pet_from": "可爱猿",
+    "pet_to": "炽热猿",
+    "condition": "等级28",
+    "_from_id": "pet_000074",
+    "_to_id": "pet_000075",
+    "_evo_key": "evo_000035"
+  },
+  {
+    "pet_from": "炽热猿",
+    "pet_to": "火焰猿",
+    "condition": "等级40",
+    "_from_id": "pet_000075",
+    "_to_id": "pet_000076",
+    "_evo_key": "evo_000035"
+  },
+  {
+    "pet_from": "棋棋",
+    "pet_to": "棋祈督",
+    "condition": "等级26且生涯累计击败[棋祈督]3只 + 雄性",
+    "_from_id": "pet_000432",
+    "_to_id": "pet_000436",
+    "_evo_key": "evo_000193"
+  },
+  {
+    "pet_from": "风铃鲨",
+    "pet_to": "蓝蝶鲨",
+    "condition": "等级20",
+    "_from_id": "pet_000104",
+    "_to_id": "pet_000105",
+    "_evo_key": "evo_000044"
+  },
+  {
+    "pet_from": "蓝蝶鲨",
+    "pet_to": "彩蝶鲨",
+    "condition": "等级40",
+    "_from_id": "pet_000105",
+    "_to_id": "pet_000106",
+    "_evo_key": "evo_000044"
+  },
+  {
+    "pet_from": "蹦蹦种子",
+    "pet_to": "蹦蹦草",
+    "condition": "等级16",
+    "_from_id": "pet_000016",
+    "_to_id": "pet_000017",
+    "_evo_key": "evo_000011"
+  },
+  {
+    "pet_from": "蹦蹦草",
+    "pet_to": "蹦蹦花",
+    "condition": "等级32",
+    "_from_id": "pet_000017",
+    "_to_id": "pet_000018",
+    "_evo_key": "evo_000011"
+  }
+]

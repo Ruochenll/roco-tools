@@ -10,8 +10,8 @@ from pets.models import ElementType, TypeMatchup, EggGroup, Pet, Skill, PetSkill
 
 from django.conf import settings as django_settings
 
-MD_DIR = str(django_settings.BASE_DIR.parent / 'MD' / 's2_data')
-MD_ROOT = str(django_settings.BASE_DIR.parent / 'MD')
+MD_DIR = str(django_settings.BASE_DIR / 'MD' / 's2_data')
+MD_ROOT = str(django_settings.BASE_DIR / 'MD')
 
 # Hardcoded egg group names (no JSON data available)
 EGG_GROUPS = [

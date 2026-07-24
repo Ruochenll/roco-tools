@@ -1,0 +1,74 @@
+[
+  {
+    "name": "光",
+    "icon": "光.png"
+  },
+  {
+    "name": "冰",
+    "icon": "冰.png"
+  },
+  {
+    "name": "地",
+    "icon": "地.png"
+  },
+  {
+    "name": "幻",
+    "icon": "幻.png"
+  },
+  {
+    "name": "幽",
+    "icon": "幽.png"
+  },
+  {
+    "name": "恶",
+    "icon": "恶.png"
+  },
+  {
+    "name": "普通",
+    "icon": "普通.png"
+  },
+  {
+    "name": "机械",
+    "icon": "机械.png"
+  },
+  {
+    "name": "武",
+    "icon": "武.png"
+  },
+  {
+    "name": "毒",
+    "icon": "毒.png"
+  },
+  {
+    "name": "水",
+    "icon": "水.png"
+  },
+  {
+    "name": "火",
+    "icon": "火.png"
+  },
+  {
+    "name": "电",
+    "icon": "电.png"
+  },
+  {
+    "name": "翼",
+    "icon": "翼.png"
+  },
+  {
+    "name": "草",
+    "icon": "草.png"
+  },
+  {
+    "name": "萌",
+    "icon": "萌.png"
+  },
+  {
+    "name": "虫",
+    "icon": "虫.png"
+  },
+  {
+    "name": "龙",
+    "icon": "龙.png"
+  }
+]

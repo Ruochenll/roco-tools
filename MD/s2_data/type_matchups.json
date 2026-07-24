@@ -1,0 +1,567 @@
+[
+  {
+    "attacking_type": "普通",
+    "defending_type": "地",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "普通",
+    "defending_type": "幽",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "普通",
+    "defending_type": "机械",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "草",
+    "defending_type": "火",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "草",
+    "defending_type": "水",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "草",
+    "defending_type": "光",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "草",
+    "defending_type": "地",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "草",
+    "defending_type": "龙",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "草",
+    "defending_type": "毒",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "草",
+    "defending_type": "虫",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "草",
+    "defending_type": "翼",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "草",
+    "defending_type": "机械",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "火",
+    "defending_type": "草",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "火",
+    "defending_type": "水",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "火",
+    "defending_type": "地",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "火",
+    "defending_type": "冰",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "火",
+    "defending_type": "龙",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "火",
+    "defending_type": "虫",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "火",
+    "defending_type": "机械",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "水",
+    "defending_type": "草",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "水",
+    "defending_type": "火",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "水",
+    "defending_type": "地",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "水",
+    "defending_type": "冰",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "水",
+    "defending_type": "龙",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "水",
+    "defending_type": "机械",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "光",
+    "defending_type": "草",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "光",
+    "defending_type": "冰",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "光",
+    "defending_type": "幽",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "光",
+    "defending_type": "恶",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "地",
+    "defending_type": "草",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "地",
+    "defending_type": "火",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "地",
+    "defending_type": "冰",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "地",
+    "defending_type": "电",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "地",
+    "defending_type": "毒",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "地",
+    "defending_type": "武",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "冰",
+    "defending_type": "草",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "冰",
+    "defending_type": "火",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "冰",
+    "defending_type": "地",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "冰",
+    "defending_type": "冰",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "冰",
+    "defending_type": "龙",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "冰",
+    "defending_type": "翼",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "冰",
+    "defending_type": "机械",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "龙",
+    "defending_type": "龙",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "龙",
+    "defending_type": "机械",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "电",
+    "defending_type": "草",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "电",
+    "defending_type": "水",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "电",
+    "defending_type": "地",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "电",
+    "defending_type": "龙",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "电",
+    "defending_type": "电",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "电",
+    "defending_type": "翼",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "毒",
+    "defending_type": "草",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "毒",
+    "defending_type": "地",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "毒",
+    "defending_type": "毒",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "毒",
+    "defending_type": "萌",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "毒",
+    "defending_type": "幽",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "毒",
+    "defending_type": "机械",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "虫",
+    "defending_type": "草",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "虫",
+    "defending_type": "火",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "虫",
+    "defending_type": "毒",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "虫",
+    "defending_type": "武",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "虫",
+    "defending_type": "翼",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "虫",
+    "defending_type": "萌",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "虫",
+    "defending_type": "幽",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "虫",
+    "defending_type": "恶",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "虫",
+    "defending_type": "机械",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "虫",
+    "defending_type": "幻",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "武",
+    "defending_type": "普通",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "武",
+    "defending_type": "地",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "武",
+    "defending_type": "冰",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "武",
+    "defending_type": "毒",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "武",
+    "defending_type": "虫",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "武",
+    "defending_type": "翼",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "武",
+    "defending_type": "萌",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "武",
+    "defending_type": "幽",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "武",
+    "defending_type": "恶",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "武",
+    "defending_type": "机械",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "武",
+    "defending_type": "幻",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "翼",
+    "defending_type": "草",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "翼",
+    "defending_type": "地",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "翼",
+    "defending_type": "龙",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "翼",
+    "defending_type": "电",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "翼",
+    "defending_type": "虫",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "翼",
+    "defending_type": "武",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "翼",
+    "defending_type": "机械",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "萌",
+    "defending_type": "火",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "萌",
+    "defending_type": "龙",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "萌",
+    "defending_type": "毒",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "萌",
+    "defending_type": "武",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "萌",
+    "defending_type": "恶",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "萌",
+    "defending_type": "机械",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "幽",
+    "defending_type": "普通",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "幽",
+    "defending_type": "光",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "幽",
+    "defending_type": "幽",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "幽",
+    "defending_type": "恶",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "幽",
+    "defending_type": "幻",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "恶",
+    "defending_type": "光",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "恶",
+    "defending_type": "毒",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "恶",
+    "defending_type": "武",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "恶",
+    "defending_type": "萌",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "恶",
+    "defending_type": "幽",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "恶",
+    "defending_type": "恶",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "机械",
+    "defending_type": "火",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "机械",
+    "defending_type": "水",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "机械",
+    "defending_type": "地",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "机械",
+    "defending_type": "冰",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "机械",
+    "defending_type": "电",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "机械",
+    "defending_type": "萌",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "机械",
+    "defending_type": "机械",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "幻",
+    "defending_type": "光",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "幻",
+    "defending_type": "毒",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "幻",
+    "defending_type": "武",
+    "multiplier": 2.0
+  },
+  {
+    "attacking_type": "幻",
+    "defending_type": "机械",
+    "multiplier": 0.5
+  },
+  {
+    "attacking_type": "幻",
+    "defending_type": "幻",
+    "multiplier": 0.5
+  }
+]
