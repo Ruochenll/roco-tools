@@ -4,18 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}洛克王国世界工具合集{% endblock %}</title>
+    <script>
+        // 主题初始化(在 CSS 加载前执行,避免闪烁)
+        (function () {
+            var theme = localStorage.getItem('roco-theme');
+            if (!theme) {
+                theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            }
+            document.addEventListener('DOMContentLoaded', function () {
+                document.body.setAttribute('data-theme', theme);
+            });
+        })();
+    </script>
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
     {% load static %}
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}?v=20260726b">
     {% block extra_head %}{% endblock %}
 </head>
 <body hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'>
+    <div id="htmx-progress"></div>
     {% include 'includes/navbar.html' %}
     {% include 'includes/messages.html' %}
     <main class="container">
         {% block content %}{% endblock %}
     </main>
     {% include 'includes/footer.html' %}
+    <script>
+        (function () {
+            // 主题切换
+            document.addEventListener('click', function (e) {
+                var toggle = e.target.closest('.theme-toggle');
+                if (toggle) {
+                    var next = document.body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+                    document.body.setAttribute('data-theme', next);
+                    localStorage.setItem('roco-theme', next);
+                    return;
+                }
+                // 移动端汉堡菜单
+                if (e.target.closest('.nav-toggle')) {
+                    document.body.classList.toggle('nav-open');
+                    return;
+                }
+                // 点击导航外区域时收起菜单
+                if (document.body.classList.contains('nav-open') && !e.target.closest('.navbar')) {
+                    document.body.classList.remove('nav-open');
+                }
+            });
+
+            // 「/」快捷键聚焦页面内搜索框
+            document.addEventListener('keydown', function (e) {
+                if (e.key !== '/' || e.target.matches('input, textarea, select')) return;
+                var input = document.querySelector('.search-input');
+                if (input) { e.preventDefault(); input.focus(); }
+            });
+
+            // 消息提示自动淡出
+            document.querySelectorAll('.messages .message').forEach(function (msg, i) {
+                setTimeout(function () {
+                    msg.classList.add('message-hiding');
+                    setTimeout(function () { msg.remove(); }, 350);
+                }, 3600 + i * 600);
+            });
+        })();
+    </script>
     {% block extra_js %}{% endblock %}
 </body>
 </html>
