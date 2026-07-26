@@ -123,7 +123,7 @@
 
             <div id="tab-level" class="tab-panel active">
                 {% if level_up_skills %}
-                <table class="skill-table">
+                <div class="table-scroll"><table class="skill-table">
                     <thead><tr><th>等级</th><th>技能</th><th>属性</th><th>类别</th><th>威力</th><th>能耗</th><th>效果</th></tr></thead>
                     <tbody>
                     {% for ps in level_up_skills %}
@@ -148,7 +148,7 @@
                     </tr>
                     {% endfor %}
                     </tbody>
-                </table>
+                </table></div>
                 {% else %}
                 <p class="tier-none">暂无升级技能</p>
                 {% endif %}
@@ -156,7 +156,7 @@
 
             <div id="tab-bloodline" class="tab-panel">
                 {% if bloodline_skills %}
-                <table class="skill-table">
+                <div class="table-scroll"><table class="skill-table">
                     <thead><tr><th>技能</th><th>属性</th><th>类别</th><th>威力</th><th>能耗</th><th>效果</th></tr></thead>
                     <tbody>
                     {% for ps in bloodline_skills %}
@@ -175,7 +175,7 @@
                     </tr>
                     {% endfor %}
                     </tbody>
-                </table>
+                </table></div>
                 {% else %}
                 <p class="tier-none">暂无血脉技能</p>
                 {% endif %}
@@ -183,7 +183,7 @@
 
             <div id="tab-stone" class="tab-panel">
                 {% if stone_skills %}
-                <table class="skill-table">
+                <div class="table-scroll"><table class="skill-table">
                     <thead><tr><th>技能</th><th>属性</th><th>类别</th><th>威力</th><th>能耗</th><th>效果</th></tr></thead>
                     <tbody>
                     {% for ps in stone_skills %}
@@ -202,7 +202,7 @@
                     </tr>
                     {% endfor %}
                     </tbody>
-                </table>
+                </table></div>
                 {% else %}
                 <p class="tier-none">暂无技能石</p>
                 {% endif %}

@@ -1,0 +1,140 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}物品图鉴 - 洛克王国世界工具合集{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>物品图鉴</h1>
+    <p>共收录 {{ total }} 件道具，数据来源于 BWIKI</p>
+</div>
+
+<div class="filter-bar">
+    <div class="filter-row">
+        <input type="text" id="item-search-input" class="search-input"
+               placeholder="输入物品名称搜索..."
+               value="{{ search }}" autocomplete="off">
+        <button id="item-reset-btn" class="btn btn-secondary btn-sm">重置</button>
+    </div>
+
+    {% if categories %}
+    <div class="filter-row" style="align-items:center;">
+        <span class="filter-label">分类：</span>
+        <div class="category-btns" id="item-cat-grid">
+            {% for cat in categories %}
+            <span class="cat-btn {% if selected_category == cat %}active{% endif %}" data-cat="{{ cat }}">{{ cat }}</span>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    {% if rarities %}
+    <div class="filter-row" style="align-items:center;">
+        <span class="filter-label">稀有度：</span>
+        <div class="category-btns" id="item-rarity-grid">
+            {% for r in rarities %}
+            <span class="cat-btn rarity-btn rarity-{{ r }} {% if selected_rarity == r %}active{% endif %}" data-rarity="{{ r }}">{{ r }}</span>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+<div id="item-grid">
+    {% include 'items/item_list_partial.html' %}
+</div>
+
+<!-- 物品详情弹窗 -->
+<div class="picker-overlay" id="item-modal">
+    <div class="picker" style="max-width:500px;max-height:min(80vh,600px);">
+        <div class="picker-head">
+            <span class="picker-title">物品详情</span>
+            <span style="flex:1;"></span>
+            <button class="picker-close" type="button" onclick="closeItemModal()" aria-label="关闭">&times;</button>
+        </div>
+        <div class="picker-body" id="item-modal-body"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+(function () {
+    var searchInput = document.getElementById('item-search-input');
+    var catBtns = document.querySelectorAll('#item-cat-grid .cat-btn');
+    var rarityBtns = document.querySelectorAll('#item-rarity-grid .cat-btn');
+    var selectedCat = '{{ selected_category|escapejs }}' || null;
+    var selectedRarity = '{{ selected_rarity|escapejs }}' || null;
+
+    function doRequest() {
+        var params = {};
+        var q = searchInput.value.trim();
+        if (q) params.search = q;
+        if (selectedCat) params.category = selectedCat;
+        if (selectedRarity) params.rarity = selectedRarity;
+        htmx.ajax('GET', '/items/?' + new URLSearchParams(params).toString(), { target: '#item-grid' });
+    }
+
+    var timer;
+    searchInput.addEventListener('input', function () {
+        clearTimeout(timer);
+        timer = setTimeout(doRequest, 300);
+    });
+
+    catBtns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            if (selectedCat === btn.dataset.cat) {
+                btn.classList.remove('active');
+                selectedCat = null;
+            } else {
+                catBtns.forEach(function (b) { b.classList.remove('active'); });
+                btn.classList.add('active');
+                selectedCat = btn.dataset.cat;
+            }
+            doRequest();
+        });
+    });
+
+    rarityBtns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            if (selectedRarity === btn.dataset.rarity) {
+                btn.classList.remove('active');
+                selectedRarity = null;
+            } else {
+                rarityBtns.forEach(function (b) { b.classList.remove('active'); });
+                btn.classList.add('active');
+                selectedRarity = btn.dataset.rarity;
+            }
+            doRequest();
+        });
+    });
+
+    document.getElementById('item-reset-btn').addEventListener('click', function () {
+        searchInput.value = '';
+        selectedCat = null;
+        selectedRarity = null;
+        catBtns.forEach(function (b) { b.classList.remove('active'); });
+        rarityBtns.forEach(function (b) { b.classList.remove('active'); });
+        doRequest();
+    });
+
+    // ---- 物品详情弹窗 ----
+    var modal = document.getElementById('item-modal');
+    window.closeItemModal = function () { modal.classList.remove('on'); };
+    // 详情内容加载完成后打开弹窗
+    document.addEventListener('htmx:afterSwap', function (e) {
+        if (e.detail.target.id === 'item-modal-body') modal.classList.add('on');
+    });
+    // 点遮罩 / Esc 关闭
+    modal.addEventListener('click', function (e) { if (e.target === modal) closeItemModal(); });
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && modal.classList.contains('on')) closeItemModal();
+    });
+    // 键盘可达:卡片上按 Enter 等同点击
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' && e.target.classList && e.target.classList.contains('item-card')) {
+            e.target.click();
+        }
+    });
+})();
+</script>
+{% endblock %}

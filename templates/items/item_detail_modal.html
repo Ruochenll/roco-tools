@@ -1,0 +1,43 @@
+{% load static %}
+<div class="im-head">
+    <div class="item-icon-wrap im-icon">
+        {% if item.icon %}
+        <img src="{% static 'images/items/'|add:item.icon %}" alt="{{ item.name }}"
+             onerror="this.style.visibility='hidden'">
+        {% endif %}
+    </div>
+    <div class="im-title-box">
+        <div class="im-name">{{ item.name }}</div>
+        <div class="item-tags">
+            {% if item.rarity %}<span class="rarity-badge rarity-{{ item.rarity }}">{{ item.rarity }}</span>{% endif %}
+            {% if item.main_category %}<span class="item-cat-tag">{{ item.main_category }}</span>{% endif %}
+            {% if item.sub_category and item.sub_category != item.main_category %}<span class="item-cat-tag">{{ item.sub_category }}</span>{% endif %}
+            {% if item.version %}<span class="item-cat-tag">v{{ item.version }}</span>{% endif %}
+        </div>
+    </div>
+</div>
+
+{% if item.usage %}
+<div class="im-section">
+    <div class="im-label">用途</div>
+    <p>{{ item.usage|linebreaksbr }}</p>
+</div>
+{% endif %}
+
+{% if item.description %}
+<div class="im-section">
+    <div class="im-label">描述</div>
+    <p>{{ item.description|linebreaksbr }}</p>
+</div>
+{% endif %}
+
+{% if item.source %}
+<div class="im-section">
+    <div class="im-label">获取途径</div>
+    <p>{{ item.source|linebreaksbr }}</p>
+</div>
+{% endif %}
+
+{% if not item.usage and not item.description and not item.source %}
+<div class="im-section"><p class="text-faint">暂无详细资料</p></div>
+{% endif %}

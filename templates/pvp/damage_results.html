@@ -1,78 +1,69 @@
-<style>
-  .hp-bar-wrap { position:relative; height:6px; background:#eee; border-radius:3px; margin-top:4px; min-width:60px; }
-  .hp-bar-fill { height:100%; border-radius:3px; transition:width .3s; }
-  .hp-green { background:#4caf50; } .hp-yellow { background:#ff9800; } .hp-red { background:#e74c3c; }
-</style>
 {% if error %}
-<div style="text-align:center;color:#999;padding:20px;">{{ error }}</div>
+<div class="dmg-error">{{ error }}</div>
 {% else %}
-<div style="margin-top:20px;display:flex;gap:20px;">
-  <!-- 攻方技能伤害 -->
-  <div style="flex:1;background:#fff;border-radius:12px;border:1px solid #e8e8e8;padding:16px;">
-    <h4 style="margin:0 0 10px;font-size:15px;">⚔️ {{ attacker.name }} 对 {{ defender.name }} 伤害 (HP {{ def_hp }})</h4>
-    {% for r in results %}
-    {% if r.side == 'att' %}
-    <div style="padding:8px;margin-bottom:6px;background:#fafafa;border-radius:8px;">
-      <div style="display:flex;justify-content:space-between;align-items:center;">
-        <span style="font-size:13px;font-weight:600;">{{ r.name }}</span>
-        <span style="font-size:13px;color:#999;">
-          {% if r.element %}{{ r.element }}{% endif %}
-          {% if r.is_stab %} 本系{% endif %}
-          {% if r.multiplier and r.multiplier != 1.0 %} ×{{ r.multiplier }}{% endif %}
-        </span>
-      </div>
-      {% if r.damage is not None %}
-      <div style="display:flex;align-items:center;gap:10px;margin-top:4px;">
-        <span style="font-size:20px;font-weight:700;{% if r.damage >= def_hp %}color:#e74c3c;{% endif %}">
-          {{ r.damage }}
-        </span>
-        <div style="flex:1;">
-          <div class="hp-bar-wrap">
-            <div class="hp-bar-fill {{ r.pct_class }}" style="width:{{ r.percent }}%;"></div>
-          </div>
+<div class="dmg-results">
+    <!-- 攻方技能伤害 -->
+    <div class="dmg-panel atk">
+        <div class="dmg-panel-title">
+            <span class="role-dot role-dot-atk">攻</span>
+            {{ attacker.name }} → {{ defender.name }}
+            <span class="dmg-hp">对方 HP {{ def_hp }}</span>
         </div>
-        <span style="font-size:12px;color:#888;white-space:nowrap;">{{ r.percent }}%</span>
-      </div>
-      {% elif r.damage == 0 %}
-      <div style="font-size:12px;color:#999;margin-top:4px;">{{ r.label|default:"无直接伤害" }}</div>
-      {% endif %}
+        {% for r in results %}
+        {% if r.side == 'att' %}
+        <div class="dmg-row">
+            <div class="dmg-row-head">
+                <span class="dmg-skill-name">{{ r.name }}</span>
+                <span class="dmg-skill-meta">
+                    {% if r.element %}{{ r.element }}{% endif %}
+                    {% if r.is_stab %}<span class="stab-mark"> 本系</span>{% endif %}
+                    {% if r.multiplier and r.multiplier != 1.0 %}<span class="mult-mark {% if r.multiplier > 1.0 %}mult-up{% else %}mult-down{% endif %}"> ×{{ r.multiplier }}</span>{% endif %}
+                </span>
+            </div>
+            {% if r.damage %}
+            <div class="dmg-value-row">
+                <span class="dmg-value {% if r.damage >= def_hp %}lethal{% endif %}">{{ r.damage }}</span>
+                <div class="hp-track"><div class="hp-fill {{ r.pct_class }}" style="width:{{ r.percent }}%;"></div></div>
+                <span class="dmg-pct">{{ r.percent }}%</span>
+            </div>
+            {% elif r.damage == 0 %}
+            <div class="dmg-note">{{ r.label|default:"无直接伤害" }}</div>
+            {% endif %}
+        </div>
+        {% endif %}
+        {% endfor %}
     </div>
-    {% endif %}
-    {% endfor %}
-  </div>
 
-  <!-- 防方技能伤害 -->
-  <div style="flex:1;background:#fff;border-radius:12px;border:1px solid #e8e8e8;padding:16px;">
-    <h4 style="margin:0 0 10px;font-size:15px;">🛡️ {{ defender.name }} 对 {{ attacker.name }} 伤害 (HP {{ att_hp }})</h4>
-    {% for r in results %}
-    {% if r.side == 'def' %}
-    <div style="padding:8px;margin-bottom:6px;background:#fafafa;border-radius:8px;">
-      <div style="display:flex;justify-content:space-between;align-items:center;">
-        <span style="font-size:13px;font-weight:600;">{{ r.name }}</span>
-        <span style="font-size:13px;color:#999;">
-          {% if r.element %}{{ r.element }}{% endif %}
-          {% if r.is_stab %} 本系{% endif %}
-          {% if r.multiplier and r.multiplier != 1.0 %} ×{{ r.multiplier }}{% endif %}
-        </span>
-      </div>
-      {% if r.damage is not None %}
-      <div style="display:flex;align-items:center;gap:10px;margin-top:4px;">
-        <span style="font-size:20px;font-weight:700;{% if r.damage >= att_hp %}color:#e74c3c;{% endif %}">
-          {{ r.damage }}
-        </span>
-        <div style="flex:1;">
-          <div class="hp-bar-wrap">
-            <div class="hp-bar-fill {{ r.pct_class }}" style="width:{{ r.percent }}%;"></div>
-          </div>
+    <!-- 防方技能伤害 -->
+    <div class="dmg-panel def">
+        <div class="dmg-panel-title">
+            <span class="role-dot role-dot-def">防</span>
+            {{ defender.name }} → {{ attacker.name }}
+            <span class="dmg-hp">对方 HP {{ att_hp }}</span>
         </div>
-        <span style="font-size:12px;color:#888;white-space:nowrap;">{{ r.percent }}%</span>
-      </div>
-      {% elif r.damage == 0 %}
-      <div style="font-size:12px;color:#999;margin-top:4px;">{{ r.label|default:"无直接伤害" }}</div>
-      {% endif %}
+        {% for r in results %}
+        {% if r.side == 'def' %}
+        <div class="dmg-row">
+            <div class="dmg-row-head">
+                <span class="dmg-skill-name">{{ r.name }}</span>
+                <span class="dmg-skill-meta">
+                    {% if r.element %}{{ r.element }}{% endif %}
+                    {% if r.is_stab %}<span class="stab-mark"> 本系</span>{% endif %}
+                    {% if r.multiplier and r.multiplier != 1.0 %}<span class="mult-mark {% if r.multiplier > 1.0 %}mult-up{% else %}mult-down{% endif %}"> ×{{ r.multiplier }}</span>{% endif %}
+                </span>
+            </div>
+            {% if r.damage %}
+            <div class="dmg-value-row">
+                <span class="dmg-value {% if r.damage >= att_hp %}lethal{% endif %}">{{ r.damage }}</span>
+                <div class="hp-track"><div class="hp-fill {{ r.pct_class }}" style="width:{{ r.percent }}%;"></div></div>
+                <span class="dmg-pct">{{ r.percent }}%</span>
+            </div>
+            {% elif r.damage == 0 %}
+            <div class="dmg-note">{{ r.label|default:"无直接伤害" }}</div>
+            {% endif %}
+        </div>
+        {% endif %}
+        {% endfor %}
     </div>
-    {% endif %}
-    {% endfor %}
-  </div>
 </div>
 {% endif %}

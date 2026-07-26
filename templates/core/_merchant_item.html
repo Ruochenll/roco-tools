@@ -1,0 +1,14 @@
+{% load static %}
+<div class="mv-item" title="{{ offer.item_name }} · {{ offer.price }}{{ offer.currency }}{% if offer.limit %} · 限购{{ offer.limit }}{% endif %}{% if offer.item.usage %}&#10;{{ offer.item.usage }}{% endif %}">
+    <span class="mv-icon">
+        {% if offer.item.icon %}
+        <img src="{% static 'images/items/'|add:offer.item.icon %}" alt="{{ offer.item_name }}"
+             onerror="this.outerHTML='<span class=&quot;mv-icon-fallback&quot;>🎁</span>'">
+        {% else %}
+        <span class="mv-icon-fallback">🎁</span>
+        {% endif %}
+    </span>
+    <span class="mv-name">{{ offer.item_name }}</span>
+    <span class="mv-price">{{ offer.price }} {{ offer.currency }}</span>
+    {% if offer.limit %}<span class="mv-limit">限购 {{ offer.limit }}</span>{% endif %}
+</div>

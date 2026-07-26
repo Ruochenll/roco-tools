@@ -1,0 +1,26 @@
+{% load static %}
+<div class="item-card rarity-border-{{ item.rarity|default:'白' }}" role="button" tabindex="0"
+     hx-get="{% url 'item_detail' item.id %}"
+     hx-target="#item-modal-body"
+     hx-trigger="click"
+     hx-swap="innerHTML">
+    <div class="item-icon-wrap">
+        {% if item.icon %}
+        <img src="{% static 'images/items/'|add:item.icon %}" alt="{{ item.name }}" loading="lazy"
+             onerror="this.style.visibility='hidden'">
+        {% endif %}
+    </div>
+    <div class="item-body">
+        <div class="item-name">{{ item.name }}</div>
+        <div class="item-tags">
+            {% if item.rarity %}<span class="rarity-badge rarity-{{ item.rarity }}">{{ item.rarity }}</span>{% endif %}
+            {% if item.main_category %}<span class="item-cat-tag">{{ item.main_category }}</span>{% endif %}
+        </div>
+        {% if item.usage or item.description %}
+        <div class="item-desc">{{ item.usage|default:item.description }}</div>
+        {% endif %}
+        {% if item.source %}
+        <div class="item-source">来源：{{ item.source }}</div>
+        {% endif %}
+    </div>
+</div>

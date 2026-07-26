@@ -10,6 +10,7 @@ urlpatterns = [
     path('pets/', include('pets.urls')),
     path('skills/', include('pets.urls_skills')),
     path('type-calc/', include('pets.urls_calc')),
+    path('items/', include('items.urls')),
     path('eggs/', include('eggs.urls')),
     path('articles/', include('articles.urls')),
     path('pvp/', include('pvp_assistant.urls')),

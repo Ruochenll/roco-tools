@@ -1,0 +1,29 @@
+{% load static %}
+{% if not page or page == 1 %}
+{% if items %}
+<div class="item-grid">
+    {% for item in items %}
+    {% include 'items/item_card.html' %}
+    {% endfor %}
+</div>
+{% else %}
+<div class="empty-state">
+    <p>没有找到匹配的物品{% if total == 0 %}，请先运行 <code>python manage.py import_items</code> 导入数据{% endif %}</p>
+</div>
+{% endif %}
+{% else %}
+<div class="item-grid" style="margin-top:12px;">
+    {% for item in items %}
+    {% include 'items/item_card.html' %}
+    {% endfor %}
+</div>
+{% endif %}
+
+{% if has_more %}
+<div hx-get="{% url 'item_list' %}?page={{ next_page }}&search={{ search|default:'' }}{% if selected_category %}&category={{ selected_category }}{% endif %}{% if selected_rarity %}&rarity={{ selected_rarity }}{% endif %}"
+     hx-trigger="revealed"
+     hx-swap="outerHTML"
+     class="empty-state" style="padding:16px;">
+    <span>加载中...</span>
+</div>
+{% endif %}

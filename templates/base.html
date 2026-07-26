@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#6D5DF6">
     <title>{% block title %}洛克王国世界工具合集{% endblock %}</title>
     <script>
-        // 主题初始化(在 CSS 加载前执行,避免闪烁)
+        // 主题初始化:直接挂到 <html> 上,CSS 加载前生效,首屏无闪烁
         (function () {
             var theme = localStorage.getItem('roco-theme');
             if (!theme) {
                 theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
             }
-            document.addEventListener('DOMContentLoaded', function () {
-                document.body.setAttribute('data-theme', theme);
-            });
+            document.documentElement.setAttribute('data-theme', theme);
         })();
     </script>
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
@@ -21,10 +20,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@600;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{% static 'css/style.css' %}?v=20260726b">
+    {# 注意:每次修改 style.css 后请同步递增这里的版本号,否则浏览器会用旧缓存 #}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}?v=20260727a">
     {% block extra_head %}{% endblock %}
 </head>
-<body hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'>
+<body hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}' class="{% block body_class %}{% endblock %}">
     <div id="htmx-progress"></div>
     {% include 'includes/navbar.html' %}
     {% include 'includes/messages.html' %}
@@ -38,8 +38,9 @@
             document.addEventListener('click', function (e) {
                 var toggle = e.target.closest('.theme-toggle');
                 if (toggle) {
-                    var next = document.body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-                    document.body.setAttribute('data-theme', next);
+                    var root = document.documentElement;
+                    var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+                    root.setAttribute('data-theme', next);
                     localStorage.setItem('roco-theme', next);
                     return;
                 }
@@ -62,12 +63,30 @@
             });
 
             // 消息提示自动淡出
-            document.querySelectorAll('.messages .message').forEach(function (msg, i) {
+            function autoHide(msg, delay) {
                 setTimeout(function () {
                     msg.classList.add('message-hiding');
                     setTimeout(function () { msg.remove(); }, 350);
-                }, 3600 + i * 600);
+                }, delay);
+            }
+            document.querySelectorAll('.messages .message').forEach(function (msg, i) {
+                autoHide(msg, 3600 + i * 600);
             });
+
+            // 全局 Toast 工具(替代 alert)
+            window.rocoToast = function (text, type) {
+                var wrap = document.querySelector('.messages');
+                if (!wrap) {
+                    wrap = document.createElement('div');
+                    wrap.className = 'messages';
+                    document.body.appendChild(wrap);
+                }
+                var msg = document.createElement('div');
+                msg.className = 'message' + (type ? ' message-' + type : '');
+                msg.textContent = text;
+                wrap.appendChild(msg);
+                autoHide(msg, 3600);
+            };
         })();
     </script>
     {% block extra_js %}{% endblock %}

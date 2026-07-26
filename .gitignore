@@ -4,3 +4,5 @@ __pycache__/
 db.sqlite3
 /media/
 .workbuddy/
+
+config/settings_local.py

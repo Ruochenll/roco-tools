@@ -54,28 +54,80 @@
     background:radial-gradient(ellipse, rgba(255,255,255,0.35) 0%, transparent 70%);
     pointer-events:none;
 }
-.hero-visual img { width:78%; height:78%; object-fit:contain; filter:drop-shadow(0 12px 24px rgba(0,0,0,0.25)); }
-
-.float-badge {
-    position:absolute; display:inline-flex; align-items:center; gap:6px;
-    padding:7px 13px; border-radius:var(--radius-pill,999px);
-    background:var(--color-card,#FFFFFF); color:var(--color-text,#22252F);
-    font-size:0.78rem; font-weight:600; box-shadow:var(--shadow-lg,0 12px 32px rgba(34,37,47,0.12));
-    animation:floatY 4s ease-in-out infinite;
+/* ===== 远行商人展台(整个 hero 视觉区) ===== */
+.merchant-visual { padding:20px; align-items:stretch; justify-content:stretch; }
+.mv-inner {
+    position:relative; z-index:1; width:100%;
+    display:flex; flex-direction:column;
 }
-.float-badge .dot { width:8px; height:8px; border-radius:50%; }
-.float-badge.b1 { top:11%; left:6%; }
-.float-badge.b2 { bottom:24%; right:6%; animation-delay:1.2s; }
-@keyframes floatY { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-8px); } }
-
-.hero-chip {
-    position:absolute; left:6%; bottom:7%;
-    background:var(--color-card,#FFFFFF); border-radius:var(--radius-lg,16px);
-    padding:10px 16px; box-shadow:var(--shadow-lg,0 12px 32px rgba(34,37,47,0.12));
-    display:flex; flex-direction:column; gap:1px;
+.mv-head { display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; }
+.mv-title {
+    font-family:var(--font-display,"Noto Serif SC",serif);
+    font-size:1.25rem; font-weight:800; color:#fff; white-space:nowrap;
+    text-shadow:0 2px 8px rgba(0,0,0,0.18);
 }
-.hero-chip .chip-label { font-size:0.7rem; color:var(--color-text-light,#6E7382); }
-.hero-chip .chip-value { font-family:var(--font-display,"Noto Serif SC",serif); font-size:0.95rem; font-weight:700; color:var(--color-text,#22252F); }
+.mv-sub { font-size:0.78rem; font-weight:600; color:rgba(255,255,255,0.85); white-space:nowrap; }
+.mc-countdown {
+    margin-left:auto; padding:4px 12px; border-radius:var(--radius-pill,999px);
+    background:rgba(255,255,255,0.92); color:var(--color-primary-dark,#5848D6);
+    font-size:0.74rem; font-weight:700; font-variant-numeric:tabular-nums; white-space:nowrap;
+    box-shadow:0 2px 8px rgba(0,0,0,0.15);
+}
+[data-theme="dark"] .mc-countdown { background:rgba(30,32,41,0.9); color:var(--color-primary,#8B7CFF); }
+
+.mv-items {
+    flex:1; display:grid; grid-template-columns:1fr 1fr; grid-auto-rows:1fr;
+    gap:10px; margin-top:14px; min-height:0;
+}
+/* 超过 4 件(周末最多 8 件):上排前 4 件,下排其余居中 */
+.mv-rows { flex:1; display:flex; flex-direction:column; justify-content:center; gap:8px; margin-top:14px; min-height:0; }
+.mv-row { display:flex; justify-content:center; gap:7px; }
+.mv-row .mv-item {
+    flex:0 1 23.5%; min-width:0;
+    padding:8px 3px 6px; gap:2px; border-radius:var(--radius-sm,8px);
+}
+.mv-row .mv-icon { width:30px; height:30px; }
+.mv-row .mv-icon .mv-icon-fallback { font-size:1.2rem; }
+.mv-row .mv-name { font-size:0.66rem; }
+.mv-row .mv-price { font-size:0.66rem; }
+.mv-row .mv-limit { font-size:0.58rem; }
+.mv-item {
+    display:flex; flex-direction:column; align-items:center; justify-content:center; gap:3px;
+    background:var(--color-card,#FFFFFF);
+    border-radius:var(--radius,12px); padding:10px 6px;
+    box-shadow:0 6px 16px rgba(0,0,0,0.14);
+    min-width:0; text-align:center;
+    transition:transform 0.15s ease;
+}
+.mv-item:hover { transform:translateY(-2px); }
+.mv-icon { width:44px; height:44px; display:flex; align-items:center; justify-content:center; }
+.mv-icon img { width:100%; height:100%; object-fit:contain; }
+.mv-icon .mv-icon-fallback { font-size:1.6rem; line-height:1; }
+.mv-name { font-size:0.76rem; font-weight:600; color:var(--color-text,#22252F); max-width:100%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.mv-price { font-size:0.74rem; font-weight:700; color:#B7791F; font-variant-numeric:tabular-nums; }
+[data-theme="dark"] .mv-price { color:var(--color-gold,#F5C56B); }
+.mv-limit { font-size:0.64rem; color:var(--color-text-light,#6E7382); }
+
+.mv-foot {
+    margin-top:12px; display:flex; justify-content:space-between; align-items:center; gap:8px;
+    font-size:0.72rem; color:rgba(255,255,255,0.8);
+}
+.mv-foot a {
+    color:#fff; font-weight:700;
+    padding:4px 12px; border-radius:var(--radius-pill,999px);
+    background:rgba(255,255,255,0.18); border:1px solid rgba(255,255,255,0.35);
+    transition:background 0.15s;
+}
+.mv-foot a:hover { background:rgba(255,255,255,0.3); }
+
+.mv-empty {
+    flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px;
+    margin-top:14px; text-align:center;
+    color:rgba(255,255,255,0.9); font-size:0.85rem; line-height:1.8;
+    background:rgba(255,255,255,0.12); border:1.5px dashed rgba(255,255,255,0.4);
+    border-radius:var(--radius-lg,16px); padding:20px;
+}
+.mv-empty .mv-empty-icon { font-size:2.2rem; line-height:1; }
 
 /* ===== 数据统计条 ===== */
 .stats-strip { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; padding:8px 20px 0; }
@@ -175,13 +227,66 @@
             </div>
             <p class="hero-note">数据来源于 BWIKI · 玩家自制 · 持续更新</p>
         </div>
-        <div class="hero-visual">
-            <img src="{% static 'images/pets/JL_baijindujiaoshou.png' %}" alt="白金独角兽">
-            <span class="float-badge b1"><span class="dot" style="background:var(--element-翼);"></span>翼系</span>
-            <span class="float-badge b2"><span class="dot" style="background:var(--element-光);"></span>光系</span>
-            <div class="hero-chip">
-                <span class="chip-label">本周热门精灵</span>
-                <span class="chip-value">白金独角兽</span>
+        <div class="hero-visual merchant-visual">
+            <div class="mv-inner">
+                <div class="mv-head">
+                    <span class="mv-title">🧳 远行商人</span>
+                    {% if merchant.resting %}
+                    <span class="mv-sub">休息中 · 每日 8:00 开摊</span>
+                    {% elif merchant.period %}
+                    <span class="mv-sub">本日第 {{ merchant.period }} 轮</span>
+                    {% endif %}
+                    {% if merchant.refresh_ts %}
+                    <span class="mc-countdown" data-refresh="{{ merchant.refresh_ts }}"
+                          data-label="{% if merchant.resting %}距开摊{% else %}距刷新{% endif %}"></span>
+                    {% endif %}
+                </div>
+                {% if merchant.offers|length > 4 %}
+                <div class="mv-rows">
+                    <div class="mv-row">
+                        {% for offer in merchant.offers|slice:":4" %}
+                        {% include 'core/_merchant_item.html' %}
+                        {% endfor %}
+                    </div>
+                    <div class="mv-row">
+                        {% for offer in merchant.offers|slice:"4:8" %}
+                        {% include 'core/_merchant_item.html' %}
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="mv-foot">
+                    <span>共 {{ merchant.offers|length }} 件商品 · 每日 8/12/16/20 点刷新</span>
+                    <a href="/items/">物品图鉴 →</a>
+                </div>
+                {% elif merchant.offers %}
+                <div class="mv-items">
+                    {% for offer in merchant.offers %}
+                    {% include 'core/_merchant_item.html' %}
+                    {% endfor %}
+                </div>
+                <div class="mv-foot">
+                    <span>共 {{ merchant.offers|length }} 件商品 · 每日 8/12/16/20 点刷新</span>
+                    <a href="/items/">物品图鉴 →</a>
+                </div>
+                {% elif merchant.resting %}
+                <div class="mv-empty">
+                    <span class="mv-empty-icon">💤</span>
+                    <span>商人正在赶路<br>每天早上 8 点回来摆摊</span>
+                </div>
+                <div class="mv-foot">
+                    <span>每日 8/12/16/20 点刷新商品</span>
+                    <a href="/items/">物品图鉴 →</a>
+                </div>
+                {% else %}
+                <div class="mv-empty">
+                    <span class="mv-empty-icon">🧳</span>
+                    <span>本轮商品暂未收录{% if not merchant.api_configured %}<br>配置 MERCHANT_API_KEY 或在后台手动录入{% endif %}</span>
+                </div>
+                <div class="mv-foot">
+                    <span>每日 8/12/16/20 点刷新商品</span>
+                    <a href="/items/">物品图鉴 →</a>
+                </div>
+                {% endif %}
             </div>
         </div>
     </section>
@@ -282,4 +387,31 @@
         {% endif %}
     </section>
 </div>
+
+<script>
+// 远行商人刷新倒计时
+(function () {
+    var el = document.querySelector('.mc-countdown');
+    if (!el) return;
+    var ts = parseInt(el.dataset.refresh || '0', 10);
+    if (!ts) return;
+    var label = el.dataset.label || '距刷新';
+    function pad(n) { return n < 10 ? '0' + n : '' + n; }
+    function tick() {
+        var diff = ts - Date.now();
+        if (diff <= 0) {
+            el.textContent = '刷新中...';
+            // 随机延迟 3~8 秒后刷新页面拉取新一轮商品,避免整点集中请求
+            setTimeout(function () { location.reload(); }, 3000 + Math.random() * 5000);
+            return;
+        }
+        var h = Math.floor(diff / 3600000);
+        var m = Math.floor(diff % 3600000 / 60000);
+        var s = Math.floor(diff % 60000 / 1000);
+        el.textContent = label + ' ' + (h > 0 ? h + ':' : '') + pad(m) + ':' + pad(s);
+        setTimeout(tick, 1000);
+    }
+    tick();
+})();
+</script>
 {% endblock %}

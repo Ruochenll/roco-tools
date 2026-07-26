@@ -3,6 +3,7 @@ from django.shortcuts import render
 
 def home(request):
     from articles.models import Article
+    from items.services import get_merchant_context
     from pets.models import ElementType, Pet, Skill
 
     latest_articles = Article.objects.filter(
@@ -14,5 +15,6 @@ def home(request):
         'pet_count': Pet.objects.count(),
         'skill_count': Skill.objects.count(),
         'element_count': ElementType.objects.count(),
+        'merchant': get_merchant_context(),
     }
     return render(request, 'core/home.html', context)

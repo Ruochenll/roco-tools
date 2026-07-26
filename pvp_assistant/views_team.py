@@ -4,7 +4,7 @@ import json
 from django.shortcuts import render, get_object_or_404
 from django.http import JsonResponse
 from django.views.decorators.http import require_POST
-from pets.models import Pet, Skill
+from pets.models import Pet, Skill, ElementType
 from .models import TeamTemplate
 from .roster_decoder import format_roster
 
@@ -36,6 +36,7 @@ def battle_calc(request):
     popular_teams = TeamTemplate.objects.filter(is_popular=True).order_by('name')
     return render(request, 'pvp/battle_calc.html', {
         'popular_teams': popular_teams,
+        'all_elements': ElementType.objects.all(),
     })
 
 
@@ -113,7 +114,10 @@ def api_popular_team(request, team_id):
 def api_pet_search(request):
     """精灵搜索 → 返回 JSON。"""
     q = request.GET.get('q', '').strip()
+    element = request.GET.get('element', '').strip()
     pets = Pet.objects.all().order_by('number')
+    if element:
+        pets = pets.filter(elements__name=element)
     if q:
         pets = pets.filter(name__icontains=q)
     results = []
