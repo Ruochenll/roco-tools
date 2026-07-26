@@ -8,6 +8,15 @@ from django.shortcuts import render
 def _round(x: float) -> int:
     """四舍五入 (与Excel ROUND一致)"""
     return int(x + 0.5) if x >= 0 else int(x - 0.5)
+
+
+def _stage_multiplier(stage: int) -> float:
+    """强化/弱化层数倍率, 上限±99, 永不为负"""
+    stage = max(-99, min(99, stage))
+    if stage >= 0:
+        return (2 + stage) / 2
+    else:
+        return 2 / (2 - stage)
 from pets.models import Pet, PetSkill, Skill, ElementType, TypeMatchup
 from .damage_calculator import (
     PetStats, SkillConfig, BattleContext, calc_pet_stats, quick_damage
@@ -237,8 +246,8 @@ def calc_damages(request):
                 total_pmul = global_pmul * skill_pmul
                 total_combo = global_combo + skill_combo - 1  # 基准都是1，相加后减1
 
-                atk_eff = atk_val * (1 + 0.1 * atk_boost)
-                def_eff = def_val * (1 + 0.1 * def_boost)
+                atk_eff = atk_val * _stage_multiplier(atk_boost)
+                def_eff = def_val * _stage_multiplier(def_boost)
                 power = skill.power + total_pbonus
                 stab = 1.25 if is_stab else 1.0
                 effective_power = power * stab * total_pmul * multiplier

@@ -73,6 +73,22 @@ def _round(x: float) -> int:
     """四舍五入 (游戏用ROUND, 非Python银行家舍入)。"""
     return int(x + 0.5) if x >= 0 else int(x - 0.5)
 
+
+def _stage_multiplier(stage: int) -> float:
+    """
+    计算强化/弱化层数的能力倍率。
+
+    标准公式:
+      正层数: (2 + stage) / 2   → 永不溢出
+      负层数: 2 / (2 - stage)   → 始终为正, 渐近于 0 但不为负
+    层数上限: ±99
+    """
+    stage = max(-99, min(99, stage))
+    if stage >= 0:
+        return (2 + stage) / 2
+    else:
+        return 2 / (2 - stage)
+
 def _calc_stat(base: int, talent: int, nature: str,
                level: int, star: int, growth: int) -> int:
     """
@@ -168,9 +184,9 @@ def calc_damage(atk_stat: int, effective_power: float, def_stat: int,
       def_eff = 防御力 × (1 + 0.1 × 防强)
       damage  = INT( ROUND(atk_eff × 有效威力 × 37/41, 0) / def_eff ) × 连击数
     """
-    atk_eff = atk_stat * (1 + 0.1 * atk_boost)
-    def_eff = def_stat * (1 + 0.1 * def_boost)
-    base_dmg = int(_round(atk_eff * effective_power * 37 / 41) / def_eff)
+    atk_eff = atk_stat * _stage_multiplier(atk_boost)
+    def_eff = def_stat * _stage_multiplier(def_boost)
+    base_dmg = int(_round(atk_eff * effective_power * 37 / 41) / def_eff) if def_eff > 0 else 0
     return base_dmg * combo
 
 
