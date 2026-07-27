@@ -149,7 +149,7 @@
   "fields": {
     "name": "「初心·迪莫」头像",
     "number": 0,
-    "icon": "Img_1012.png",
+    "icon": "img_1012.png",
     "main_category": "重要",
     "sub_category": "活动道具",
     "rarity": "橙",
@@ -341,7 +341,7 @@
   "fields": {
     "name": "阿布的蛋",
     "number": 0,
-    "icon": "Egg_abu.png",
+    "icon": "egg_abu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -357,7 +357,7 @@
   "fields": {
     "name": "阿布果实",
     "number": 0,
-    "icon": "Gs_abu.png",
+    "icon": "gs_abu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -373,7 +373,7 @@
   "fields": {
     "name": "阿米亚特的蛋",
     "number": 0,
-    "icon": "Egg_amiyate.png",
+    "icon": "egg_amiyate.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -389,7 +389,7 @@
   "fields": {
     "name": "阿米亚特果实",
     "number": 0,
-    "icon": "Gs_amiyate.png",
+    "icon": "gs_amiyate.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -421,7 +421,7 @@
   "fields": {
     "name": "矮脚爬爬的蛋",
     "number": 0,
-    "icon": "Egg_judulangzhu.png",
+    "icon": "egg_judulangzhu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -437,7 +437,7 @@
   "fields": {
     "name": "矮脚爬爬果实",
     "number": 0,
-    "icon": "Gs_langzhu.png",
+    "icon": "gs_langzhu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -469,7 +469,7 @@
   "fields": {
     "name": "爱心炫彩蛋",
     "number": 0,
-    "icon": "Egg_tongyong.png",
+    "icon": "egg_tongyong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -517,7 +517,7 @@
   "fields": {
     "name": "暗星球",
     "number": 0,
-    "icon": "Img_daodanqiu.png",
+    "icon": "img_daodanqiu.png",
     "main_category": "咕噜球",
     "sub_category": "特制咕噜球",
     "rarity": "紫",
@@ -565,7 +565,7 @@
   "fields": {
     "name": "白发懒人的蛋",
     "number": 0,
-    "icon": "Egg_baifalanren.png",
+    "icon": "egg_baifalanren.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -581,7 +581,7 @@
   "fields": {
     "name": "白发懒人果实",
     "number": 0,
-    "icon": "Gs_keshuiwang.png",
+    "icon": "gs_keshuiwang.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -661,7 +661,7 @@
   "fields": {
     "name": "斑斑的蛋",
     "number": 0,
-    "icon": "Egg_banban.png",
+    "icon": "egg_banban.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -677,7 +677,7 @@
   "fields": {
     "name": "斑斑果实",
     "number": 0,
-    "icon": "Gs_banban.png",
+    "icon": "gs_banban.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -693,7 +693,7 @@
   "fields": {
     "name": "板板壳的蛋",
     "number": 0,
-    "icon": "Egg_banbanke.png",
+    "icon": "egg_banbanke.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -709,7 +709,7 @@
   "fields": {
     "name": "板板壳果实",
     "number": 0,
-    "icon": "Gs_kaka.png",
+    "icon": "gs_kaka.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -757,7 +757,7 @@
   "fields": {
     "name": "爆焰仔的蛋",
     "number": 0,
-    "icon": "Egg_baoyanzai.png",
+    "icon": "egg_baoyanzai.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -773,7 +773,7 @@
   "fields": {
     "name": "爆焰仔果实",
     "number": 0,
-    "icon": "Gs_leiyanlong.png",
+    "icon": "gs_leiyanlong.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -853,7 +853,7 @@
   "fields": {
     "name": "贝瑟的蛋",
     "number": 0,
-    "icon": "Egg_beise.png",
+    "icon": "egg_beise.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -869,7 +869,7 @@
   "fields": {
     "name": "贝瑟果实",
     "number": 0,
-    "icon": "Gs_beise.png",
+    "icon": "gs_beise.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -885,7 +885,7 @@
   "fields": {
     "name": "奔波鼠的蛋",
     "number": 0,
-    "icon": "Egg_benboshu.png",
+    "icon": "egg_benboshu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -901,7 +901,7 @@
   "fields": {
     "name": "奔波鼠果实",
     "number": 0,
-    "icon": "Gs_benboshu.png",
+    "icon": "gs_benboshu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -917,7 +917,7 @@
   "fields": {
     "name": "蹦蹦种子(彩玉球形态)的蛋",
     "number": 0,
-    "icon": "Egg_bengbengzhongzi_caiyuqiu.png",
+    "icon": "egg_bengbengzhongzi_caiyuqiu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -933,7 +933,7 @@
   "fields": {
     "name": "蹦蹦种子(短毛球形态)的蛋",
     "number": 0,
-    "icon": "Egg_bengbengzhongzi_duanmaoqiu.png",
+    "icon": "egg_bengbengzhongzi_duanmaoqiu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -949,7 +949,7 @@
   "fields": {
     "name": "蹦蹦种子(海神球形态)的蛋",
     "number": 0,
-    "icon": "Egg_bengbengzhongzi.png",
+    "icon": "egg_bengbengzhongzi.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -965,7 +965,7 @@
   "fields": {
     "name": "蹦蹦种子(象牙球形态)的蛋",
     "number": 0,
-    "icon": "Egg_bengbengzhongzi_xiangyaqiu.png",
+    "icon": "egg_bengbengzhongzi_xiangyaqiu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -981,7 +981,7 @@
   "fields": {
     "name": "蹦蹦种子果实",
     "number": 0,
-    "icon": "Gs_bengbengcao.png",
+    "icon": "gs_bengbengcao.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -1045,7 +1045,7 @@
   "fields": {
     "name": "变幻球",
     "number": 0,
-    "icon": "Img_miwuqiu.png",
+    "icon": "img_miwuqiu.png",
     "main_category": "咕噜球",
     "sub_category": "特制咕噜球",
     "rarity": "紫",
@@ -1157,7 +1157,7 @@
   "fields": {
     "name": "冰系血脉秘药",
     "number": 0,
-    "icon": "Xuemai_bing.png",
+    "icon": "xuemai_bing.png",
     "main_category": "重要",
     "sub_category": "血脉修改道具",
     "rarity": "紫",
@@ -1189,7 +1189,7 @@
   "fields": {
     "name": "波波螺的蛋",
     "number": 0,
-    "icon": "Egg_bobolouar.png",
+    "icon": "egg_bobolouar.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -1205,7 +1205,7 @@
   "fields": {
     "name": "波波螺果实",
     "number": 0,
-    "icon": "Gs_booboluo.png",
+    "icon": "gs_booboluo.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -1221,7 +1221,7 @@
   "fields": {
     "name": "布瓜蝌的蛋",
     "number": 0,
-    "icon": "Egg_buzhuake.png",
+    "icon": "egg_buzhuake.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -1237,7 +1237,7 @@
   "fields": {
     "name": "布瓜蝌果实",
     "number": 0,
-    "icon": "Gs_buzhuake.png",
+    "icon": "gs_buzhuake.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -1269,7 +1269,7 @@
   "fields": {
     "name": "布鲁斯的蛋",
     "number": 0,
-    "icon": "Egg_bulusi.png",
+    "icon": "egg_bulusi.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -1285,7 +1285,7 @@
   "fields": {
     "name": "布鲁斯果实",
     "number": 0,
-    "icon": "Gs_bulusi.png",
+    "icon": "gs_bulusi.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -1301,7 +1301,7 @@
   "fields": {
     "name": "布是石的蛋",
     "number": 0,
-    "icon": "Egg_xiaobushi.png",
+    "icon": "egg_xiaobushi.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -1317,7 +1317,7 @@
   "fields": {
     "name": "布是石果实",
     "number": 0,
-    "icon": "Gs_bushi.png",
+    "icon": "gs_bushi.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -1541,7 +1541,7 @@
   "fields": {
     "name": "草头鸭的蛋",
     "number": 0,
-    "icon": "Egg_caotouya.png",
+    "icon": "egg_caotouya.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -1557,7 +1557,7 @@
   "fields": {
     "name": "草头鸭果实",
     "number": 0,
-    "icon": "Gs_caotouya.png",
+    "icon": "gs_caotouya.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -1621,7 +1621,7 @@
   "fields": {
     "name": "草系血脉秘药",
     "number": 0,
-    "icon": "Xuemai_cao.png",
+    "icon": "xuemai_cao.png",
     "main_category": "重要",
     "sub_category": "血脉修改道具",
     "rarity": "紫",
@@ -1669,7 +1669,7 @@
   "fields": {
     "name": "柴渣虫的蛋",
     "number": 0,
-    "icon": "Egg_chaizhachong.png",
+    "icon": "egg_chaizhachong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -1685,7 +1685,7 @@
   "fields": {
     "name": "柴渣虫果实",
     "number": 0,
-    "icon": "Gs_chaizhachong.png",
+    "icon": "gs_chaizhachong.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -1813,7 +1813,7 @@
   "fields": {
     "name": "虫系血脉秘药",
     "number": 0,
-    "icon": "Xuemai_chong.png",
+    "icon": "xuemai_chong.png",
     "main_category": "重要",
     "sub_category": "血脉修改道具",
     "rarity": "紫",
@@ -1829,7 +1829,7 @@
   "fields": {
     "name": "初遇火花",
     "number": 0,
-    "icon": "Img_MedalIcon_BFF_XiaoHuoMiao.png",
+    "icon": "img_medalicon_bff_xiaohuomiao.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -1845,7 +1845,7 @@
   "fields": {
     "name": "初遇喵喵",
     "number": 0,
-    "icon": "Img_MedalIcon_BFF_MiaoMiao.png",
+    "icon": "img_medalicon_bff_miaomiao.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -1861,7 +1861,7 @@
   "fields": {
     "name": "初遇水蓝蓝",
     "number": 0,
-    "icon": "Img_MedalIcon_BFF_ShuiLanLan.png",
+    "icon": "img_medalicon_bff_shuilanlan.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -1941,7 +1941,7 @@
   "fields": {
     "name": "锤头鹳的蛋",
     "number": 0,
-    "icon": "Egg_chuitouguan.png",
+    "icon": "egg_chuitouguan.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -1957,7 +1957,7 @@
   "fields": {
     "name": "锤头鹳果实",
     "number": 0,
-    "icon": "Gs_chuitouniao.png",
+    "icon": "gs_chuitouniao.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -2005,7 +2005,7 @@
   "fields": {
     "name": "春团的蛋",
     "number": 0,
-    "icon": "Egg_chuntuan.png",
+    "icon": "egg_chuntuan.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -2021,7 +2021,7 @@
   "fields": {
     "name": "春团果实",
     "number": 0,
-    "icon": "Gs_yutu.png",
+    "icon": "gs_yutu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -2037,7 +2037,7 @@
   "fields": {
     "name": "刺轮砣的蛋",
     "number": 0,
-    "icon": "Egg_cilunshe1.png",
+    "icon": "egg_cilunshe1.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -2053,7 +2053,7 @@
   "fields": {
     "name": "刺轮砣果实",
     "number": 0,
-    "icon": "Gs_cilunshe1.png",
+    "icon": "gs_cilunshe1.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -2085,7 +2085,7 @@
   "fields": {
     "name": "脆筒甜甜的蛋",
     "number": 0,
-    "icon": "Egg_dingding.png",
+    "icon": "egg_dingding.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -2101,7 +2101,7 @@
   "fields": {
     "name": "脆筒甜甜果实",
     "number": 0,
-    "icon": "Gs_dingding.png",
+    "icon": "gs_dingding.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -2117,7 +2117,7 @@
   "fields": {
     "name": "大耳帽兜的蛋",
     "number": 0,
-    "icon": "Egg_daerdoimao.png",
+    "icon": "egg_daerdoimao.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -2133,7 +2133,7 @@
   "fields": {
     "name": "大耳帽兜果实",
     "number": 0,
-    "icon": "Gs_doumao.png",
+    "icon": "gs_doumao.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -2149,7 +2149,7 @@
   "fields": {
     "name": "大师级决斗家",
     "number": 0,
-    "icon": "Img_MedalIcon_Brave.png",
+    "icon": "img_medalicon_brave.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -2165,7 +2165,7 @@
   "fields": {
     "name": "大头骨龙的蛋",
     "number": 0,
-    "icon": "Egg_datougulong.png",
+    "icon": "egg_datougulong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -2181,7 +2181,7 @@
   "fields": {
     "name": "大头骨龙果实",
     "number": 0,
-    "icon": "Gs_gulong.png",
+    "icon": "gs_gulong.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -2229,7 +2229,7 @@
   "fields": {
     "name": "呆小路的蛋",
     "number": 0,
-    "icon": "Egg_daixiaolu.png",
+    "icon": "egg_daixiaolu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -2245,7 +2245,7 @@
   "fields": {
     "name": "呆小路果实",
     "number": 0,
-    "icon": "Gs_daixiaolu.png",
+    "icon": "gs_daixiaolu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -2277,7 +2277,7 @@
   "fields": {
     "name": "胆小鳗鱼的蛋",
     "number": 0,
-    "icon": "Egg_danxiaomanyu.png",
+    "icon": "egg_danxiaomanyu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -2293,7 +2293,7 @@
   "fields": {
     "name": "胆小鳗鱼果实",
     "number": 0,
-    "icon": "Gs_manyu.png",
+    "icon": "gs_manyu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -2325,7 +2325,7 @@
   "fields": {
     "name": "地鼠的蛋",
     "number": 0,
-    "icon": "Egg_dishu_2.png",
+    "icon": "egg_dishu_2.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -2341,7 +2341,7 @@
   "fields": {
     "name": "地鼠果实",
     "number": 0,
-    "icon": "Gs_dishu.png",
+    "icon": "gs_dishu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -2405,7 +2405,7 @@
   "fields": {
     "name": "地系血脉秘药",
     "number": 0,
-    "icon": "Xuemai_yanshi.png",
+    "icon": "xuemai_yanshi.png",
     "main_category": "重要",
     "sub_category": "血脉修改道具",
     "rarity": "紫",
@@ -2469,7 +2469,7 @@
   "fields": {
     "name": "电动长颈鹿的蛋",
     "number": 0,
-    "icon": "Egg_diandongchangjinglu.png",
+    "icon": "egg_diandongchangjinglu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -2485,7 +2485,7 @@
   "fields": {
     "name": "电动长颈鹿果实",
     "number": 0,
-    "icon": "Gs_jueshilu.png",
+    "icon": "gs_jueshilu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -2501,7 +2501,7 @@
   "fields": {
     "name": "电咩咩的蛋",
     "number": 0,
-    "icon": "Egg_dianmiemie.png",
+    "icon": "egg_dianmiemie.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -2517,7 +2517,7 @@
   "fields": {
     "name": "电咩咩果实",
     "number": 0,
-    "icon": "Gs_miemie.png",
+    "icon": "gs_miemie.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -2581,7 +2581,7 @@
   "fields": {
     "name": "电系血脉秘药",
     "number": 0,
-    "icon": "Xuemai_dian.png",
+    "icon": "xuemai_dian.png",
     "main_category": "重要",
     "sub_category": "血脉修改道具",
     "rarity": "紫",
@@ -2597,7 +2597,7 @@
   "fields": {
     "name": "调温球",
     "number": 0,
-    "icon": "Img_tiaowenqiu.png",
+    "icon": "img_tiaowenqiu.png",
     "main_category": "咕噜球",
     "sub_category": "特制咕噜球",
     "rarity": "紫",
@@ -2661,7 +2661,7 @@
   "fields": {
     "name": "丢丢(草地附近的样子)的蛋",
     "number": 0,
-    "icon": "Egg_diudiu.png",
+    "icon": "egg_diudiu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -2677,7 +2677,7 @@
   "fields": {
     "name": "丢丢(沙地附近的样子)的蛋",
     "number": 0,
-    "icon": "Egg_diudiu_shadi.png",
+    "icon": "egg_diudiu_shadi.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -2693,7 +2693,7 @@
   "fields": {
     "name": "丢丢(雪山附近的样子)的蛋",
     "number": 0,
-    "icon": "Egg_diudiu_xueshan.png",
+    "icon": "egg_diudiu_xueshan.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -2709,7 +2709,7 @@
   "fields": {
     "name": "丢丢果实",
     "number": 0,
-    "icon": "Gs_diudiu.png",
+    "icon": "gs_diudiu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -2741,7 +2741,7 @@
   "fields": {
     "name": "豆丁鱼的蛋",
     "number": 0,
-    "icon": "Egg_yulongbaobao.png",
+    "icon": "egg_yulongbaobao.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -2757,7 +2757,7 @@
   "fields": {
     "name": "豆丁鱼果实",
     "number": 0,
-    "icon": "Gs_doudingyu.png",
+    "icon": "gs_doudingyu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -2773,7 +2773,7 @@
   "fields": {
     "name": "逗逗的蛋",
     "number": 0,
-    "icon": "Egg_qiqiumao.png",
+    "icon": "egg_qiqiumao.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -2789,7 +2789,7 @@
   "fields": {
     "name": "逗逗果实",
     "number": 0,
-    "icon": "Gs_doudoumao.png",
+    "icon": "gs_doudoumao.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -2805,7 +2805,7 @@
   "fields": {
     "name": "嘟嘟煲的蛋",
     "number": 0,
-    "icon": "Egg_duduguo.png",
+    "icon": "egg_duduguo.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -2837,7 +2837,7 @@
   "fields": {
     "name": "嘟嘟煲果实",
     "number": 0,
-    "icon": "Gs_guojing.png",
+    "icon": "gs_guojing.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -2885,7 +2885,7 @@
   "fields": {
     "name": "独特精灵蛋",
     "number": 0,
-    "icon": "Egg_yilisi.png",
+    "icon": "egg_yilisi.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -2949,7 +2949,7 @@
   "fields": {
     "name": "毒系血脉秘药",
     "number": 0,
-    "icon": "Xuemai_du.png",
+    "icon": "xuemai_du.png",
     "main_category": "重要",
     "sub_category": "血脉修改道具",
     "rarity": "紫",
@@ -3013,7 +3013,7 @@
   "fields": {
     "name": "多多的蛋",
     "number": 0,
-    "icon": "Egg_duoduo.png",
+    "icon": "egg_duoduo.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -3029,7 +3029,7 @@
   "fields": {
     "name": "多多果实",
     "number": 0,
-    "icon": "Gs_doudou.png",
+    "icon": "gs_doudou.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -3045,7 +3045,7 @@
   "fields": {
     "name": "多灵的蛋",
     "number": 0,
-    "icon": "Egg_duoling.png",
+    "icon": "egg_duoling.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -3061,7 +3061,7 @@
   "fields": {
     "name": "多西的蛋",
     "number": 0,
-    "icon": "Egg_duoxi.png",
+    "icon": "egg_duoxi.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -3077,7 +3077,7 @@
   "fields": {
     "name": "多西果实",
     "number": 0,
-    "icon": "Gs_duoxi.png",
+    "icon": "gs_duoxi.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -3157,7 +3157,7 @@
   "fields": {
     "name": "恶魔叮的蛋",
     "number": 0,
-    "icon": "Egg_emoding.png",
+    "icon": "egg_emoding.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -3173,7 +3173,7 @@
   "fields": {
     "name": "恶魔叮果实",
     "number": 0,
-    "icon": "Gs_emoding.png",
+    "icon": "gs_emoding.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -3189,7 +3189,7 @@
   "fields": {
     "name": "恶魔狼的蛋",
     "number": 0,
-    "icon": "Egg_emolang.png",
+    "icon": "egg_emolang.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -3205,7 +3205,7 @@
   "fields": {
     "name": "恶魔狼果实",
     "number": 0,
-    "icon": "Gs_daemo.png",
+    "icon": "gs_daemo.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -3301,7 +3301,7 @@
   "fields": {
     "name": "恶系血脉秘药",
     "number": 0,
-    "icon": "Xuemai_emo.png",
+    "icon": "xuemai_emo.png",
     "main_category": "重要",
     "sub_category": "血脉修改道具",
     "rarity": "紫",
@@ -3349,7 +3349,7 @@
   "fields": {
     "name": "方块炫彩蛋",
     "number": 0,
-    "icon": "Egg_tongyong.png",
+    "icon": "egg_tongyong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -3397,7 +3397,7 @@
   "fields": {
     "name": "翡翠水母的蛋",
     "number": 0,
-    "icon": "Egg_feicuishuimu.png",
+    "icon": "egg_feicuishuimu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -3413,7 +3413,7 @@
   "fields": {
     "name": "翡翠水母果实",
     "number": 0,
-    "icon": "Gs_feicuishuimu.png",
+    "icon": "gs_feicuishuimu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -3461,7 +3461,7 @@
   "fields": {
     "name": "粉粉星的蛋",
     "number": 0,
-    "icon": "Egg_fenfenxing.png",
+    "icon": "egg_fenfenxing.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -3477,7 +3477,7 @@
   "fields": {
     "name": "粉粉星果实",
     "number": 0,
-    "icon": "Gs_fenfen.png",
+    "icon": "gs_fenfen.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -3541,7 +3541,7 @@
   "fields": {
     "name": "粉星仔的蛋",
     "number": 0,
-    "icon": "Egg_fenxingzai.png",
+    "icon": "egg_fenxingzai.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -3557,7 +3557,7 @@
   "fields": {
     "name": "粉星仔果实",
     "number": 0,
-    "icon": "Gs_xingzai.png",
+    "icon": "gs_xingzai.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -3589,7 +3589,7 @@
   "fields": {
     "name": "风铃鲨的蛋",
     "number": 0,
-    "icon": "Egg_fuzhousha.png",
+    "icon": "egg_fuzhousha.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -3605,7 +3605,7 @@
   "fields": {
     "name": "风铃鲨果实",
     "number": 0,
-    "icon": "Gs_diesha.png",
+    "icon": "gs_diesha.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -3653,7 +3653,7 @@
   "fields": {
     "name": "伏地兽的蛋",
     "number": 0,
-    "icon": "Egg_fudishou.png",
+    "icon": "egg_fudishou.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -3669,7 +3669,7 @@
   "fields": {
     "name": "伏地兽果实",
     "number": 0,
-    "icon": "Gs_shiyishou.png",
+    "icon": "gs_shiyishou.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -3749,7 +3749,7 @@
   "fields": {
     "name": "格兰种子的蛋",
     "number": 0,
-    "icon": "Egg_gelanzhongzi.png",
+    "icon": "egg_gelanzhongzi.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -3765,7 +3765,7 @@
   "fields": {
     "name": "格兰种子果实",
     "number": 0,
-    "icon": "Gs_Gelanhua.png",
+    "icon": "gs_gelanhua.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -3861,7 +3861,7 @@
   "fields": {
     "name": "公平鸽的蛋",
     "number": 0,
-    "icon": "Egg_gongpingge.png",
+    "icon": "egg_gongpingge.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -3877,7 +3877,7 @@
   "fields": {
     "name": "公平鸽果实",
     "number": 0,
-    "icon": "Gs_gongpingge.png",
+    "icon": "gs_gongpingge.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -3941,7 +3941,7 @@
   "fields": {
     "name": "菇菇丁的蛋",
     "number": 0,
-    "icon": "Egg_guguding.png",
+    "icon": "egg_guguding.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -3957,7 +3957,7 @@
   "fields": {
     "name": "菇菇丁果实",
     "number": 0,
-    "icon": "Gs_guguding.png",
+    "icon": "gs_guguding.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -4053,7 +4053,7 @@
   "fields": {
     "name": "古钟蛇的蛋",
     "number": 0,
-    "icon": "Egg_bugushe.png",
+    "icon": "egg_bugushe.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -4069,7 +4069,7 @@
   "fields": {
     "name": "古钟蛇果实",
     "number": 0,
-    "icon": "Gs_guzhongshe.png",
+    "icon": "gs_guzhongshe.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -4085,7 +4085,7 @@
   "fields": {
     "name": "乖乖鹄的蛋",
     "number": 0,
-    "icon": "Egg_huaguitiane.png",
+    "icon": "egg_huaguitiane.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -4101,7 +4101,7 @@
   "fields": {
     "name": "乖乖鹄果实",
     "number": 0,
-    "icon": "Gs_huaguie.png",
+    "icon": "gs_huaguie.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -4149,7 +4149,7 @@
   "fields": {
     "name": "光合球",
     "number": 0,
-    "icon": "Img_guangheqiu.png",
+    "icon": "img_guangheqiu.png",
     "main_category": "咕噜球",
     "sub_category": "特制咕噜球",
     "rarity": "紫",
@@ -4229,7 +4229,7 @@
   "fields": {
     "name": "光系血脉秘药",
     "number": 0,
-    "icon": "Xuemai_guang.png",
+    "icon": "xuemai_guang.png",
     "main_category": "重要",
     "sub_category": "血脉修改道具",
     "rarity": "紫",
@@ -4293,7 +4293,7 @@
   "fields": {
     "name": "瑰眼仔的蛋",
     "number": 0,
-    "icon": "Egg_guiyankuangchong.png",
+    "icon": "egg_guiyankuangchong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -4309,7 +4309,7 @@
   "fields": {
     "name": "果冻的蛋",
     "number": 0,
-    "icon": "Egg_guodong.png",
+    "icon": "egg_guodong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -4325,7 +4325,7 @@
   "fields": {
     "name": "果冻果实",
     "number": 0,
-    "icon": "Gs_guodong.png",
+    "icon": "gs_guodong.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -4373,7 +4373,7 @@
   "fields": {
     "name": "海豹战士的蛋",
     "number": 0,
-    "icon": "Egg_haibaozhanshi.png",
+    "icon": "egg_haibaozhanshi.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -4389,7 +4389,7 @@
   "fields": {
     "name": "海豹战士果实",
     "number": 0,
-    "icon": "Gs_haibao.png",
+    "icon": "gs_haibao.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -4405,7 +4405,7 @@
   "fields": {
     "name": "海盔虫的蛋",
     "number": 0,
-    "icon": "Egg_haikuichong.png",
+    "icon": "egg_haikuichong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -4421,7 +4421,7 @@
   "fields": {
     "name": "海盔虫果实",
     "number": 0,
-    "icon": "Gs_haikuichong.png",
+    "icon": "gs_haikuichong.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -4517,7 +4517,7 @@
   "fields": {
     "name": "海枝枝（碧蓝珊瑚）的蛋",
     "number": 0,
-    "icon": "Egg_haizhizhi_1.png",
+    "icon": "egg_haizhizhi_1.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -4533,7 +4533,7 @@
   "fields": {
     "name": "海枝枝（翠绿纶布）的蛋",
     "number": 0,
-    "icon": "Egg_haizhizhi_2.png",
+    "icon": "egg_haizhizhi_2.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -4549,7 +4549,7 @@
   "fields": {
     "name": "海枝枝（杏黄百合）的蛋",
     "number": 0,
-    "icon": "Egg_haizhizhi_3.png",
+    "icon": "egg_haizhizhi_3.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -4565,7 +4565,7 @@
   "fields": {
     "name": "海枝枝（洋红沙丁）的蛋",
     "number": 0,
-    "icon": "Egg_haizhizhi_4.png",
+    "icon": "egg_haizhizhi_4.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -4581,7 +4581,7 @@
   "fields": {
     "name": "海枝枝的蛋",
     "number": 0,
-    "icon": "Egg_haizhizhi_1.png",
+    "icon": "egg_haizhizhi_1.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -4597,7 +4597,7 @@
   "fields": {
     "name": "海枝枝果实",
     "number": 0,
-    "icon": "Gs_haizhizhi.png",
+    "icon": "gs_haizhizhi.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -4613,7 +4613,7 @@
   "fields": {
     "name": "号儿鱼的蛋",
     "number": 0,
-    "icon": "Egg_haoeryu.png",
+    "icon": "egg_haoeryu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -4629,7 +4629,7 @@
   "fields": {
     "name": "号儿鱼果实",
     "number": 0,
-    "icon": "Gs_haoeryu.png",
+    "icon": "gs_haoeryu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -4661,7 +4661,7 @@
   "fields": {
     "name": "好战球",
     "number": 0,
-    "icon": "Img_lumangqiu.png",
+    "icon": "img_lumangqiu.png",
     "main_category": "咕噜球",
     "sub_category": "特制咕噜球",
     "rarity": "紫",
@@ -4821,7 +4821,7 @@
   "fields": {
     "name": "蝴蝶陶陶果实",
     "number": 0,
-    "icon": "Img_linshi.png",
+    "icon": "img_linshi.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -4837,7 +4837,7 @@
   "fields": {
     "name": "呼呼猪的蛋",
     "number": 0,
-    "icon": "Egg_huhuzhu.png",
+    "icon": "egg_huhuzhu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -4853,7 +4853,7 @@
   "fields": {
     "name": "呼呼猪果实",
     "number": 0,
-    "icon": "Gs_huhuzhu.png",
+    "icon": "gs_huhuzhu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -4869,7 +4869,7 @@
   "fields": {
     "name": "忽幽狸的蛋",
     "number": 0,
-    "icon": "Egg_huyouli.png",
+    "icon": "egg_huyouli.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -4885,7 +4885,7 @@
   "fields": {
     "name": "忽幽狸果实",
     "number": 0,
-    "icon": "Gs_huyouli.png",
+    "icon": "gs_huyouli.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -4901,7 +4901,7 @@
   "fields": {
     "name": "护主犬的蛋",
     "number": 0,
-    "icon": "Egg_huzhuquan.png",
+    "icon": "egg_huzhuquan.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -4917,7 +4917,7 @@
   "fields": {
     "name": "护主犬果实",
     "number": 0,
-    "icon": "Gs_yinsuquan.png",
+    "icon": "gs_yinsuquan.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -4965,7 +4965,7 @@
   "fields": {
     "name": "画精灵的蛋",
     "number": 0,
-    "icon": "Egg_huajingling.png",
+    "icon": "egg_huajingling.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -4981,7 +4981,7 @@
   "fields": {
     "name": "画精灵果实",
     "number": 0,
-    "icon": "Gs_huajingling.png",
+    "icon": "gs_huajingling.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -5045,7 +5045,7 @@
   "fields": {
     "name": "花怨鳗的蛋",
     "number": 0,
-    "icon": "Egg_huayuanman.png",
+    "icon": "egg_huayuanman.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -5061,7 +5061,7 @@
   "fields": {
     "name": "花怨鳗果实",
     "number": 0,
-    "icon": "Gs_huayuanman.png",
+    "icon": "gs_huayuanman.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -5141,7 +5141,7 @@
   "fields": {
     "name": "幻系血脉秘药",
     "number": 0,
-    "icon": "Xuemai_huan.png",
+    "icon": "xuemai_huan.png",
     "main_category": "重要",
     "sub_category": "血脉修改道具",
     "rarity": "紫",
@@ -5221,7 +5221,7 @@
   "fields": {
     "name": "火红尾的蛋",
     "number": 0,
-    "icon": "Egg_huohongwei.png",
+    "icon": "egg_huohongwei.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -5237,7 +5237,7 @@
   "fields": {
     "name": "火红尾果实",
     "number": 0,
-    "icon": "Gs_huohongwei.png",
+    "icon": "gs_huohongwei.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -5253,7 +5253,7 @@
   "fields": {
     "name": "火红炫彩蛋",
     "number": 0,
-    "icon": "Egg_tongyong.png",
+    "icon": "egg_tongyong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -5269,7 +5269,7 @@
   "fields": {
     "name": "火花的蛋",
     "number": 0,
-    "icon": "Egg_huohua.png",
+    "icon": "egg_huohua.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -5285,7 +5285,7 @@
   "fields": {
     "name": "火花果实",
     "number": 0,
-    "icon": "Gs_xiaohuomiao.png",
+    "icon": "gs_xiaohuomiao.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -5301,7 +5301,7 @@
   "fields": {
     "name": "火花羁绊",
     "number": 0,
-    "icon": "Img_MedalIcon_BFF_XiaoHuoMiao.png",
+    "icon": "img_medalicon_bff_xiaohuomiao.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -5317,7 +5317,7 @@
   "fields": {
     "name": "火尾瓦特的蛋",
     "number": 0,
-    "icon": "Egg_huoweiwate.png",
+    "icon": "egg_huoweiwate.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -5333,7 +5333,7 @@
   "fields": {
     "name": "火尾瓦特果实",
     "number": 0,
-    "icon": "Gs_wate.png",
+    "icon": "gs_wate.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -5397,7 +5397,7 @@
   "fields": {
     "name": "火系血脉秘药",
     "number": 0,
-    "icon": "Xuemai_huo.png",
+    "icon": "xuemai_huo.png",
     "main_category": "重要",
     "sub_category": "血脉修改道具",
     "rarity": "紫",
@@ -5541,7 +5541,7 @@
   "fields": {
     "name": "急急急鸭果实",
     "number": 0,
-    "icon": "Gs_JijijiYa.png",
+    "icon": "gs_jijijiya.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -12133,7 +12133,7 @@
   "fields": {
     "name": "机械方方的蛋",
     "number": 0,
-    "icon": "Egg_jixiefangfang.png",
+    "icon": "egg_jixiefangfang.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -12149,7 +12149,7 @@
   "fields": {
     "name": "机械方方果实",
     "number": 0,
-    "icon": "Gs_fangfang.png",
+    "icon": "gs_fangfang.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -12293,7 +12293,7 @@
   "fields": {
     "name": "机械血脉秘药",
     "number": 0,
-    "icon": "Xuemai_gang.png",
+    "icon": "xuemai_gang.png",
     "main_category": "重要",
     "sub_category": "血脉修改道具",
     "rarity": "紫",
@@ -12325,7 +12325,7 @@
   "fields": {
     "name": "记忆石的蛋",
     "number": 0,
-    "icon": "Egg_jiyishi.png",
+    "icon": "egg_jiyishi.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -12341,7 +12341,7 @@
   "fields": {
     "name": "记忆石果实",
     "number": 0,
-    "icon": "Gs_jiyishi.png",
+    "icon": "gs_jiyishi.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -12357,7 +12357,7 @@
   "fields": {
     "name": "记忆中的头像",
     "number": 0,
-    "icon": "Img_1011.png",
+    "icon": "img_1011.png",
     "main_category": "重要",
     "sub_category": "活动道具",
     "rarity": "橙",
@@ -12373,7 +12373,7 @@
   "fields": {
     "name": "加灵的蛋",
     "number": 0,
-    "icon": "Egg_jialing.png",
+    "icon": "egg_jialing.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -12389,7 +12389,7 @@
   "fields": {
     "name": "加灵果实",
     "number": 0,
-    "icon": "Gs_jialing.png",
+    "icon": "gs_jialing.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -12437,7 +12437,7 @@
   "fields": {
     "name": "皎皎明月",
     "number": 0,
-    "icon": "Img_MedalIcon_Moonlight.png",
+    "icon": "img_medalicon_moonlight.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -12645,7 +12645,7 @@
   "fields": {
     "name": "菊花梨的蛋",
     "number": 0,
-    "icon": "Egg_juhuali.png",
+    "icon": "egg_juhuali.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -12661,7 +12661,7 @@
   "fields": {
     "name": "菊花梨果实",
     "number": 0,
-    "icon": "Gs_juhuali.png",
+    "icon": "gs_juhuali.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -12677,7 +12677,7 @@
   "fields": {
     "name": "绝缘球",
     "number": 0,
-    "icon": "Img_jueyuanqiu.png",
+    "icon": "img_jueyuanqiu.png",
     "main_category": "咕噜球",
     "sub_category": "特制咕噜球",
     "rarity": "紫",
@@ -12693,7 +12693,7 @@
   "fields": {
     "name": "卡波的蛋",
     "number": 0,
-    "icon": "Egg_xieefangchui.png",
+    "icon": "egg_xieefangchui.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -12709,7 +12709,7 @@
   "fields": {
     "name": "卡波果实",
     "number": 0,
-    "icon": "Gs_fangchui.png",
+    "icon": "gs_fangchui.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -12757,7 +12757,7 @@
   "fields": {
     "name": "咔咔羽毛的蛋",
     "number": 0,
-    "icon": "Egg_kakayumao.png",
+    "icon": "egg_kakayumao.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -12773,7 +12773,7 @@
   "fields": {
     "name": "咔咔羽毛果实",
     "number": 0,
-    "icon": "Gs_kaka_1.png",
+    "icon": "gs_kaka_1.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -12805,7 +12805,7 @@
   "fields": {
     "name": "可爱猿的蛋",
     "number": 0,
-    "icon": "Egg_keaiyuan.png",
+    "icon": "egg_keaiyuan.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -12821,7 +12821,7 @@
   "fields": {
     "name": "可爱猿果实",
     "number": 0,
-    "icon": "Gs_huoyuan.png",
+    "icon": "gs_huoyuan.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -12885,7 +12885,7 @@
   "fields": {
     "name": "可可果絮语",
     "number": 0,
-    "icon": "Img_MedalIcon_Kekeguo.png",
+    "icon": "img_medalicon_kekeguo.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -12901,7 +12901,7 @@
   "fields": {
     "name": "可立鸡的蛋",
     "number": 0,
-    "icon": "Egg_keliji.png",
+    "icon": "egg_keliji.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -12917,7 +12917,7 @@
   "fields": {
     "name": "可立鸡果实",
     "number": 0,
-    "icon": "Gs_keliji.png",
+    "icon": "gs_keliji.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -13029,7 +13029,7 @@
   "fields": {
     "name": "空空颅的蛋",
     "number": 0,
-    "icon": "Egg_anyekulou.png",
+    "icon": "egg_anyekulou.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -13045,7 +13045,7 @@
   "fields": {
     "name": "空空颅果实",
     "number": 0,
-    "icon": "Gs_kongkonglu.png",
+    "icon": "gs_kongkonglu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -13077,7 +13077,7 @@
   "fields": {
     "name": "哭哭菇的蛋",
     "number": 0,
-    "icon": "Egg_kukugu.png",
+    "icon": "egg_kukugu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -13093,7 +13093,7 @@
   "fields": {
     "name": "哭哭菇果实",
     "number": 0,
-    "icon": "Gs_kukugu.png",
+    "icon": "gs_kukugu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -13189,7 +13189,7 @@
   "fields": {
     "name": "矿晶虫的蛋",
     "number": 0,
-    "icon": "Egg_kuangjingchong.png",
+    "icon": "egg_kuangjingchong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -13205,7 +13205,7 @@
   "fields": {
     "name": "矿晶虫果实",
     "number": 0,
-    "icon": "Gs_kuangchong_1.png",
+    "icon": "gs_kuangchong_1.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -13269,7 +13269,7 @@
   "fields": {
     "name": "拉特的蛋",
     "number": 0,
-    "icon": "Egg_late.png",
+    "icon": "egg_late.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -13285,7 +13285,7 @@
   "fields": {
     "name": "拉特果实",
     "number": 0,
-    "icon": "Gs_kula.png",
+    "icon": "gs_kula.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -13397,7 +13397,7 @@
   "fields": {
     "name": "老朋友火花",
     "number": 0,
-    "icon": "Img_MedalIcon_BFF_XiaoHuoMiao.png",
+    "icon": "img_medalicon_bff_xiaohuomiao.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -13413,7 +13413,7 @@
   "fields": {
     "name": "老朋友喵喵",
     "number": 0,
-    "icon": "Img_MedalIcon_BFF_MiaoMiao.png",
+    "icon": "img_medalicon_bff_miaomiao.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -13429,7 +13429,7 @@
   "fields": {
     "name": "老朋友水蓝蓝",
     "number": 0,
-    "icon": "Img_MedalIcon_BFF_ShuiLanLan.png",
+    "icon": "img_medalicon_bff_shuilanlan.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -13525,7 +13525,7 @@
   "fields": {
     "name": "里奥的蛋",
     "number": 0,
-    "icon": "Egg_liao.png",
+    "icon": "egg_liao.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -13541,7 +13541,7 @@
   "fields": {
     "name": "厉毒小萝的蛋",
     "number": 0,
-    "icon": "Egg_xiaoluo.png",
+    "icon": "egg_xiaoluo.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -13557,7 +13557,7 @@
   "fields": {
     "name": "厉毒小萝果实",
     "number": 0,
-    "icon": "Gs_xiaoluo.png",
+    "icon": "gs_xiaoluo.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -13605,7 +13605,7 @@
   "fields": {
     "name": "里拉鳐的蛋",
     "number": 0,
-    "icon": "Egg_lilayao.png",
+    "icon": "egg_lilayao.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -13621,7 +13621,7 @@
   "fields": {
     "name": "里拉鳐果实",
     "number": 0,
-    "icon": "Gs_lilayao.png",
+    "icon": "gs_lilayao.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -13653,7 +13653,7 @@
   "fields": {
     "name": "栗鼠的蛋",
     "number": 0,
-    "icon": "Egg_lishu.png",
+    "icon": "egg_lishu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -13669,7 +13669,7 @@
   "fields": {
     "name": "栗鼠果实",
     "number": 0,
-    "icon": "Gs_lishu.png",
+    "icon": "gs_lishu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -13845,7 +13845,7 @@
   "fields": {
     "name": "灵狐的蛋",
     "number": 0,
-    "icon": "Egg_linghu.png",
+    "icon": "egg_linghu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -13861,7 +13861,7 @@
   "fields": {
     "name": "灵狐果实",
     "number": 0,
-    "icon": "Gs_linghu.png",
+    "icon": "gs_linghu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -14021,7 +14021,7 @@
   "fields": {
     "name": "龙系血脉秘药",
     "number": 0,
-    "icon": "Xuemai_long.png",
+    "icon": "xuemai_long.png",
     "main_category": "重要",
     "sub_category": "血脉修改道具",
     "rarity": "紫",
@@ -14053,7 +14053,7 @@
   "fields": {
     "name": "露萌的暗星球",
     "number": 0,
-    "icon": "Img_daodanqiu.png",
+    "icon": "img_daodanqiu.png",
     "main_category": "任务",
     "sub_category": "任务道具",
     "rarity": "紫",
@@ -14181,7 +14181,7 @@
   "fields": {
     "name": "螺旋帕帕的蛋",
     "number": 0,
-    "icon": "Egg_luoxuanpap.png",
+    "icon": "egg_luoxuanpap.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -14197,7 +14197,7 @@
   "fields": {
     "name": "螺旋帕帕果实",
     "number": 0,
-    "icon": "Gs_luoxuanpap.png",
+    "icon": "gs_luoxuanpap.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -14213,7 +14213,7 @@
   "fields": {
     "name": "绿草精灵的蛋",
     "number": 0,
-    "icon": "Egg_lvcaojingling.png",
+    "icon": "egg_lvcaojingling.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -14229,7 +14229,7 @@
   "fields": {
     "name": "绿草精灵果实",
     "number": 0,
-    "icon": "Gs_lvcaojii.png",
+    "icon": "gs_lvcaojii.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -14245,7 +14245,7 @@
   "fields": {
     "name": "绿耳松鼠的蛋",
     "number": 0,
-    "icon": "Egg_lversongshu.png",
+    "icon": "egg_lversongshu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -14261,7 +14261,7 @@
   "fields": {
     "name": "绿耳松鼠果实",
     "number": 0,
-    "icon": "Gs_songshu.png",
+    "icon": "gs_songshu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -14293,7 +14293,7 @@
   "fields": {
     "name": "绿翼鸟的蛋",
     "number": 0,
-    "icon": "Egg_lvyinian.png",
+    "icon": "egg_lvyinian.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -14309,7 +14309,7 @@
   "fields": {
     "name": "绿翼鸟果实",
     "number": 0,
-    "icon": "Gs_lvyiniao.png",
+    "icon": "gs_lvyiniao.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -14325,7 +14325,7 @@
   "fields": {
     "name": "绿洲象的蛋",
     "number": 0,
-    "icon": "Egg_lvzhoumengmaxiang.png",
+    "icon": "egg_lvzhoumengmaxiang.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -14341,7 +14341,7 @@
   "fields": {
     "name": "绿洲象果实",
     "number": 0,
-    "icon": "Gs_mengma.png",
+    "icon": "gs_mengma.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -14373,7 +14373,7 @@
   "fields": {
     "name": "毛毛的蛋",
     "number": 0,
-    "icon": "Egg_maomao.png",
+    "icon": "egg_maomao.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -14389,7 +14389,7 @@
   "fields": {
     "name": "毛毛果实",
     "number": 0,
-    "icon": "Gs_maomao.png",
+    "icon": "gs_maomao.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -14405,7 +14405,7 @@
   "fields": {
     "name": "毛头小蛛的蛋",
     "number": 0,
-    "icon": "Egg_maotouxiaozhu.png",
+    "icon": "egg_maotouxiaozhu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -14421,7 +14421,7 @@
   "fields": {
     "name": "毛头小蛛果实",
     "number": 0,
-    "icon": "Gs_maotouxiaozhu.png",
+    "icon": "gs_maotouxiaozhu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -14453,7 +14453,7 @@
   "fields": {
     "name": "美妙球",
     "number": 0,
-    "icon": "Img_haihaiqiu.png",
+    "icon": "img_haihaiqiu.png",
     "main_category": "咕噜球",
     "sub_category": "特制咕噜球",
     "rarity": "紫",
@@ -14533,7 +14533,7 @@
   "fields": {
     "name": "萌系血脉秘药",
     "number": 0,
-    "icon": "Xuemai_meng.png",
+    "icon": "xuemai_meng.png",
     "main_category": "重要",
     "sub_category": "血脉修改道具",
     "rarity": "紫",
@@ -14565,7 +14565,7 @@
   "fields": {
     "name": "梦游的蛋",
     "number": 0,
-    "icon": "Egg_mengyou.png",
+    "icon": "egg_mengyou.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -14581,7 +14581,7 @@
   "fields": {
     "name": "梦游果实",
     "number": 0,
-    "icon": "Gs_mengyou_1.png",
+    "icon": "gs_mengyou_1.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -14597,7 +14597,7 @@
   "fields": {
     "name": "蜜果骸的蛋",
     "number": 0,
-    "icon": "Egg_miguohai.png",
+    "icon": "egg_miguohai.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -14613,7 +14613,7 @@
   "fields": {
     "name": "蜜果骸果实",
     "number": 0,
-    "icon": "Img_linshi.png",
+    "icon": "img_linshi.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -14773,7 +14773,7 @@
   "fields": {
     "name": "喵喵的蛋",
     "number": 0,
-    "icon": "Egg_miaomiao.png",
+    "icon": "egg_miaomiao.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -14789,7 +14789,7 @@
   "fields": {
     "name": "喵喵果实",
     "number": 0,
-    "icon": "Gs_miaomiao.png",
+    "icon": "gs_miaomiao.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -14805,7 +14805,7 @@
   "fields": {
     "name": "喵喵羁绊",
     "number": 0,
-    "icon": "Img_MedalIcon_BFF_MiaoMiao.png",
+    "icon": "img_medalicon_bff_miaomiao.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -14869,7 +14869,7 @@
   "fields": {
     "name": "命定之证",
     "number": 0,
-    "icon": "Img_MedalIcon_Brave.png",
+    "icon": "img_medalicon_brave.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -15109,7 +15109,7 @@
   "fields": {
     "name": "墨鱿士的蛋",
     "number": 0,
-    "icon": "Egg_moyoushi.png",
+    "icon": "egg_moyoushi.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -15125,7 +15125,7 @@
   "fields": {
     "name": "墨鱿士果实",
     "number": 0,
-    "icon": "Gs_moyushi.png",
+    "icon": "gs_moyushi.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -15397,7 +15397,7 @@
   "fields": {
     "name": "配方-暗突袭",
     "number": 0,
-    "icon": "Learning_demon_03.png",
+    "icon": "learning_demon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -15413,7 +15413,7 @@
   "fields": {
     "name": "配方-暗箱操作",
     "number": 0,
-    "icon": "Learning_demon_03.png",
+    "icon": "learning_demon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -15429,7 +15429,7 @@
   "fields": {
     "name": "配方-爆冲",
     "number": 0,
-    "icon": "Learning_fight_03.png",
+    "icon": "learning_fight_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -15445,7 +15445,7 @@
   "fields": {
     "name": "配方-暴风眼",
     "number": 0,
-    "icon": "Learning_wing_03.png",
+    "icon": "learning_wing_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -15461,7 +15461,7 @@
   "fields": {
     "name": "配方-报复",
     "number": 0,
-    "icon": "Learning_ghost_03.png",
+    "icon": "learning_ghost_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -15477,7 +15477,7 @@
   "fields": {
     "name": "配方-爆米花爆破",
     "number": 0,
-    "icon": "Learning_moe_03.png",
+    "icon": "learning_moe_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -15493,7 +15493,7 @@
   "fields": {
     "name": "配方-孢子",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -15509,7 +15509,7 @@
   "fields": {
     "name": "配方-孢子爆散",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -15525,7 +15525,7 @@
   "fields": {
     "name": "配方-背袭",
     "number": 0,
-    "icon": "Learning_ghost_03.png",
+    "icon": "learning_ghost_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -15541,7 +15541,7 @@
   "fields": {
     "name": "配方-崩拳",
     "number": 0,
-    "icon": "Learning_fight_03.png",
+    "icon": "learning_fight_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -15557,7 +15557,7 @@
   "fields": {
     "name": "配方-彼岸之手",
     "number": 0,
-    "icon": "Learning_demon_03.png",
+    "icon": "learning_demon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -15573,7 +15573,7 @@
   "fields": {
     "name": "配方-壁垒",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -15589,7 +15589,7 @@
   "fields": {
     "name": "配方-鞭打",
     "number": 0,
-    "icon": "Learning_moe_03.png",
+    "icon": "learning_moe_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -15605,7 +15605,7 @@
   "fields": {
     "name": "配方-冰雹",
     "number": 0,
-    "icon": "Learning_ice_03.png",
+    "icon": "learning_ice_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -15621,7 +15621,7 @@
   "fields": {
     "name": "配方-冰点",
     "number": 0,
-    "icon": "Learning_ice_03.png",
+    "icon": "learning_ice_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -15637,7 +15637,7 @@
   "fields": {
     "name": "配方-冰冻光线",
     "number": 0,
-    "icon": "Learning_ice_03.png",
+    "icon": "learning_ice_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -15653,7 +15653,7 @@
   "fields": {
     "name": "配方-冰晶坠",
     "number": 0,
-    "icon": "Learning_ice_03.png",
+    "icon": "learning_ice_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -15669,7 +15669,7 @@
   "fields": {
     "name": "配方-冰捆缚",
     "number": 0,
-    "icon": "Learning_ice_03.png",
+    "icon": "learning_ice_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -15685,7 +15685,7 @@
   "fields": {
     "name": "配方-冰墙",
     "number": 0,
-    "icon": "Learning_ice_03.png",
+    "icon": "learning_ice_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -15701,7 +15701,7 @@
   "fields": {
     "name": "配方-冰天雪地",
     "number": 0,
-    "icon": "Learning_ice_03.png",
+    "icon": "learning_ice_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -15717,7 +15717,7 @@
   "fields": {
     "name": "配方-冰爪",
     "number": 0,
-    "icon": "Learning_ice_03.png",
+    "icon": "learning_ice_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -15733,7 +15733,7 @@
   "fields": {
     "name": "配方-不动如山",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -15749,7 +15749,7 @@
   "fields": {
     "name": "配方-不可接触",
     "number": 0,
-    "icon": "Learning_toxic_03.png",
+    "icon": "learning_toxic_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -15765,7 +15765,7 @@
   "fields": {
     "name": "配方-操控",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -15781,7 +15781,7 @@
   "fields": {
     "name": "配方-缠丝劲",
     "number": 0,
-    "icon": "Learning_fight_03.png",
+    "icon": "learning_fight_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -15797,7 +15797,7 @@
   "fields": {
     "name": "配方-超导",
     "number": 0,
-    "icon": "Learning_electric_03.png",
+    "icon": "learning_electric_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -15813,7 +15813,7 @@
   "fields": {
     "name": "配方-超导加速",
     "number": 0,
-    "icon": "Learning_electric_03.png",
+    "icon": "learning_electric_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -15829,7 +15829,7 @@
   "fields": {
     "name": "配方-超级糖果",
     "number": 0,
-    "icon": "Learning_moe_03.png",
+    "icon": "learning_moe_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -15845,7 +15845,7 @@
   "fields": {
     "name": "配方-嘲弄",
     "number": 0,
-    "icon": "Learning_ghost_03.png",
+    "icon": "learning_ghost_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -15861,7 +15861,7 @@
   "fields": {
     "name": "配方-超维投射",
     "number": 0,
-    "icon": "Learning_phantom_03.png",
+    "icon": "learning_phantom_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -15877,7 +15877,7 @@
   "fields": {
     "name": "配方-潮汐",
     "number": 0,
-    "icon": "Learning_water_03.png",
+    "icon": "learning_water_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -15893,7 +15893,7 @@
   "fields": {
     "name": "配方-超新星馈赠",
     "number": 0,
-    "icon": "Learning_phantom_03.png",
+    "icon": "learning_phantom_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -15909,7 +15909,7 @@
   "fields": {
     "name": "配方-潮涌",
     "number": 0,
-    "icon": "Learning_water_03.png",
+    "icon": "learning_water_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -15925,7 +15925,7 @@
   "fields": {
     "name": "配方-乘风",
     "number": 0,
-    "icon": "Learning_wing_03.png",
+    "icon": "learning_wing_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -15941,7 +15941,7 @@
   "fields": {
     "name": "配方-乘胜追击",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -15957,7 +15957,7 @@
   "fields": {
     "name": "配方-翅刃",
     "number": 0,
-    "icon": "Learning_insect_03.png",
+    "icon": "learning_insect_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -15973,7 +15973,7 @@
   "fields": {
     "name": "配方-持续高温",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -15989,7 +15989,7 @@
   "fields": {
     "name": "配方-赤子之心",
     "number": 0,
-    "icon": "Learning_moe_03.png",
+    "icon": "learning_moe_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16005,7 +16005,7 @@
   "fields": {
     "name": "配方-虫刺",
     "number": 0,
-    "icon": "Learning_insect_03.png",
+    "icon": "learning_insect_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16021,7 +16021,7 @@
   "fields": {
     "name": "配方-充分燃烧",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16037,7 +16037,7 @@
   "fields": {
     "name": "配方-虫蛊",
     "number": 0,
-    "icon": "Learning_insect_03.png",
+    "icon": "learning_insect_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16053,7 +16053,7 @@
   "fields": {
     "name": "配方-虫击",
     "number": 0,
-    "icon": "Learning_insect_03.png",
+    "icon": "learning_insect_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16069,7 +16069,7 @@
   "fields": {
     "name": "配方-虫结阵",
     "number": 0,
-    "icon": "Learning_insect_03.png",
+    "icon": "learning_insect_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16085,7 +16085,7 @@
   "fields": {
     "name": "配方-虫鸣",
     "number": 0,
-    "icon": "Learning_insect_03.png",
+    "icon": "learning_insect_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16101,7 +16101,7 @@
   "fields": {
     "name": "配方-虫群",
     "number": 0,
-    "icon": "Learning_insect_03.png",
+    "icon": "learning_insect_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16117,7 +16117,7 @@
   "fields": {
     "name": "配方-虫群过境",
     "number": 0,
-    "icon": "Learning_insect_03.png",
+    "icon": "learning_insect_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16133,7 +16133,7 @@
   "fields": {
     "name": "配方-虫群智慧",
     "number": 0,
-    "icon": "Learning_insect_03.png",
+    "icon": "learning_insect_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16149,7 +16149,7 @@
   "fields": {
     "name": "配方-虫网",
     "number": 0,
-    "icon": "Learning_insect_03.png",
+    "icon": "learning_insect_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16165,7 +16165,7 @@
   "fields": {
     "name": "配方-冲撞",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16181,7 +16181,7 @@
   "fields": {
     "name": "配方-抽枝",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16197,7 +16197,7 @@
   "fields": {
     "name": "配方-触底强击",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16213,7 +16213,7 @@
   "fields": {
     "name": "配方-除厄",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16229,7 +16229,7 @@
   "fields": {
     "name": "配方-传感器",
     "number": 0,
-    "icon": "Learning_mechanic_03.png",
+    "icon": "learning_mechanic_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16245,7 +16245,7 @@
   "fields": {
     "name": "配方-穿膛",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16261,7 +16261,7 @@
   "fields": {
     "name": "配方-吹火",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16277,7 +16277,7 @@
   "fields": {
     "name": "配方-垂死反击",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16293,7 +16293,7 @@
   "fields": {
     "name": "配方-吹炎",
     "number": 0,
-    "icon": "Learning_dragon_03.png",
+    "icon": "learning_dragon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16309,7 +16309,7 @@
   "fields": {
     "name": "配方-刺盾",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16325,7 +16325,7 @@
   "fields": {
     "name": "配方-伺机而动",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16341,7 +16341,7 @@
   "fields": {
     "name": "配方-刺藤",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16357,7 +16357,7 @@
   "fields": {
     "name": "配方-淬火",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16373,7 +16373,7 @@
   "fields": {
     "name": "配方-寸拳",
     "number": 0,
-    "icon": "Learning_fight_03.png",
+    "icon": "learning_fight_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16389,7 +16389,7 @@
   "fields": {
     "name": "配方-错乱",
     "number": 0,
-    "icon": "Learning_phantom_03.png",
+    "icon": "learning_phantom_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16405,7 +16405,7 @@
   "fields": {
     "name": "配方-大爆炸",
     "number": 0,
-    "icon": "Learning_phantom_03.png",
+    "icon": "learning_phantom_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16421,7 +16421,7 @@
   "fields": {
     "name": "配方-打鼾",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16437,7 +16437,7 @@
   "fields": {
     "name": "配方-打湿",
     "number": 0,
-    "icon": "Learning_water_03.png",
+    "icon": "learning_water_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16453,7 +16453,7 @@
   "fields": {
     "name": "配方-打雪仗",
     "number": 0,
-    "icon": "Learning_ice_03.png",
+    "icon": "learning_ice_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16469,7 +16469,7 @@
   "fields": {
     "name": "配方-当头棒喝",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16485,7 +16485,7 @@
   "fields": {
     "name": "配方-导电撞击",
     "number": 0,
-    "icon": "Learning_electric_03.png",
+    "icon": "learning_electric_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16501,7 +16501,7 @@
   "fields": {
     "name": "配方-地刺",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16517,7 +16517,7 @@
   "fields": {
     "name": "配方-地陷",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16533,7 +16533,7 @@
   "fields": {
     "name": "配方-地震",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16549,7 +16549,7 @@
   "fields": {
     "name": "配方-诋毁",
     "number": 0,
-    "icon": "Learning_demon_03.png",
+    "icon": "learning_demon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16565,7 +16565,7 @@
   "fields": {
     "name": "配方-电磁偏转",
     "number": 0,
-    "icon": "Learning_electric_03.png",
+    "icon": "learning_electric_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16581,7 +16581,7 @@
   "fields": {
     "name": "配方-电弧",
     "number": 0,
-    "icon": "Learning_electric_03.png",
+    "icon": "learning_electric_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16597,7 +16597,7 @@
   "fields": {
     "name": "配方-电离爆破",
     "number": 0,
-    "icon": "Learning_electric_03.png",
+    "icon": "learning_electric_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16613,7 +16613,7 @@
   "fields": {
     "name": "配方-跌落",
     "number": 0,
-    "icon": "Learning_demon_03.png",
+    "icon": "learning_demon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16629,7 +16629,7 @@
   "fields": {
     "name": "配方-叠势",
     "number": 0,
-    "icon": "Learning_fight_03.png",
+    "icon": "learning_fight_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16645,7 +16645,7 @@
   "fields": {
     "name": "配方-顶端优势",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16661,7 +16661,7 @@
   "fields": {
     "name": "配方-丢冰块",
     "number": 0,
-    "icon": "Learning_ice_03.png",
+    "icon": "learning_ice_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16677,7 +16677,7 @@
   "fields": {
     "name": "配方-毒孢子",
     "number": 0,
-    "icon": "Learning_toxic_03.png",
+    "icon": "learning_toxic_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16693,7 +16693,7 @@
   "fields": {
     "name": "配方-毒囊",
     "number": 0,
-    "icon": "Learning_toxic_03.png",
+    "icon": "learning_toxic_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16709,7 +16709,7 @@
   "fields": {
     "name": "配方-毒雾",
     "number": 0,
-    "icon": "Learning_toxic_03.png",
+    "icon": "learning_toxic_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16725,7 +16725,7 @@
   "fields": {
     "name": "配方-毒沼",
     "number": 0,
-    "icon": "Learning_toxic_03.png",
+    "icon": "learning_toxic_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16741,7 +16741,7 @@
   "fields": {
     "name": "配方-毒针",
     "number": 0,
-    "icon": "Learning_toxic_03.png",
+    "icon": "learning_toxic_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16757,7 +16757,7 @@
   "fields": {
     "name": "配方-遁地",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16773,7 +16773,7 @@
   "fields": {
     "name": "配方-跺地",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16789,7 +16789,7 @@
   "fields": {
     "name": "配方-多维击打",
     "number": 0,
-    "icon": "Learning_phantom_03.png",
+    "icon": "learning_phantom_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16805,7 +16805,7 @@
   "fields": {
     "name": "配方-恶意逃离",
     "number": 0,
-    "icon": "Learning_demon_03.png",
+    "icon": "learning_demon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16821,7 +16821,7 @@
   "fields": {
     "name": "配方-恶作剧",
     "number": 0,
-    "icon": "Learning_ghost_03.png",
+    "icon": "learning_ghost_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16837,7 +16837,7 @@
   "fields": {
     "name": "配方-二律背反",
     "number": 0,
-    "icon": "Learning_phantom_03.png",
+    "icon": "learning_phantom_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16853,7 +16853,7 @@
   "fields": {
     "name": "配方-反弹",
     "number": 0,
-    "icon": "Learning_moe_03.png",
+    "icon": "learning_moe_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16869,7 +16869,7 @@
   "fields": {
     "name": "配方-反击拳",
     "number": 0,
-    "icon": "Learning_fight_03.png",
+    "icon": "learning_fight_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -16885,7 +16885,7 @@
   "fields": {
     "name": "配方-防反",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16901,7 +16901,7 @@
   "fields": {
     "name": "配方-放晴",
     "number": 0,
-    "icon": "Learning_light_03.png",
+    "icon": "learning_light_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16917,7 +16917,7 @@
   "fields": {
     "name": "配方-芳香诱引",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16933,7 +16933,7 @@
   "fields": {
     "name": "配方-防御",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16949,7 +16949,7 @@
   "fields": {
     "name": "配方-防御反击",
     "number": 0,
-    "icon": "Learning_fight_03.png",
+    "icon": "learning_fight_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16965,7 +16965,7 @@
   "fields": {
     "name": "配方-飞断",
     "number": 0,
-    "icon": "Learning_insect_03.png",
+    "icon": "learning_insect_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16981,7 +16981,7 @@
   "fields": {
     "name": "配方-飞踢",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -16997,7 +16997,7 @@
   "fields": {
     "name": "配方-飞吻",
     "number": 0,
-    "icon": "Learning_moe_03.png",
+    "icon": "learning_moe_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17013,7 +17013,7 @@
   "fields": {
     "name": "配方-飞羽",
     "number": 0,
-    "icon": "Learning_wing_03.png",
+    "icon": "learning_wing_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17029,7 +17029,7 @@
   "fields": {
     "name": "配方-肥皂泡",
     "number": 0,
-    "icon": "Learning_water_03.png",
+    "icon": "learning_water_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17045,7 +17045,7 @@
   "fields": {
     "name": "配方-坟场搏击",
     "number": 0,
-    "icon": "Learning_ghost_03.png",
+    "icon": "learning_ghost_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17061,7 +17061,7 @@
   "fields": {
     "name": "配方-焚烧烙印",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17077,7 +17077,7 @@
   "fields": {
     "name": "配方-风起",
     "number": 0,
-    "icon": "Learning_wing_03.png",
+    "icon": "learning_wing_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17093,7 +17093,7 @@
   "fields": {
     "name": "配方-风矢",
     "number": 0,
-    "icon": "Learning_wing_03.png",
+    "icon": "learning_wing_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17109,7 +17109,7 @@
   "fields": {
     "name": "配方-风隐",
     "number": 0,
-    "icon": "Learning_wing_03.png",
+    "icon": "learning_wing_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17125,7 +17125,7 @@
   "fields": {
     "name": "配方-俯冲猛击",
     "number": 0,
-    "icon": "Learning_wing_03.png",
+    "icon": "learning_wing_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17141,7 +17141,7 @@
   "fields": {
     "name": "配方-腐化",
     "number": 0,
-    "icon": "Learning_toxic_03.png",
+    "icon": "learning_toxic_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17157,7 +17157,7 @@
   "fields": {
     "name": "配方-腐蚀酸液",
     "number": 0,
-    "icon": "Learning_toxic_03.png",
+    "icon": "learning_toxic_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17173,7 +17173,7 @@
   "fields": {
     "name": "配方-复写",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17189,7 +17189,7 @@
   "fields": {
     "name": "配方-富养化",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17205,7 +17205,7 @@
   "fields": {
     "name": "配方-感电",
     "number": 0,
-    "icon": "Learning_electric_03.png",
+    "icon": "learning_electric_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17221,7 +17221,7 @@
   "fields": {
     "name": "配方-感染病",
     "number": 0,
-    "icon": "Learning_toxic_03.png",
+    "icon": "learning_toxic_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17237,7 +17237,7 @@
   "fields": {
     "name": "配方-杠杆置换",
     "number": 0,
-    "icon": "Learning_mechanic_03.png",
+    "icon": "learning_mechanic_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17253,7 +17253,7 @@
   "fields": {
     "name": "配方-钢钻",
     "number": 0,
-    "icon": "Learning_mechanic_03.png",
+    "icon": "learning_mechanic_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17269,7 +17269,7 @@
   "fields": {
     "name": "配方-高温回火",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17285,7 +17285,7 @@
   "fields": {
     "name": "配方-根吸收",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17301,7 +17301,7 @@
   "fields": {
     "name": "配方-勾魂",
     "number": 0,
-    "icon": "Learning_ghost_03.png",
+    "icon": "learning_ghost_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17317,7 +17317,7 @@
   "fields": {
     "name": "配方-鼓劲",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17333,7 +17333,7 @@
   "fields": {
     "name": "配方-聒噪",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17349,7 +17349,7 @@
   "fields": {
     "name": "配方-光合作用",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17365,7 +17365,7 @@
   "fields": {
     "name": "配方-光能聚集",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17381,7 +17381,7 @@
   "fields": {
     "name": "配方-光球",
     "number": 0,
-    "icon": "Learning_light_03.png",
+    "icon": "learning_light_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17397,7 +17397,7 @@
   "fields": {
     "name": "配方-光刃",
     "number": 0,
-    "icon": "Learning_light_03.png",
+    "icon": "learning_light_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17413,7 +17413,7 @@
   "fields": {
     "name": "配方-光之矛",
     "number": 0,
-    "icon": "Learning_light_03.png",
+    "icon": "learning_light_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17429,7 +17429,7 @@
   "fields": {
     "name": "配方-诡刺",
     "number": 0,
-    "icon": "Learning_ghost_03.png",
+    "icon": "learning_ghost_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17445,7 +17445,7 @@
   "fields": {
     "name": "配方-过载回路",
     "number": 0,
-    "icon": "Learning_electric_03.png",
+    "icon": "learning_electric_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17461,7 +17461,7 @@
   "fields": {
     "name": "配方-寒风吹",
     "number": 0,
-    "icon": "Learning_ice_03.png",
+    "icon": "learning_ice_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17477,7 +17477,7 @@
   "fields": {
     "name": "配方-黑手",
     "number": 0,
-    "icon": "Learning_demon_03.png",
+    "icon": "learning_demon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17493,7 +17493,7 @@
   "fields": {
     "name": "配方-后发制人",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17509,7 +17509,7 @@
   "fields": {
     "name": "配方-化劲",
     "number": 0,
-    "icon": "Learning_fight_03.png",
+    "icon": "learning_fight_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17525,7 +17525,7 @@
   "fields": {
     "name": "配方-花炮",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17541,7 +17541,7 @@
   "fields": {
     "name": "配方-花香",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17557,7 +17557,7 @@
   "fields": {
     "name": "配方-幻象",
     "number": 0,
-    "icon": "Learning_ghost_03.png",
+    "icon": "learning_ghost_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17573,7 +17573,7 @@
   "fields": {
     "name": "配方-彗星",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17589,7 +17589,7 @@
   "fields": {
     "name": "配方-回旋风暴",
     "number": 0,
-    "icon": "Learning_wing_03.png",
+    "icon": "learning_wing_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17621,7 +17621,7 @@
   "fields": {
     "name": "配方-火焰冲锋",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17637,7 +17637,7 @@
   "fields": {
     "name": "配方-火焰护盾",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17653,7 +17653,7 @@
   "fields": {
     "name": "配方-火焰切割",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17669,7 +17669,7 @@
   "fields": {
     "name": "配方-火云车",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17685,7 +17685,7 @@
   "fields": {
     "name": "配方-火爪",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17701,7 +17701,7 @@
   "fields": {
     "name": "配方-棘刺",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17717,7 +17717,7 @@
   "fields": {
     "name": "配方-疾风刺",
     "number": 0,
-    "icon": "Learning_wing_03.png",
+    "icon": "learning_wing_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17733,7 +17733,7 @@
   "fields": {
     "name": "配方-击鼓传花",
     "number": 0,
-    "icon": "Learning_moe_03.png",
+    "icon": "learning_moe_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17749,7 +17749,7 @@
   "fields": {
     "name": "配方-极寒领域",
     "number": 0,
-    "icon": "Learning_ice_03.png",
+    "icon": "learning_ice_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17765,7 +17765,7 @@
   "fields": {
     "name": "配方-激怒",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17781,7 +17781,7 @@
   "fields": {
     "name": "配方-技巧打击",
     "number": 0,
-    "icon": "Learning_fight_03.png",
+    "icon": "learning_fight_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17797,7 +17797,7 @@
   "fields": {
     "name": "配方-汲取",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17813,7 +17813,7 @@
   "fields": {
     "name": "配方-棘突",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17829,7 +17829,7 @@
   "fields": {
     "name": "配方-极限撕裂",
     "number": 0,
-    "icon": "Learning_demon_03.png",
+    "icon": "learning_demon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17845,7 +17845,7 @@
   "fields": {
     "name": "配方-加大功率",
     "number": 0,
-    "icon": "Learning_electric_03.png",
+    "icon": "learning_electric_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17861,7 +17861,7 @@
   "fields": {
     "name": "配方-加固",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17877,7 +17877,7 @@
   "fields": {
     "name": "配方-架势",
     "number": 0,
-    "icon": "Learning_dragon_03.png",
+    "icon": "learning_dragon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17893,7 +17893,7 @@
   "fields": {
     "name": "配方-践踏",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17909,7 +17909,7 @@
   "fields": {
     "name": "配方-见招拆招",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17925,7 +17925,7 @@
   "fields": {
     "name": "配方-降灵",
     "number": 0,
-    "icon": "Learning_ghost_03.png",
+    "icon": "learning_ghost_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17941,7 +17941,7 @@
   "fields": {
     "name": "配方-交叉闪电",
     "number": 0,
-    "icon": "Learning_electric_03.png",
+    "icon": "learning_electric_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -17973,7 +17973,7 @@
   "fields": {
     "name": "配方-截拳",
     "number": 0,
-    "icon": "Learning_fight_03.png",
+    "icon": "learning_fight_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -17989,7 +17989,7 @@
   "fields": {
     "name": "配方-借用",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18005,7 +18005,7 @@
   "fields": {
     "name": "配方-金属噪音",
     "number": 0,
-    "icon": "Learning_mechanic_03.png",
+    "icon": "learning_mechanic_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18021,7 +18021,7 @@
   "fields": {
     "name": "配方-精神扰乱",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18037,7 +18037,7 @@
   "fields": {
     "name": "配方-惊吓盒子",
     "number": 0,
-    "icon": "Learning_ghost_03.png",
+    "icon": "learning_ghost_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18053,7 +18053,7 @@
   "fields": {
     "name": "配方-镜像反射",
     "number": 0,
-    "icon": "Learning_light_03.png",
+    "icon": "learning_light_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18069,7 +18069,7 @@
   "fields": {
     "name": "配方-剧毒",
     "number": 0,
-    "icon": "Learning_toxic_03.png",
+    "icon": "learning_toxic_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18085,7 +18085,7 @@
   "fields": {
     "name": "配方-聚盐",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18101,7 +18101,7 @@
   "fields": {
     "name": "配方-钧势",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18133,7 +18133,7 @@
   "fields": {
     "name": "配方-空间压迫",
     "number": 0,
-    "icon": "Learning_phantom_03.png",
+    "icon": "learning_phantom_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18149,7 +18149,7 @@
   "fields": {
     "name": "配方-恐吓",
     "number": 0,
-    "icon": "Learning_ghost_03.png",
+    "icon": "learning_ghost_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18165,7 +18165,7 @@
   "fields": {
     "name": "配方-快速移动",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18181,7 +18181,7 @@
   "fields": {
     "name": "配方-捆缚",
     "number": 0,
-    "icon": "Learning_insect_03.png",
+    "icon": "learning_insect_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18197,7 +18197,7 @@
   "fields": {
     "name": "配方-蜡质膜",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18213,7 +18213,7 @@
   "fields": {
     "name": "配方-冷风",
     "number": 0,
-    "icon": "Learning_ice_03.png",
+    "icon": "learning_ice_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18229,7 +18229,7 @@
   "fields": {
     "name": "配方-力量吞噬",
     "number": 0,
-    "icon": "Learning_demon_03.png",
+    "icon": "learning_demon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18245,7 +18245,7 @@
   "fields": {
     "name": "配方-力量增效",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18261,7 +18261,7 @@
   "fields": {
     "name": "配方-粒子对撞",
     "number": 0,
-    "icon": "Learning_phantom_03.png",
+    "icon": "learning_phantom_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18277,7 +18277,7 @@
   "fields": {
     "name": "配方-离子震荡",
     "number": 0,
-    "icon": "Learning_mechanic_03.png",
+    "icon": "learning_mechanic_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18293,7 +18293,7 @@
   "fields": {
     "name": "配方-连续毒针",
     "number": 0,
-    "icon": "Learning_toxic_03.png",
+    "icon": "learning_toxic_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18309,7 +18309,7 @@
   "fields": {
     "name": "配方-连续爪击",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18325,7 +18325,7 @@
   "fields": {
     "name": "配方-裂石",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18341,7 +18341,7 @@
   "fields": {
     "name": "配方-烈焰风暴",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18357,7 +18357,7 @@
   "fields": {
     "name": "配方-灵光",
     "number": 0,
-    "icon": "Learning_ghost_03.png",
+    "icon": "learning_ghost_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18373,7 +18373,7 @@
   "fields": {
     "name": "配方-灵媒",
     "number": 0,
-    "icon": "Learning_ghost_03.png",
+    "icon": "learning_ghost_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18389,7 +18389,7 @@
   "fields": {
     "name": "配方-流火",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18405,7 +18405,7 @@
   "fields": {
     "name": "配方-流沙",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18421,7 +18421,7 @@
   "fields": {
     "name": "配方-流星火雨",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18437,7 +18437,7 @@
   "fields": {
     "name": "配方-龙吼",
     "number": 0,
-    "icon": "Learning_dragon_03.png",
+    "icon": "learning_dragon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18453,7 +18453,7 @@
   "fields": {
     "name": "配方-龙卷风",
     "number": 0,
-    "icon": "Learning_wing_03.png",
+    "icon": "learning_wing_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18469,7 +18469,7 @@
   "fields": {
     "name": "配方-龙炮",
     "number": 0,
-    "icon": "Learning_dragon_03.png",
+    "icon": "learning_dragon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18485,7 +18485,7 @@
   "fields": {
     "name": "配方-龙吟",
     "number": 0,
-    "icon": "Learning_dragon_03.png",
+    "icon": "learning_dragon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18501,7 +18501,7 @@
   "fields": {
     "name": "配方-龙之利爪",
     "number": 0,
-    "icon": "Learning_dragon_03.png",
+    "icon": "learning_dragon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18517,7 +18517,7 @@
   "fields": {
     "name": "配方-乱打",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18533,7 +18533,7 @@
   "fields": {
     "name": "配方-落石",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18549,7 +18549,7 @@
   "fields": {
     "name": "配方-落雨",
     "number": 0,
-    "icon": "Learning_water_03.png",
+    "icon": "learning_water_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18565,7 +18565,7 @@
   "fields": {
     "name": "配方-掠夺",
     "number": 0,
-    "icon": "Learning_demon_03.png",
+    "icon": "learning_demon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18581,7 +18581,7 @@
   "fields": {
     "name": "配方-麻痹",
     "number": 0,
-    "icon": "Learning_electric_03.png",
+    "icon": "learning_electric_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18597,7 +18597,7 @@
   "fields": {
     "name": "配方-脉冲光线",
     "number": 0,
-    "icon": "Learning_light_03.png",
+    "icon": "learning_light_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18613,7 +18613,7 @@
   "fields": {
     "name": "配方-埋伏",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18629,7 +18629,7 @@
   "fields": {
     "name": "配方-漫反射",
     "number": 0,
-    "icon": "Learning_light_03.png",
+    "icon": "learning_light_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18645,7 +18645,7 @@
   "fields": {
     "name": "配方-酶浓度调整",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18661,7 +18661,7 @@
   "fields": {
     "name": "配方-绵里藏针",
     "number": 0,
-    "icon": "Learning_dragon_03.png",
+    "icon": "learning_dragon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18693,7 +18693,7 @@
   "fields": {
     "name": "配方-鸣叫",
     "number": 0,
-    "icon": "Learning_wing_03.png",
+    "icon": "learning_wing_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18709,7 +18709,7 @@
   "fields": {
     "name": "配方-鸣沙陷阱",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18725,7 +18725,7 @@
   "fields": {
     "name": "配方-冥想",
     "number": 0,
-    "icon": "Learning_phantom_03.png",
+    "icon": "learning_phantom_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18741,7 +18741,7 @@
   "fields": {
     "name": "配方-魔法增效",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18757,7 +18757,7 @@
   "fields": {
     "name": "配方-魔能爆",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18773,7 +18773,7 @@
   "fields": {
     "name": "配方-魔爪",
     "number": 0,
-    "icon": "Learning_demon_03.png",
+    "icon": "learning_demon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18789,7 +18789,7 @@
   "fields": {
     "name": "配方-能量炮",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18805,7 +18805,7 @@
   "fields": {
     "name": "配方-能量刃",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18821,7 +18821,7 @@
   "fields": {
     "name": "配方-能量守恒",
     "number": 0,
-    "icon": "Learning_mechanic_03.png",
+    "icon": "learning_mechanic_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18837,7 +18837,7 @@
   "fields": {
     "name": "配方-泥巴喷射",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18853,7 +18853,7 @@
   "fields": {
     "name": "配方-泥浆铠甲",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18869,7 +18869,7 @@
   "fields": {
     "name": "配方-逆袭",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18885,7 +18885,7 @@
   "fields": {
     "name": "配方-啮合传递",
     "number": 0,
-    "icon": "Learning_mechanic_03.png",
+    "icon": "learning_mechanic_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18901,7 +18901,7 @@
   "fields": {
     "name": "配方-怒火",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18917,7 +18917,7 @@
   "fields": {
     "name": "配方-泡沫",
     "number": 0,
-    "icon": "Learning_water_03.png",
+    "icon": "learning_water_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18933,7 +18933,7 @@
   "fields": {
     "name": "配方-泡沫幻影",
     "number": 0,
-    "icon": "Learning_water_03.png",
+    "icon": "learning_water_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -18949,7 +18949,7 @@
   "fields": {
     "name": "配方-抛石",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18965,7 +18965,7 @@
   "fields": {
     "name": "配方-咆哮",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18981,7 +18981,7 @@
   "fields": {
     "name": "配方-捧杀",
     "number": 0,
-    "icon": "Learning_moe_03.png",
+    "icon": "learning_moe_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -18997,7 +18997,7 @@
   "fields": {
     "name": "配方-碰爪",
     "number": 0,
-    "icon": "Learning_moe_03.png",
+    "icon": "learning_moe_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19013,7 +19013,7 @@
   "fields": {
     "name": "配方-破防",
     "number": 0,
-    "icon": "Learning_fight_03.png",
+    "icon": "learning_fight_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19029,7 +19029,7 @@
   "fields": {
     "name": "配方-破罐破摔",
     "number": 0,
-    "icon": "Learning_moe_03.png",
+    "icon": "learning_moe_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19045,7 +19045,7 @@
   "fields": {
     "name": "配方-迫害",
     "number": 0,
-    "icon": "Learning_demon_03.png",
+    "icon": "learning_demon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19061,7 +19061,7 @@
   "fields": {
     "name": "配方-迫近攻击",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19077,7 +19077,7 @@
   "fields": {
     "name": "配方-破绽",
     "number": 0,
-    "icon": "Learning_fight_03.png",
+    "icon": "learning_fight_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19093,7 +19093,7 @@
   "fields": {
     "name": "配方-气波",
     "number": 0,
-    "icon": "Learning_fight_03.png",
+    "icon": "learning_fight_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19109,7 +19109,7 @@
   "fields": {
     "name": "配方-气沉丹田",
     "number": 0,
-    "icon": "Learning_fight_03.png",
+    "icon": "learning_fight_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19125,7 +19125,7 @@
   "fields": {
     "name": "配方-气泡",
     "number": 0,
-    "icon": "Learning_water_03.png",
+    "icon": "learning_water_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19141,7 +19141,7 @@
   "fields": {
     "name": "配方-气势一击",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19157,7 +19157,7 @@
   "fields": {
     "name": "配方-欺诈契约",
     "number": 0,
-    "icon": "Learning_demon_03.png",
+    "icon": "learning_demon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19173,7 +19173,7 @@
   "fields": {
     "name": "配方-强制重启",
     "number": 0,
-    "icon": "Learning_electric_03.png",
+    "icon": "learning_electric_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19189,7 +19189,7 @@
   "fields": {
     "name": "配方-倾泻",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19205,7 +19205,7 @@
   "fields": {
     "name": "配方-取念",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19221,7 +19221,7 @@
   "fields": {
     "name": "配方-燃尽",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19253,7 +19253,7 @@
   "fields": {
     "name": "配方-热砂",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19269,7 +19269,7 @@
   "fields": {
     "name": "配方-热身",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19285,7 +19285,7 @@
   "fields": {
     "name": "配方-热身运动",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19301,7 +19301,7 @@
   "fields": {
     "name": "配方-锐利眼神",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19317,7 +19317,7 @@
   "fields": {
     "name": "配方-润泽",
     "number": 0,
-    "icon": "Learning_water_03.png",
+    "icon": "learning_water_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19333,7 +19333,7 @@
   "fields": {
     "name": "配方-撒娇",
     "number": 0,
-    "icon": "Learning_moe_03.png",
+    "icon": "learning_moe_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19349,7 +19349,7 @@
   "fields": {
     "name": "配方-三连破",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19365,7 +19365,7 @@
   "fields": {
     "name": "配方-散手",
     "number": 0,
-    "icon": "Learning_fight_03.png",
+    "icon": "learning_fight_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19381,7 +19381,7 @@
   "fields": {
     "name": "配方-扫尾",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19397,7 +19397,7 @@
   "fields": {
     "name": "配方-砂糖弹球",
     "number": 0,
-    "icon": "Learning_moe_03.png",
+    "icon": "learning_moe_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19413,7 +19413,7 @@
   "fields": {
     "name": "配方-沙涌",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19429,7 +19429,7 @@
   "fields": {
     "name": "配方-筛管奔流",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19445,7 +19445,7 @@
   "fields": {
     "name": "配方-晒太阳",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19461,7 +19461,7 @@
   "fields": {
     "name": "配方-扇风",
     "number": 0,
-    "icon": "Learning_wing_03.png",
+    "icon": "learning_wing_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19477,7 +19477,7 @@
   "fields": {
     "name": "配方-闪光",
     "number": 0,
-    "icon": "Learning_light_03.png",
+    "icon": "learning_light_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19493,7 +19493,7 @@
   "fields": {
     "name": "配方-闪光冲击",
     "number": 0,
-    "icon": "Learning_light_03.png",
+    "icon": "learning_light_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19509,7 +19509,7 @@
   "fields": {
     "name": "配方-山火",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19525,7 +19525,7 @@
   "fields": {
     "name": "配方-闪击",
     "number": 0,
-    "icon": "Learning_wing_03.png",
+    "icon": "learning_wing_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19541,7 +19541,7 @@
   "fields": {
     "name": "配方-闪击折返",
     "number": 0,
-    "icon": "Learning_electric_03.png",
+    "icon": "learning_electric_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19557,7 +19557,7 @@
   "fields": {
     "name": "配方-闪燃",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19573,7 +19573,7 @@
   "fields": {
     "name": "配方-盛开",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19589,7 +19589,7 @@
   "fields": {
     "name": "配方-升龙咆哮",
     "number": 0,
-    "icon": "Learning_dragon_03.png",
+    "icon": "learning_dragon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19605,7 +19605,7 @@
   "fields": {
     "name": "配方-生日蛋糕",
     "number": 0,
-    "icon": "Learning_moe_03.png",
+    "icon": "learning_moe_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19621,7 +19621,7 @@
   "fields": {
     "name": "配方-食腐",
     "number": 0,
-    "icon": "Learning_insect_03.png",
+    "icon": "learning_insect_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19637,7 +19637,7 @@
   "fields": {
     "name": "配方-石肤术",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19653,7 +19653,7 @@
   "fields": {
     "name": "配方-示弱",
     "number": 0,
-    "icon": "Learning_moe_03.png",
+    "icon": "learning_moe_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19669,7 +19669,7 @@
   "fields": {
     "name": "配方-嗜痛",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19685,7 +19685,7 @@
   "fields": {
     "name": "配方-双联脉冲",
     "number": 0,
-    "icon": "Learning_electric_03.png",
+    "icon": "learning_electric_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19701,7 +19701,7 @@
   "fields": {
     "name": "配方-霜天",
     "number": 0,
-    "icon": "Learning_ice_03.png",
+    "icon": "learning_ice_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19717,7 +19717,7 @@
   "fields": {
     "name": "配方-双响炮",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19733,7 +19733,7 @@
   "fields": {
     "name": "配方-双星",
     "number": 0,
-    "icon": "Learning_phantom_03.png",
+    "icon": "learning_phantom_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19749,7 +19749,7 @@
   "fields": {
     "name": "配方-水波术",
     "number": 0,
-    "icon": "Learning_water_03.png",
+    "icon": "learning_water_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19765,7 +19765,7 @@
   "fields": {
     "name": "配方-水弹",
     "number": 0,
-    "icon": "Learning_water_03.png",
+    "icon": "learning_water_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19781,7 +19781,7 @@
   "fields": {
     "name": "配方-水光冲击",
     "number": 0,
-    "icon": "Learning_water_03.png",
+    "icon": "learning_water_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19797,7 +19797,7 @@
   "fields": {
     "name": "配方-水花四溅",
     "number": 0,
-    "icon": "Learning_water_03.png",
+    "icon": "learning_water_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19813,7 +19813,7 @@
   "fields": {
     "name": "配方-水环",
     "number": 0,
-    "icon": "Learning_water_03.png",
+    "icon": "learning_water_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19845,7 +19845,7 @@
   "fields": {
     "name": "配方-水幕冲击",
     "number": 0,
-    "icon": "Learning_water_03.png",
+    "icon": "learning_water_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19861,7 +19861,7 @@
   "fields": {
     "name": "配方-水炮",
     "number": 0,
-    "icon": "Learning_water_03.png",
+    "icon": "learning_water_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19877,7 +19877,7 @@
   "fields": {
     "name": "配方-水泡盾",
     "number": 0,
-    "icon": "Learning_water_03.png",
+    "icon": "learning_water_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19893,7 +19893,7 @@
   "fields": {
     "name": "配方-水刃",
     "number": 0,
-    "icon": "Learning_water_03.png",
+    "icon": "learning_water_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19909,7 +19909,7 @@
   "fields": {
     "name": "配方-瞬间零度",
     "number": 0,
-    "icon": "Learning_ice_03.png",
+    "icon": "learning_ice_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19925,7 +19925,7 @@
   "fields": {
     "name": "配方-撕裂",
     "number": 0,
-    "icon": "Learning_demon_03.png",
+    "icon": "learning_demon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -19941,7 +19941,7 @@
   "fields": {
     "name": "配方-四维降解",
     "number": 0,
-    "icon": "Learning_phantom_03.png",
+    "icon": "learning_phantom_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19957,7 +19957,7 @@
   "fields": {
     "name": "配方-撕咬",
     "number": 0,
-    "icon": "Learning_demon_03.png",
+    "icon": "learning_demon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19973,7 +19973,7 @@
   "fields": {
     "name": "配方-速冻",
     "number": 0,
-    "icon": "Learning_ice_03.png",
+    "icon": "learning_ice_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -19989,7 +19989,7 @@
   "fields": {
     "name": "配方-隼鳞",
     "number": 0,
-    "icon": "Learning_dragon_03.png",
+    "icon": "learning_dragon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20005,7 +20005,7 @@
   "fields": {
     "name": "配方-贪婪",
     "number": 0,
-    "icon": "Learning_demon_03.png",
+    "icon": "learning_demon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20021,7 +20021,7 @@
   "fields": {
     "name": "配方-坍缩",
     "number": 0,
-    "icon": "Learning_phantom_03.png",
+    "icon": "learning_phantom_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20037,7 +20037,7 @@
   "fields": {
     "name": "配方-藤绞",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20053,7 +20053,7 @@
   "fields": {
     "name": "配方-提气",
     "number": 0,
-    "icon": "Learning_fight_03.png",
+    "icon": "learning_fight_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20069,7 +20069,7 @@
   "fields": {
     "name": "配方-天光",
     "number": 0,
-    "icon": "Learning_light_03.png",
+    "icon": "learning_light_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20085,7 +20085,7 @@
   "fields": {
     "name": "配方-天洪",
     "number": 0,
-    "icon": "Learning_water_03.png",
+    "icon": "learning_water_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20101,7 +20101,7 @@
   "fields": {
     "name": "配方-天火",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20117,7 +20117,7 @@
   "fields": {
     "name": "配方-甜心续航",
     "number": 0,
-    "icon": "Learning_moe_03.png",
+    "icon": "learning_moe_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20133,7 +20133,7 @@
   "fields": {
     "name": "配方-天旋地转",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20149,7 +20149,7 @@
   "fields": {
     "name": "配方-听桥",
     "number": 0,
-    "icon": "Learning_fight_03.png",
+    "icon": "learning_fight_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20165,7 +20165,7 @@
   "fields": {
     "name": "配方-透射",
     "number": 0,
-    "icon": "Learning_light_03.png",
+    "icon": "learning_light_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20181,7 +20181,7 @@
   "fields": {
     "name": "配方-偷袭",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20197,7 +20197,7 @@
   "fields": {
     "name": "配方-突袭",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20213,7 +20213,7 @@
   "fields": {
     "name": "配方-退化",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20229,7 +20229,7 @@
   "fields": {
     "name": "配方-吞噬",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20245,7 +20245,7 @@
   "fields": {
     "name": "配方-网缚",
     "number": 0,
-    "icon": "Learning_insect_03.png",
+    "icon": "learning_insect_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20261,7 +20261,7 @@
   "fields": {
     "name": "配方-尾后针",
     "number": 0,
-    "icon": "Learning_insect_03.png",
+    "icon": "learning_insect_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20277,7 +20277,7 @@
   "fields": {
     "name": "配方-伪造账单",
     "number": 0,
-    "icon": "Learning_demon_03.png",
+    "icon": "learning_demon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20293,7 +20293,7 @@
   "fields": {
     "name": "配方-无畏之心",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20309,7 +20309,7 @@
   "fields": {
     "name": "配方-午夜噪音",
     "number": 0,
-    "icon": "Learning_ghost_03.png",
+    "icon": "learning_ghost_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20325,7 +20325,7 @@
   "fields": {
     "name": "配方-无影脚",
     "number": 0,
-    "icon": "Learning_fight_03.png",
+    "icon": "learning_fight_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20341,7 +20341,7 @@
   "fields": {
     "name": "配方-洗礼",
     "number": 0,
-    "icon": "Learning_water_03.png",
+    "icon": "learning_water_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20357,7 +20357,7 @@
   "fields": {
     "name": "配方-吓退",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20373,7 +20373,7 @@
   "fields": {
     "name": "配方-先发制人",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20389,7 +20389,7 @@
   "fields": {
     "name": "配方-纤维化",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20405,7 +20405,7 @@
   "fields": {
     "name": "配方-消毒法",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20421,7 +20421,7 @@
   "fields": {
     "name": "配方-械斗",
     "number": 0,
-    "icon": "Learning_mechanic_03.png",
+    "icon": "learning_mechanic_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20437,7 +20437,7 @@
   "fields": {
     "name": "配方-心灵洞悉",
     "number": 0,
-    "icon": "Learning_phantom_03.png",
+    "icon": "learning_phantom_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20453,7 +20453,7 @@
   "fields": {
     "name": "配方-星轨裂变",
     "number": 0,
-    "icon": "Learning_phantom_03.png",
+    "icon": "learning_phantom_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20469,7 +20469,7 @@
   "fields": {
     "name": "配方-星链",
     "number": 0,
-    "icon": "Learning_phantom_03.png",
+    "icon": "learning_phantom_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20485,7 +20485,7 @@
   "fields": {
     "name": "配方-休息回复",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20501,7 +20501,7 @@
   "fields": {
     "name": "配方-虚化",
     "number": 0,
-    "icon": "Learning_ghost_03.png",
+    "icon": "learning_ghost_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20517,7 +20517,7 @@
   "fields": {
     "name": "配方-虚假破产",
     "number": 0,
-    "icon": "Learning_demon_03.png",
+    "icon": "learning_demon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20533,7 +20533,7 @@
   "fields": {
     "name": "配方-蓄能轰击",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20549,7 +20549,7 @@
   "fields": {
     "name": "配方-蓄势待发",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20565,7 +20565,7 @@
   "fields": {
     "name": "配方-蓄水",
     "number": 0,
-    "icon": "Learning_water_03.png",
+    "icon": "learning_water_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20581,7 +20581,7 @@
   "fields": {
     "name": "配方-许愿星",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20597,7 +20597,7 @@
   "fields": {
     "name": "配方-血气",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20613,7 +20613,7 @@
   "fields": {
     "name": "配方-雪球",
     "number": 0,
-    "icon": "Learning_ice_03.png",
+    "icon": "learning_ice_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20629,7 +20629,7 @@
   "fields": {
     "name": "配方-雪替身",
     "number": 0,
-    "icon": "Learning_ice_03.png",
+    "icon": "learning_ice_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20645,7 +20645,7 @@
   "fields": {
     "name": "配方-压扁",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20693,7 +20693,7 @@
   "fields": {
     "name": "配方-炎打",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20709,7 +20709,7 @@
   "fields": {
     "name": "配方-掩护",
     "number": 0,
-    "icon": "Learning_insect_03.png",
+    "icon": "learning_insect_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20725,7 +20725,7 @@
   "fields": {
     "name": "配方-岩脉崩毁",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20741,7 +20741,7 @@
   "fields": {
     "name": "配方-湮灭",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20757,7 +20757,7 @@
   "fields": {
     "name": "配方-炎枪",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20773,7 +20773,7 @@
   "fields": {
     "name": "配方-盐水浴",
     "number": 0,
-    "icon": "Learning_water_03.png",
+    "icon": "learning_water_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20789,7 +20789,7 @@
   "fields": {
     "name": "配方-岩土暴击",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20805,7 +20805,7 @@
   "fields": {
     "name": "配方-阳火增辉",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20821,7 +20821,7 @@
   "fields": {
     "name": "配方-氧输送",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20837,7 +20837,7 @@
   "fields": {
     "name": "配方-摇篮曲",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20853,7 +20853,7 @@
   "fields": {
     "name": "配方-耀眼",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20869,7 +20869,7 @@
   "fields": {
     "name": "配方-叶绿光束",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20885,7 +20885,7 @@
   "fields": {
     "name": "配方-移花接木",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20901,7 +20901,7 @@
   "fields": {
     "name": "配方-翼击",
     "number": 0,
-    "icon": "Learning_wing_03.png",
+    "icon": "learning_wing_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20917,7 +20917,7 @@
   "fields": {
     "name": "配方-一拳",
     "number": 0,
-    "icon": "Learning_fight_03.png",
+    "icon": "learning_fight_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20933,7 +20933,7 @@
   "fields": {
     "name": "配方-易燃物质",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20965,7 +20965,7 @@
   "fields": {
     "name": "配方-以重制重",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -20981,7 +20981,7 @@
   "fields": {
     "name": "配方-音爆",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -20997,7 +20997,7 @@
   "fields": {
     "name": "配方-隐藏条款",
     "number": 0,
-    "icon": "Learning_demon_03.png",
+    "icon": "learning_demon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -21013,7 +21013,7 @@
   "fields": {
     "name": "配方-引燃",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -21029,7 +21029,7 @@
   "fields": {
     "name": "配方-硬化",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -21045,7 +21045,7 @@
   "fields": {
     "name": "配方-应激反应",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -21061,7 +21061,7 @@
   "fields": {
     "name": "配方-硬门",
     "number": 0,
-    "icon": "Learning_fight_03.png",
+    "icon": "learning_fight_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -21077,7 +21077,7 @@
   "fields": {
     "name": "配方-影袭",
     "number": 0,
-    "icon": "Learning_fight_03.png",
+    "icon": "learning_fight_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -21093,7 +21093,7 @@
   "fields": {
     "name": "配方-涌泉",
     "number": 0,
-    "icon": "Learning_water_03.png",
+    "icon": "learning_water_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -21109,7 +21109,7 @@
   "fields": {
     "name": "配方-幽灵爆发",
     "number": 0,
-    "icon": "Learning_ghost_03.png",
+    "icon": "learning_ghost_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -21125,7 +21125,7 @@
   "fields": {
     "name": "配方-有效预防",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -21141,7 +21141,7 @@
   "fields": {
     "name": "配方-预备势",
     "number": 0,
-    "icon": "Learning_fight_03.png",
+    "icon": "learning_fight_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -21157,7 +21157,7 @@
   "fields": {
     "name": "配方-羽化加速",
     "number": 0,
-    "icon": "Learning_wing_03.png",
+    "icon": "learning_wing_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -21173,7 +21173,7 @@
   "fields": {
     "name": "配方-淤泥表皮",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -21189,7 +21189,7 @@
   "fields": {
     "name": "配方-羽刃",
     "number": 0,
-    "icon": "Learning_wing_03.png",
+    "icon": "learning_wing_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -21205,7 +21205,7 @@
   "fields": {
     "name": "配方-羽翼庇护",
     "number": 0,
-    "icon": "Learning_wing_03.png",
+    "icon": "learning_wing_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -21221,7 +21221,7 @@
   "fields": {
     "name": "配方-远程访问",
     "number": 0,
-    "icon": "Learning_electric_03.png",
+    "icon": "learning_electric_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -21237,7 +21237,7 @@
   "fields": {
     "name": "配方-月光合奏",
     "number": 0,
-    "icon": "Learning_moe_03.png",
+    "icon": "learning_moe_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -21253,7 +21253,7 @@
   "fields": {
     "name": "配方-陨石",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -21269,7 +21269,7 @@
   "fields": {
     "name": "配方-栽赃",
     "number": 0,
-    "icon": "Learning_demon_03.png",
+    "icon": "learning_demon_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -21285,7 +21285,7 @@
   "fields": {
     "name": "配方-斩断",
     "number": 0,
-    "icon": "Learning_fight_03.png",
+    "icon": "learning_fight_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -21301,7 +21301,7 @@
   "fields": {
     "name": "配方-瘴气喷射",
     "number": 0,
-    "icon": "Learning_toxic_03.png",
+    "icon": "learning_toxic_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -21317,7 +21317,7 @@
   "fields": {
     "name": "配方-折射",
     "number": 0,
-    "icon": "Learning_light_03.png",
+    "icon": "learning_light_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -21333,7 +21333,7 @@
   "fields": {
     "name": "配方-蛰针",
     "number": 0,
-    "icon": "Learning_insect_03.png",
+    "icon": "learning_insect_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -21349,7 +21349,7 @@
   "fields": {
     "name": "配方-鸩毒",
     "number": 0,
-    "icon": "Learning_toxic_03.png",
+    "icon": "learning_toxic_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -21365,7 +21365,7 @@
   "fields": {
     "name": "配方-震击",
     "number": 0,
-    "icon": "Learning_earth_03.png",
+    "icon": "learning_earth_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -21381,7 +21381,7 @@
   "fields": {
     "name": "配方-炙热波动",
     "number": 0,
-    "icon": "Learning_fire_03.png",
+    "icon": "learning_fire_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -21397,7 +21397,7 @@
   "fields": {
     "name": "配方-重击",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -21413,7 +21413,7 @@
   "fields": {
     "name": "配方-种皮爆裂",
     "number": 0,
-    "icon": "Learning_grass_03.png",
+    "icon": "learning_grass_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -21429,7 +21429,7 @@
   "fields": {
     "name": "配方-轴承支撑",
     "number": 0,
-    "icon": "Learning_mechanic_03.png",
+    "icon": "learning_mechanic_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -21445,7 +21445,7 @@
   "fields": {
     "name": "配方-贮藏",
     "number": 0,
-    "icon": "Learning_insect_03.png",
+    "icon": "learning_insect_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -21461,7 +21461,7 @@
   "fields": {
     "name": "配方-主场优势",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -21477,7 +21477,7 @@
   "fields": {
     "name": "配方-主轴",
     "number": 0,
-    "icon": "Learning_mechanic_03.png",
+    "icon": "learning_mechanic_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -21493,7 +21493,7 @@
   "fields": {
     "name": "配方-追打",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "紫",
@@ -21509,7 +21509,7 @@
   "fields": {
     "name": "配方-啄击",
     "number": 0,
-    "icon": "Learning_wing_03.png",
+    "icon": "learning_wing_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -21525,7 +21525,7 @@
   "fields": {
     "name": "配方-阻断",
     "number": 0,
-    "icon": "Learning_common_03.png",
+    "icon": "learning_common_03.png",
     "main_category": "重要",
     "sub_category": "技能石合成配方",
     "rarity": "蓝",
@@ -21573,7 +21573,7 @@
   "fields": {
     "name": "噼啪鸟的蛋",
     "number": 0,
-    "icon": "Egg_pipaniao.png",
+    "icon": "egg_pipaniao.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -21589,7 +21589,7 @@
   "fields": {
     "name": "噼啪鸟果实",
     "number": 0,
-    "icon": "Gs_pipaniao.png",
+    "icon": "gs_pipaniao.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -21893,7 +21893,7 @@
   "fields": {
     "name": "蒲公英的蛋",
     "number": 0,
-    "icon": "Egg_pugongying.png",
+    "icon": "egg_pugongying.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -21909,7 +21909,7 @@
   "fields": {
     "name": "蒲公英果实",
     "number": 0,
-    "icon": "Gs_pugongying.png",
+    "icon": "gs_pugongying.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -22085,7 +22085,7 @@
   "fields": {
     "name": "普通血脉秘药",
     "number": 0,
-    "icon": "Xuemai_putong.png",
+    "icon": "xuemai_putong.png",
     "main_category": "重要",
     "sub_category": "血脉修改道具",
     "rarity": "紫",
@@ -22117,7 +22117,7 @@
   "fields": {
     "name": "奇丽草的蛋",
     "number": 0,
-    "icon": "Egg_qilicao.png",
+    "icon": "egg_qilicao.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -22133,7 +22133,7 @@
   "fields": {
     "name": "奇丽草果实",
     "number": 0,
-    "icon": "Gs_qilicao.png",
+    "icon": "gs_qilicao.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -22165,7 +22165,7 @@
   "fields": {
     "name": "棋棋的蛋",
     "number": 0,
-    "icon": "Egg_qiqi2.png",
+    "icon": "egg_qiqi2.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -22181,7 +22181,7 @@
   "fields": {
     "name": "棋棋果实",
     "number": 0,
-    "icon": "Gs_qiqi.png",
+    "icon": "gs_qiqi.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -22213,7 +22213,7 @@
   "fields": {
     "name": "奇异血脉秘药",
     "number": 0,
-    "icon": "Xuemai_qiyixuemai.png",
+    "icon": "xuemai_qiyixuemai.png",
     "main_category": "重要",
     "sub_category": "血脉修改道具",
     "rarity": "紫",
@@ -22309,7 +22309,7 @@
   "fields": {
     "name": "契约之证",
     "number": 0,
-    "icon": "Img_MedalIcon_FateCertificate.png",
+    "icon": "img_medalicon_fatecertificate.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -22341,7 +22341,7 @@
   "fields": {
     "name": "牵线木偶的蛋",
     "number": 0,
-    "icon": "Egg_qianxianmuou.png",
+    "icon": "egg_qianxianmuou.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -22357,7 +22357,7 @@
   "fields": {
     "name": "牵线木偶果实",
     "number": 0,
-    "icon": "Gs_muou.png",
+    "icon": "gs_muou.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -22405,7 +22405,7 @@
   "fields": {
     "name": "裘洛的蛋",
     "number": 0,
-    "icon": "Egg_qiuluo.png",
+    "icon": "egg_qiuluo.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -22421,7 +22421,7 @@
   "fields": {
     "name": "裘洛果实",
     "number": 0,
-    "icon": "Gs_qiuluo.png",
+    "icon": "gs_qiuluo.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -22453,7 +22453,7 @@
   "fields": {
     "name": "权杖-Ⅱ的蛋",
     "number": 0,
-    "icon": "Egg_quanzhang.png",
+    "icon": "egg_quanzhang.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -22469,7 +22469,7 @@
   "fields": {
     "name": "权杖-Ⅱ果实",
     "number": 0,
-    "icon": "Gs_quanzhang.png",
+    "icon": "gs_quanzhang.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -22517,7 +22517,7 @@
   "fields": {
     "name": "燃了鸭",
     "number": 0,
-    "icon": "Img_MedalIcon_YaJiJiAr003.png",
+    "icon": "img_medalicon_yajijiar003.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -22565,7 +22565,7 @@
   "fields": {
     "name": "绒绒的蛋",
     "number": 0,
-    "icon": "Egg_rongrong.png",
+    "icon": "egg_rongrong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -22581,7 +22581,7 @@
   "fields": {
     "name": "绒绒果实",
     "number": 0,
-    "icon": "Gs_rongrong.png",
+    "icon": "gs_rongrong.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "橙",
@@ -22629,7 +22629,7 @@
   "fields": {
     "name": "柔软咕噜球",
     "number": 0,
-    "icon": "Img_linshiqiu.png",
+    "icon": "img_linshiqiu.png",
     "main_category": "咕噜球",
     "sub_category": "咕噜球",
     "rarity": "蓝",
@@ -22709,7 +22709,7 @@
   "fields": {
     "name": "赛季炫彩精灵蛋",
     "number": 0,
-    "icon": "Egg_tongyong.png",
+    "icon": "egg_tongyong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -22757,7 +22757,7 @@
   "fields": {
     "name": "闪电环的蛋",
     "number": 0,
-    "icon": "Egg_shandianhuan.png",
+    "icon": "egg_shandianhuan.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -22773,7 +22773,7 @@
   "fields": {
     "name": "闪电环果实",
     "number": 0,
-    "icon": "Gs_dianhuan.png",
+    "icon": "gs_dianhuan.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -22901,7 +22901,7 @@
   "fields": {
     "name": "深蓝鲸的蛋",
     "number": 0,
-    "icon": "Egg_shenlanjing.png",
+    "icon": "egg_shenlanjing.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -22917,7 +22917,7 @@
   "fields": {
     "name": "深蓝鲸果实",
     "number": 0,
-    "icon": "Gs_shenlanjing.png",
+    "icon": "gs_shenlanjing.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -22981,7 +22981,7 @@
   "fields": {
     "name": "神奇的蛋",
     "number": 0,
-    "icon": "Egg_tongyong.png",
+    "icon": "egg_tongyong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -23029,7 +23029,7 @@
   "fields": {
     "name": "圣剑侍从的蛋",
     "number": 0,
-    "icon": "Egg_shengjianshicong.png",
+    "icon": "egg_shengjianshicong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -23045,7 +23045,7 @@
   "fields": {
     "name": "圣剑侍从果实",
     "number": 0,
-    "icon": "Gs_shengjianshicong.png",
+    "icon": "gs_shengjianshicong.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -23077,7 +23077,7 @@
   "fields": {
     "name": "石肤蜥的蛋",
     "number": 0,
-    "icon": "Egg_huociyanxiyi.png",
+    "icon": "egg_huociyanxiyi.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -23093,7 +23093,7 @@
   "fields": {
     "name": "石肤蜥果实",
     "number": 0,
-    "icon": "Gs_shixiyi.png",
+    "icon": "gs_shixiyi.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -23157,7 +23157,7 @@
   "fields": {
     "name": "嗜光嗡嗡的蛋",
     "number": 0,
-    "icon": "Egg_shiguangwengweng.png",
+    "icon": "egg_shiguangwengweng.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -23173,7 +23173,7 @@
   "fields": {
     "name": "嗜光嗡嗡果实",
     "number": 0,
-    "icon": "Gs_shiguangwengweng.png",
+    "icon": "gs_shiguangwengweng.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -23269,7 +23269,7 @@
   "fields": {
     "name": "石石的蛋",
     "number": 0,
-    "icon": "Egg_xiaoshitou.png",
+    "icon": "egg_xiaoshitou.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -23285,7 +23285,7 @@
   "fields": {
     "name": "石石果实",
     "number": 0,
-    "icon": "Gs_xiaoshitou.png",
+    "icon": "gs_xiaoshitou.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -23317,7 +23317,7 @@
   "fields": {
     "name": "十字蝌蚪的蛋",
     "number": 0,
-    "icon": "Egg_shiziwa.png",
+    "icon": "egg_shiziwa.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -23333,7 +23333,7 @@
   "fields": {
     "name": "十字蝌蚪果实",
     "number": 0,
-    "icon": "Img_linshi.png",
+    "icon": "img_linshi.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -23349,7 +23349,7 @@
   "fields": {
     "name": "兽花蕾的蛋",
     "number": 0,
-    "icon": "Egg_shouhualei.png",
+    "icon": "egg_shouhualei.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -23365,7 +23365,7 @@
   "fields": {
     "name": "兽花蕾果实",
     "number": 0,
-    "icon": "Gs_shouhualei.png",
+    "icon": "gs_shouhualei.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -23381,7 +23381,7 @@
   "fields": {
     "name": "首领蹦蹦种子的蛋",
     "number": 0,
-    "icon": "Egg_bengbengzhongzi.png",
+    "icon": "egg_bengbengzhongzi.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -23397,7 +23397,7 @@
   "fields": {
     "name": "首领布是石的蛋",
     "number": 0,
-    "icon": "Egg_xiaobushi.png",
+    "icon": "egg_xiaobushi.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -23413,7 +23413,7 @@
   "fields": {
     "name": "首领海盔虫的蛋",
     "number": 0,
-    "icon": "Egg_haikuichong.png",
+    "icon": "egg_haikuichong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -23429,7 +23429,7 @@
   "fields": {
     "name": "首领奇丽草的蛋",
     "number": 0,
-    "icon": "Egg_qilicao.png",
+    "icon": "egg_qilicao.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -23461,7 +23461,7 @@
   "fields": {
     "name": "首领血脉秘药",
     "number": 0,
-    "icon": "Xuemai_shoulingxuemai.png",
+    "icon": "xuemai_shoulingxuemai.png",
     "main_category": "重要",
     "sub_category": "血脉修改道具",
     "rarity": "紫",
@@ -23525,7 +23525,7 @@
   "fields": {
     "name": "书魔虫的蛋",
     "number": 0,
-    "icon": "Egg_shumochong.png",
+    "icon": "egg_shumochong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -23541,7 +23541,7 @@
   "fields": {
     "name": "书魔虫果实",
     "number": 0,
-    "icon": "Gs_shumochong.png",
+    "icon": "gs_shumochong.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -23557,7 +23557,7 @@
   "fields": {
     "name": "双灯鱼的蛋",
     "number": 0,
-    "icon": "Egg_shuangdengyu.png",
+    "icon": "egg_shuangdengyu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -23573,7 +23573,7 @@
   "fields": {
     "name": "双灯鱼果实",
     "number": 0,
-    "icon": "Gs_dengyu.png",
+    "icon": "gs_dengyu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -23653,7 +23653,7 @@
   "fields": {
     "name": "水滴蛇的蛋",
     "number": 0,
-    "icon": "Egg_shuidishe.png",
+    "icon": "egg_shuidishe.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -23669,7 +23669,7 @@
   "fields": {
     "name": "水滴蛇果实",
     "number": 0,
-    "icon": "Gs_shuidishe.png",
+    "icon": "gs_shuidishe.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -23685,7 +23685,7 @@
   "fields": {
     "name": "水蓝蓝的蛋",
     "number": 0,
-    "icon": "Egg_shuilanlan.png",
+    "icon": "egg_shuilanlan.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -23701,7 +23701,7 @@
   "fields": {
     "name": "水蓝蓝果实",
     "number": 0,
-    "icon": "Gs_shuilanlan.png",
+    "icon": "gs_shuilanlan.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -23717,7 +23717,7 @@
   "fields": {
     "name": "水蓝蓝羁绊",
     "number": 0,
-    "icon": "Img_MedalIcon_BFF_ShuiLanLan.png",
+    "icon": "img_medalicon_bff_shuilanlan.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -23797,7 +23797,7 @@
   "fields": {
     "name": "水系血脉秘药",
     "number": 0,
-    "icon": "Xuemai_shui.png",
+    "icon": "xuemai_shui.png",
     "main_category": "重要",
     "sub_category": "血脉修改道具",
     "rarity": "紫",
@@ -23877,7 +23877,7 @@
   "fields": {
     "name": "四角星炫彩蛋",
     "number": 0,
-    "icon": "Egg_tongyong.png",
+    "icon": "egg_tongyong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -23941,7 +23941,7 @@
   "fields": {
     "name": "松仔的蛋",
     "number": 0,
-    "icon": "Egg_songzai.png",
+    "icon": "egg_songzai.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -23957,7 +23957,7 @@
   "fields": {
     "name": "松仔果实",
     "number": 0,
-    "icon": "Gs_songzai.png",
+    "icon": "gs_songzai.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -24053,7 +24053,7 @@
   "fields": {
     "name": "淘沙球",
     "number": 0,
-    "icon": "Img_shaliqiu.png",
+    "icon": "img_shaliqiu.png",
     "main_category": "咕噜球",
     "sub_category": "特制咕噜球",
     "rarity": "紫",
@@ -24213,7 +24213,7 @@
   "fields": {
     "name": "缇塔的蛋",
     "number": 0,
-    "icon": "Egg_tita.png",
+    "icon": "egg_tita.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -24229,7 +24229,7 @@
   "fields": {
     "name": "缇塔果实",
     "number": 0,
-    "icon": "Gs_tita.png",
+    "icon": "gs_tita.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -24309,7 +24309,7 @@
   "fields": {
     "name": "甜田螺的蛋",
     "number": 0,
-    "icon": "Egg_xiaotiantian.png",
+    "icon": "egg_xiaotiantian.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -24325,7 +24325,7 @@
   "fields": {
     "name": "甜田螺果实",
     "number": 0,
-    "icon": "Gs_hailuo.png",
+    "icon": "gs_hailuo.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -24469,7 +24469,7 @@
   "fields": {
     "name": "同心相伴",
     "number": 0,
-    "icon": "Img_MedalIcon_petblessing.png",
+    "icon": "img_medalicon_petblessing.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -24517,7 +24517,7 @@
   "fields": {
     "name": "万能血脉秘药",
     "number": 0,
-    "icon": "Xuemai_juzhouxuemai.png",
+    "icon": "xuemai_juzhouxuemai.png",
     "main_category": "重要",
     "sub_category": "血脉修改道具",
     "rarity": "紫",
@@ -24549,7 +24549,7 @@
   "fields": {
     "name": "网兜球",
     "number": 0,
-    "icon": "Img_wangdiuqiu.png",
+    "icon": "img_wangdiuqiu.png",
     "main_category": "咕噜球",
     "sub_category": "特制咕噜球",
     "rarity": "紫",
@@ -24661,7 +24661,7 @@
   "fields": {
     "name": "乌达的蛋",
     "number": 0,
-    "icon": "Egg_wuda2.png",
+    "icon": "egg_wuda2.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -24677,7 +24677,7 @@
   "fields": {
     "name": "乌达果实",
     "number": 0,
-    "icon": "Gs_wuda.png",
+    "icon": "gs_wuda.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -24773,7 +24773,7 @@
   "fields": {
     "name": "武系血脉秘药",
     "number": 0,
-    "icon": "Xuemai_wu.png",
+    "icon": "xuemai_wu.png",
     "main_category": "重要",
     "sub_category": "血脉修改道具",
     "rarity": "紫",
@@ -24789,7 +24789,7 @@
   "fields": {
     "name": "犀角鸟的蛋",
     "number": 0,
-    "icon": "Egg_xijiaoniao.png",
+    "icon": "egg_xijiaoniao.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -24805,7 +24805,7 @@
   "fields": {
     "name": "犀角鸟果实",
     "number": 0,
-    "icon": "Gs_xijiaoniao.png",
+    "icon": "gs_xijiaoniao.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "橙",
@@ -24821,7 +24821,7 @@
   "fields": {
     "name": "吸泥鸥的蛋",
     "number": 0,
-    "icon": "Egg_xiniou.png",
+    "icon": "egg_xiniou.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -24837,7 +24837,7 @@
   "fields": {
     "name": "吸泥鸥果实",
     "number": 0,
-    "icon": "Gs_xiniou.png",
+    "icon": "gs_xiniou.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -24997,7 +24997,7 @@
   "fields": {
     "name": "小草虫的蛋",
     "number": 0,
-    "icon": "Egg_xiaochongcao.png",
+    "icon": "egg_xiaochongcao.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -25013,7 +25013,7 @@
   "fields": {
     "name": "小草虫果实",
     "number": 0,
-    "icon": "Gs_caochong.png",
+    "icon": "gs_caochong.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -25029,7 +25029,7 @@
   "fields": {
     "name": "小丑豆豆的蛋",
     "number": 0,
-    "icon": "Egg_xiaochou.png",
+    "icon": "egg_xiaochou.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -25045,7 +25045,7 @@
   "fields": {
     "name": "小丑豆豆果实",
     "number": 0,
-    "icon": "Gs_xiaochou.png",
+    "icon": "gs_xiaochou.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -25061,7 +25061,7 @@
   "fields": {
     "name": "小电企鹅的蛋",
     "number": 0,
-    "icon": "Egg_dianqie.png",
+    "icon": "egg_dianqie.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -25077,7 +25077,7 @@
   "fields": {
     "name": "小电企鹅果实",
     "number": 0,
-    "icon": "Gs_dianqie.png",
+    "icon": "gs_dianqie.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -25093,7 +25093,7 @@
   "fields": {
     "name": "小独角兽的蛋",
     "number": 0,
-    "icon": "Egg_xiaodujiaoshou.png",
+    "icon": "egg_xiaodujiaoshou.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -25109,7 +25109,7 @@
   "fields": {
     "name": "小独角兽果实",
     "number": 0,
-    "icon": "Gs_dujiaoshou.png",
+    "icon": "gs_dujiaoshou.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -25125,7 +25125,7 @@
   "fields": {
     "name": "小光的蛋",
     "number": 0,
-    "icon": "Egg_xiaoguang.png",
+    "icon": "egg_xiaoguang.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -25141,7 +25141,7 @@
   "fields": {
     "name": "小光果实",
     "number": 0,
-    "icon": "Gs_xiaoguang.png",
+    "icon": "gs_xiaoguang.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -25157,7 +25157,7 @@
   "fields": {
     "name": "小黑猫的蛋",
     "number": 0,
-    "icon": "Egg_xiaoheimao.png",
+    "icon": "egg_xiaoheimao.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -25173,7 +25173,7 @@
   "fields": {
     "name": "小黑猫的蛋（萌系血脉）",
     "number": 0,
-    "icon": "Egg_xiaoheimao.png",
+    "icon": "egg_xiaoheimao.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -25189,7 +25189,7 @@
   "fields": {
     "name": "小黑猫果实",
     "number": 0,
-    "icon": "Gs_xiaoheimao.png",
+    "icon": "gs_xiaoheimao.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -25205,7 +25205,7 @@
   "fields": {
     "name": "小甲虫的蛋",
     "number": 0,
-    "icon": "Egg_xiaojiachong.png",
+    "icon": "egg_xiaojiachong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -25221,7 +25221,7 @@
   "fields": {
     "name": "小甲虫果实",
     "number": 0,
-    "icon": "Gs_dajiachong.png",
+    "icon": "gs_dajiachong.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -25237,7 +25237,7 @@
   "fields": {
     "name": "小灵菇的蛋",
     "number": 0,
-    "icon": "Egg_xiaolinggu.png",
+    "icon": "egg_xiaolinggu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -25253,7 +25253,7 @@
   "fields": {
     "name": "小灵菇果实",
     "number": 0,
-    "icon": "Gs_linggu.png",
+    "icon": "gs_linggu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -25269,7 +25269,7 @@
   "fields": {
     "name": "小灵面的蛋",
     "number": 0,
-    "icon": "Egg_xiaoyoulinglian.png",
+    "icon": "egg_xiaoyoulinglian.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -25285,7 +25285,7 @@
   "fields": {
     "name": "小灵面果实",
     "number": 0,
-    "icon": "Gs_xiaoyou.png",
+    "icon": "gs_xiaoyou.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -25301,7 +25301,7 @@
   "fields": {
     "name": "小帕尔的蛋",
     "number": 0,
-    "icon": "Egg_xiaopaershasi.png",
+    "icon": "egg_xiaopaershasi.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -25317,7 +25317,7 @@
   "fields": {
     "name": "小狮鹫的蛋",
     "number": 0,
-    "icon": "Egg_xiaoshijiu_yidi.png",
+    "icon": "egg_xiaoshijiu_yidi.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -25333,7 +25333,7 @@
   "fields": {
     "name": "小狮鹫的蛋（高山地的样子）",
     "number": 0,
-    "icon": "Egg_xiaoshijiu.png",
+    "icon": "egg_xiaoshijiu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -25349,7 +25349,7 @@
   "fields": {
     "name": "小狮鹫的蛋（崖间地的样子）",
     "number": 0,
-    "icon": "Egg_xiaoshijiu_yidi.png",
+    "icon": "egg_xiaoshijiu_yidi.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -25365,7 +25365,7 @@
   "fields": {
     "name": "小狮鹫果实",
     "number": 0,
-    "icon": "Gs_shijiu.png",
+    "icon": "gs_shijiu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -25381,7 +25381,7 @@
   "fields": {
     "name": "小鼠獭的蛋",
     "number": 0,
-    "icon": "Egg_xiaoshuta.png",
+    "icon": "egg_xiaoshuta.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -25397,7 +25397,7 @@
   "fields": {
     "name": "小鼠獭果实",
     "number": 0,
-    "icon": "Gs_shuta.png",
+    "icon": "gs_shuta.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -25413,7 +25413,7 @@
   "fields": {
     "name": "小怂猫的蛋",
     "number": 0,
-    "icon": "Egg_xiaosongmao.png",
+    "icon": "egg_xiaosongmao.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -25429,7 +25429,7 @@
   "fields": {
     "name": "小怂猫果实",
     "number": 0,
-    "icon": "Gs_songmao.png",
+    "icon": "gs_songmao.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -25445,7 +25445,7 @@
   "fields": {
     "name": "小箱怪的蛋",
     "number": 0,
-    "icon": "Egg_xiaoxiangguai.png",
+    "icon": "egg_xiaoxiangguai.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -25461,7 +25461,7 @@
   "fields": {
     "name": "小箱怪果实",
     "number": 0,
-    "icon": "Gs_xiaoxiangguai.png",
+    "icon": "gs_xiaoxiangguai.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -25525,7 +25525,7 @@
   "fields": {
     "name": "小星光的蛋",
     "number": 0,
-    "icon": "Egg_xingguang.png",
+    "icon": "egg_xingguang.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -25541,7 +25541,7 @@
   "fields": {
     "name": "小星光果实",
     "number": 0,
-    "icon": "Gs_xingguang_yidi.png",
+    "icon": "gs_xingguang_yidi.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -25557,7 +25557,7 @@
   "fields": {
     "name": "小雪人的蛋",
     "number": 0,
-    "icon": "Egg_xiaoxueren.png",
+    "icon": "egg_xiaoxueren.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -25573,7 +25573,7 @@
   "fields": {
     "name": "小雪人果实",
     "number": 0,
-    "icon": "Gs_xueren.png",
+    "icon": "gs_xueren.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -25589,7 +25589,7 @@
   "fields": {
     "name": "小夜的蛋",
     "number": 0,
-    "icon": "Egg_xiaoye.png",
+    "icon": "egg_xiaoye.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -25605,7 +25605,7 @@
   "fields": {
     "name": "小夜果实",
     "number": 0,
-    "icon": "Gs_ziye.png",
+    "icon": "gs_ziye.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -25621,7 +25621,7 @@
   "fields": {
     "name": "小翼龙的蛋",
     "number": 0,
-    "icon": "Egg_xiaoyilong.png",
+    "icon": "egg_xiaoyilong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -25637,7 +25637,7 @@
   "fields": {
     "name": "小翼龙果实",
     "number": 0,
-    "icon": "Gs_yilong.png",
+    "icon": "gs_yilong.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -25653,7 +25653,7 @@
   "fields": {
     "name": "小英",
     "number": 0,
-    "icon": "Img_linshiqiu.png",
+    "icon": "img_linshiqiu.png",
     "main_category": "任务",
     "sub_category": "任务道具",
     "rarity": "紫",
@@ -25669,7 +25669,7 @@
   "fields": {
     "name": "小勇狮的蛋",
     "number": 0,
-    "icon": "Egg_xiaoyongshi.png",
+    "icon": "egg_xiaoyongshi.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -25685,7 +25685,7 @@
   "fields": {
     "name": "小勇狮果实",
     "number": 0,
-    "icon": "Gs_xiaoyongshi.png",
+    "icon": "gs_xiaoyongshi.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -25701,7 +25701,7 @@
   "fields": {
     "name": "小鹬的蛋",
     "number": 0,
-    "icon": "Egg_xiaoyu.png",
+    "icon": "egg_xiaoyu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -25717,7 +25717,7 @@
   "fields": {
     "name": "小鹬果实",
     "number": 0,
-    "icon": "Gs_xiaoyu.png",
+    "icon": "gs_xiaoyu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -25845,7 +25845,7 @@
   "fields": {
     "name": "星尘虫的蛋",
     "number": 0,
-    "icon": "Egg_xingchenchong.png",
+    "icon": "egg_xingchenchong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -25861,7 +25861,7 @@
   "fields": {
     "name": "星尘虫果实",
     "number": 0,
-    "icon": "Gs_xingchenchong.png",
+    "icon": "gs_xingchenchong.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -26053,7 +26053,7 @@
   "fields": {
     "name": "炫彩精灵蛋",
     "number": 0,
-    "icon": "Egg_tongyong.png",
+    "icon": "egg_tongyong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -26069,7 +26069,7 @@
   "fields": {
     "name": "旋叶虫的蛋",
     "number": 0,
-    "icon": "Egg_xuanyechong2.png",
+    "icon": "egg_xuanyechong2.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -26085,7 +26085,7 @@
   "fields": {
     "name": "旋叶虫果实",
     "number": 0,
-    "icon": "Gs_yechong.png",
+    "icon": "gs_yechong.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -26117,7 +26117,7 @@
   "fields": {
     "name": "雪豆丁的蛋",
     "number": 0,
-    "icon": "Egg_xuedouding.png",
+    "icon": "egg_xuedouding.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -26133,7 +26133,7 @@
   "fields": {
     "name": "雪豆丁果实",
     "number": 0,
-    "icon": "Gs_xuedouding.png",
+    "icon": "gs_xuedouding.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -26181,7 +26181,7 @@
   "fields": {
     "name": "雪绒鸟(本来的样子)的蛋",
     "number": 0,
-    "icon": "Egg_dongyuque.png",
+    "icon": "egg_dongyuque.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -26197,7 +26197,7 @@
   "fields": {
     "name": "雪绒鸟(春天的样子)的蛋",
     "number": 0,
-    "icon": "Egg_dongyuque_chun.png",
+    "icon": "egg_dongyuque_chun.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -26213,7 +26213,7 @@
   "fields": {
     "name": "雪绒鸟(秋天的样子)的蛋",
     "number": 0,
-    "icon": "Egg_dongyuque_qiu.png",
+    "icon": "egg_dongyuque_qiu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -26229,7 +26229,7 @@
   "fields": {
     "name": "雪绒鸟(夏天的样子)的蛋",
     "number": 0,
-    "icon": "Egg_dongyuque_xia.png",
+    "icon": "egg_dongyuque_xia.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -26245,7 +26245,7 @@
   "fields": {
     "name": "雪绒鸟果实",
     "number": 0,
-    "icon": "Gs_lanniao.png",
+    "icon": "gs_lanniao.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -26261,7 +26261,7 @@
   "fields": {
     "name": "雪娃娃的蛋",
     "number": 0,
-    "icon": "Egg_xuewawa.png",
+    "icon": "egg_xuewawa.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -26277,7 +26277,7 @@
   "fields": {
     "name": "雪娃娃果实",
     "number": 0,
-    "icon": "Gs_xueling.png",
+    "icon": "gs_xueling.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -26325,7 +26325,7 @@
   "fields": {
     "name": "学院呱呱的蛋",
     "number": 0,
-    "icon": "Egg_xueyuanguagua.png",
+    "icon": "egg_xueyuanguagua.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -26373,7 +26373,7 @@
   "fields": {
     "name": "鸭吉吉(紧实的样子)的蛋",
     "number": 0,
-    "icon": "Egg_yajiji_jinshi.png",
+    "icon": "egg_yajiji_jinshi.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -26389,7 +26389,7 @@
   "fields": {
     "name": "鸭吉吉(蓬松的样子)的蛋",
     "number": 0,
-    "icon": "Egg_yajiji.png",
+    "icon": "egg_yajiji.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -26405,7 +26405,7 @@
   "fields": {
     "name": "鸭吉吉的蛋（等一等鸭）",
     "number": 0,
-    "icon": "Egg_dengyidengya.png",
+    "icon": "egg_dengyidengya.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -26421,7 +26421,7 @@
   "fields": {
     "name": "鸭吉吉的蛋（急急急鸭）",
     "number": 0,
-    "icon": "Egg_jijiya.png",
+    "icon": "egg_jijiya.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -26437,7 +26437,7 @@
   "fields": {
     "name": "鸭吉吉的蛋（起来鸭）",
     "number": 0,
-    "icon": "Egg_yajiji_qilaiya.png",
+    "icon": "egg_yajiji_qilaiya.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -26453,7 +26453,7 @@
   "fields": {
     "name": "鸭吉吉的蛋（燃了鸭）",
     "number": 0,
-    "icon": "Egg_yajiji_ranleya.png",
+    "icon": "egg_yajiji_ranleya.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -26469,7 +26469,7 @@
   "fields": {
     "name": "鸭吉吉果实",
     "number": 0,
-    "icon": "Gs_yajiji.png",
+    "icon": "gs_yajiji.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -26485,7 +26485,7 @@
   "fields": {
     "name": "鸭吉吉果实-等一等鸭",
     "number": 0,
-    "icon": "Gs_dengyidengya.png",
+    "icon": "gs_dengyidengya.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -26501,7 +26501,7 @@
   "fields": {
     "name": "鸭吉吉果实（起来鸭）",
     "number": 0,
-    "icon": "Gs_yajiji_qilaiya.png",
+    "icon": "gs_yajiji_qilaiya.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -26517,7 +26517,7 @@
   "fields": {
     "name": "鸭吉吉果实（燃了鸭）",
     "number": 0,
-    "icon": "Gs_ranleya.png",
+    "icon": "gs_ranleya.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -26533,7 +26533,7 @@
   "fields": {
     "name": "亚瑟的披风",
     "number": 0,
-    "icon": "Img_Medallcon_YaseCloak.png",
+    "icon": "img_medallcon_yasecloak.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -26549,7 +26549,7 @@
   "fields": {
     "name": "亚瑟的王冠",
     "number": 0,
-    "icon": "Img_Medallcon_YaseCrown.png",
+    "icon": "img_medallcon_yasecrown.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -26565,7 +26565,7 @@
   "fields": {
     "name": "烟花团的蛋",
     "number": 0,
-    "icon": "Egg_yanhuatuan.png",
+    "icon": "egg_yanhuatuan.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -26725,7 +26725,7 @@
   "fields": {
     "name": "伊贝儿的蛋",
     "number": 0,
-    "icon": "Egg_yibeier.png",
+    "icon": "egg_yibeier.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -26741,7 +26741,7 @@
   "fields": {
     "name": "伊贝儿果实",
     "number": 0,
-    "icon": "Gs_yibeier.png",
+    "icon": "gs_yibeier.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -26805,7 +26805,7 @@
   "fields": {
     "name": "伊雷龙的蛋",
     "number": 0,
-    "icon": "Egg_yileilong.png",
+    "icon": "egg_yileilong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -26821,7 +26821,7 @@
   "fields": {
     "name": "伊雷龙果实",
     "number": 0,
-    "icon": "Gs_yilan.png",
+    "icon": "gs_yilan.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -26869,7 +26869,7 @@
   "fields": {
     "name": "异色贝瑟的蛋",
     "number": 0,
-    "icon": "Egg_beise_yise.png",
+    "icon": "egg_beise_yise.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -26885,7 +26885,7 @@
   "fields": {
     "name": "异色柴渣虫的蛋",
     "number": 0,
-    "icon": "Egg_chaizhachong_yise.png",
+    "icon": "egg_chaizhachong_yise.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -26901,7 +26901,7 @@
   "fields": {
     "name": "异色大耳帽兜的蛋",
     "number": 0,
-    "icon": "Egg_doumao_yise.png",
+    "icon": "egg_doumao_yise.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -26917,7 +26917,7 @@
   "fields": {
     "name": "异色恶魔狼的蛋",
     "number": 0,
-    "icon": "Egg_daemo_yise.png",
+    "icon": "egg_daemo_yise.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -26933,7 +26933,7 @@
   "fields": {
     "name": "异色粉粉星的蛋",
     "number": 0,
-    "icon": "Egg_fenfen_yise.png",
+    "icon": "egg_fenfen_yise.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -26949,7 +26949,7 @@
   "fields": {
     "name": "异色粉星仔的蛋",
     "number": 0,
-    "icon": "Egg_xingzai_yise.png",
+    "icon": "egg_xingzai_yise.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -26965,7 +26965,7 @@
   "fields": {
     "name": "异色格兰种子的蛋",
     "number": 0,
-    "icon": "Egg_gelanzhongzi_2.png",
+    "icon": "egg_gelanzhongzi_2.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -26981,7 +26981,7 @@
   "fields": {
     "name": "异色呼呼猪的蛋",
     "number": 0,
-    "icon": "Egg_huhuzhu2.png",
+    "icon": "egg_huhuzhu2.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -26997,7 +26997,7 @@
   "fields": {
     "name": "异色火红尾的蛋",
     "number": 0,
-    "icon": "Egg_huohongwei_yise.png",
+    "icon": "egg_huohongwei_yise.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -27013,7 +27013,7 @@
   "fields": {
     "name": "异色机械方方的蛋",
     "number": 0,
-    "icon": "Egg_jixiefangfang_yise.png",
+    "icon": "egg_jixiefangfang_yise.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -27029,7 +27029,7 @@
   "fields": {
     "name": "异色空空颅的蛋",
     "number": 0,
-    "icon": "Egg_yemo_yise.png",
+    "icon": "egg_yemo_yise.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -27045,7 +27045,7 @@
   "fields": {
     "name": "异色拉特的蛋",
     "number": 0,
-    "icon": "Egg_late2.png",
+    "icon": "egg_late2.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -27061,7 +27061,7 @@
   "fields": {
     "name": "异色奇丽草的蛋",
     "number": 0,
-    "icon": "Egg_qilicao_yise.png",
+    "icon": "egg_qilicao_yise.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -27077,7 +27077,7 @@
   "fields": {
     "name": "异色绒绒的蛋",
     "number": 0,
-    "icon": "Egg_rongrong2.png",
+    "icon": "egg_rongrong2.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -27093,7 +27093,7 @@
   "fields": {
     "name": "异色嗜光嗡嗡的蛋",
     "number": 0,
-    "icon": "Egg_shiguangww_yise.png",
+    "icon": "egg_shiguangww_yise.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -27109,7 +27109,7 @@
   "fields": {
     "name": "异色双灯鱼的蛋",
     "number": 0,
-    "icon": "Egg_dengyu_yise.png",
+    "icon": "egg_dengyu_yise.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -27125,7 +27125,7 @@
   "fields": {
     "name": "异色犀角鸟的蛋",
     "number": 0,
-    "icon": "Egg_xijiaoniao2.png",
+    "icon": "egg_xijiaoniao2.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -27141,7 +27141,7 @@
   "fields": {
     "name": "异色月牙雪熊的蛋",
     "number": 0,
-    "icon": "Egg_xuexiong_yise.png",
+    "icon": "egg_xuexiong_yise.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -27157,7 +27157,7 @@
   "fields": {
     "name": "异色治愈兔的蛋",
     "number": 0,
-    "icon": "Egg_zhiyuhuowa2.png",
+    "icon": "egg_zhiyuhuowa2.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -27205,7 +27205,7 @@
   "fields": {
     "name": "仪使者的蛋",
     "number": 0,
-    "icon": "Egg_maya.png",
+    "icon": "egg_maya.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -27221,7 +27221,7 @@
   "fields": {
     "name": "仪使者果实",
     "number": 0,
-    "icon": "Gs_maya.png",
+    "icon": "gs_maya.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -27269,7 +27269,7 @@
   "fields": {
     "name": "一窝蜂的蛋",
     "number": 0,
-    "icon": "Egg_xiaohuangfeng.png",
+    "icon": "egg_xiaohuangfeng.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -27285,7 +27285,7 @@
   "fields": {
     "name": "一窝蜂果实",
     "number": 0,
-    "icon": "Gs_mifeng.png",
+    "icon": "gs_mifeng.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -27349,7 +27349,7 @@
   "fields": {
     "name": "翼系血脉秘药",
     "number": 0,
-    "icon": "Xuemai_yi.png",
+    "icon": "xuemai_yi.png",
     "main_category": "重要",
     "sub_category": "血脉修改道具",
     "rarity": "紫",
@@ -27381,7 +27381,7 @@
   "fields": {
     "name": "熠熠星辉",
     "number": 0,
-    "icon": "Img_MedalIcon_Starlight.png",
+    "icon": "img_medalicon_starlight.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -27653,7 +27653,7 @@
   "fields": {
     "name": "幽系血脉秘药",
     "number": 0,
-    "icon": "Xuemai_youling.png",
+    "icon": "xuemai_youling.png",
     "main_category": "重要",
     "sub_category": "血脉修改道具",
     "rarity": "紫",
@@ -27669,7 +27669,7 @@
   "fields": {
     "name": "幽星光的蛋",
     "number": 0,
-    "icon": "Egg_youxingguang.png",
+    "icon": "egg_youxingguang.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -27685,7 +27685,7 @@
   "fields": {
     "name": "幽星光果实",
     "number": 0,
-    "icon": "Gs_youxingguang.png",
+    "icon": "gs_youxingguang.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -27765,7 +27765,7 @@
   "fields": {
     "name": "幽影树的蛋",
     "number": 0,
-    "icon": "Egg_youlingshu.png",
+    "icon": "egg_youlingshu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -27781,7 +27781,7 @@
   "fields": {
     "name": "幽影树果实",
     "number": 0,
-    "icon": "Gs_youlingshu.png",
+    "icon": "gs_youlingshu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -27813,7 +27813,7 @@
   "fields": {
     "name": "优优的蛋",
     "number": 0,
-    "icon": "Egg_youyou.png",
+    "icon": "egg_youyou.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -27845,7 +27845,7 @@
   "fields": {
     "name": "优优果实",
     "number": 0,
-    "icon": "Gs_youyou.png",
+    "icon": "gs_youyou.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -27973,7 +27973,7 @@
   "fields": {
     "name": "圆眼蜘蛛的蛋",
     "number": 0,
-    "icon": "Egg_yuanyanzhizhu.png",
+    "icon": "egg_yuanyanzhizhu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -27989,7 +27989,7 @@
   "fields": {
     "name": "圆眼蜘蛛果实",
     "number": 0,
-    "icon": "Gs_zhizhu.png",
+    "icon": "gs_zhizhu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -28053,7 +28053,7 @@
   "fields": {
     "name": "月牙雪熊的蛋",
     "number": 0,
-    "icon": "Egg_xuexiong.png",
+    "icon": "egg_xuexiong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -28069,7 +28069,7 @@
   "fields": {
     "name": "月牙雪熊果实",
     "number": 0,
-    "icon": "Gs_xuexiong.png",
+    "icon": "gs_xuexiong.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -28181,7 +28181,7 @@
   "fields": {
     "name": "治愈兔的蛋",
     "number": 0,
-    "icon": "Egg_zhiyuhuowa.png",
+    "icon": "egg_zhiyuhuowa.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -28213,7 +28213,7 @@
   "fields": {
     "name": "治愈兔果实",
     "number": 0,
-    "icon": "Gs_huowa.png",
+    "icon": "gs_huowa.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -28245,7 +28245,7 @@
   "fields": {
     "name": "锥尾羊的蛋",
     "number": 0,
-    "icon": "Egg_youlingyang.png",
+    "icon": "egg_youlingyang.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -28261,7 +28261,7 @@
   "fields": {
     "name": "锥尾羊果实",
     "number": 0,
-    "icon": "Gs_youliangyang.png",
+    "icon": "gs_youliangyang.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
