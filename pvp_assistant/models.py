@@ -49,12 +49,12 @@ class TeamPet(models.Model):
     star = models.PositiveSmallIntegerField(default=5, verbose_name='星级')
     growth = models.PositiveSmallIntegerField(default=0, verbose_name='成长')
 
-    talent_hp = models.PositiveSmallIntegerField(default=5)
-    talent_pa = models.PositiveSmallIntegerField(default=5)
-    talent_ma = models.PositiveSmallIntegerField(default=5)
-    talent_pd = models.PositiveSmallIntegerField(default=5)
-    talent_md = models.PositiveSmallIntegerField(default=5)
-    talent_sp = models.PositiveSmallIntegerField(default=5)
+    talent_hp = models.PositiveSmallIntegerField(default=0)
+    talent_pa = models.PositiveSmallIntegerField(default=0)
+    talent_ma = models.PositiveSmallIntegerField(default=0)
+    talent_pd = models.PositiveSmallIntegerField(default=0)
+    talent_md = models.PositiveSmallIntegerField(default=0)
+    talent_sp = models.PositiveSmallIntegerField(default=0)
 
     nature_up = models.CharField(max_length=20, blank=True, choices=NATURE_CHOICES, default='')
     nature_down = models.CharField(max_length=20, blank=True, choices=NATURE_CHOICES, default='')
