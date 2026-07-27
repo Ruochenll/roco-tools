@@ -57,6 +57,10 @@ def norm(name: str) -> str:
     return name.replace('_', ' ').strip().lower()
 
 
+_KNOWN_PREFIXES = ['img_', 'gs_', 'egg_', 'xuemai_', 'icon_', 'item_', 'medalicon_', 'bf_', 'bff_', 'skill_']
+
+
+
 class Command(BaseCommand):
     help = '从 BWIKI 抓取道具图鉴(名称/分类/稀有度/用途/图标,图标用页面真实文件名)'
 
@@ -124,11 +128,28 @@ class Command(BaseCommand):
 
             icon_file = ''
             if icon_param:
-                # 优先:页面图片里找到与 icon 参数匹配的真实文件名
+                n_param = norm(icon_param)
+                # 1) 精确归一化匹配
                 for f in candidates:
-                    if norm(f) == norm(icon_param):
+                    if norm(f) == n_param:
                         icon_file = f
                         break
+                # 2) 剥离已知前缀后匹配 (如 icon="1012" 匹配 "Img_1012.png")
+                if not icon_file:
+                    for f in candidates:
+                        nf = norm(f)
+                        for pfx in _KNOWN_PREFIXES:
+                            if nf.startswith(pfx) and nf[len(pfx):] == n_param:
+                                icon_file = f
+                                break
+                        if icon_file:
+                            break
+                # 3) icon 参数是纯数字 → 候选文件名中包含该数字
+                if not icon_file and icon_param.isdigit():
+                    for f in candidates:
+                        if icon_param in norm(f):
+                            icon_file = f
+                            break
             if not icon_file and len(candidates) == 1:
                 # 页面上只剩一张非公共图,就是它
                 icon_file = candidates[0]
