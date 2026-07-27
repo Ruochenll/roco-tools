@@ -1,58 +1,49 @@
-"""修复本地物品图标关联: 根据磁盘已有文件反查正确的 icon 字段。"""
-import os
-import django
+"""对齐物品图标: 遍历所有 item, icon 字段值直接匹配磁盘文件名。"""
+import os, django
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
 django.setup()
 
 from items.models import GameItem
 
 ITEM_DIR = 'static/images/items'
-disk_files = set(os.listdir(ITEM_DIR))
-updated = skip = 0
+files_on_disk = {f: f for f in os.listdir(ITEM_DIR) if f.lower().endswith('.png')}
+fixed = ok = no_file = 0
 
 for item in GameItem.objects.exclude(icon=''):
-    if os.path.exists(os.path.join(ITEM_DIR, item.icon)):
-        continue  # 已匹配,跳过
+    wanted = item.icon
 
-    # 在磁盘文件中找名字最接近的
-    n = item.icon.rsplit('.', 1)[0].lower().replace('_', ' ').strip()
-    best = None
-    for f in disk_files:
-        nf = f.rsplit('.', 1)[0].lower().replace('_', ' ').strip()
-        # 精确匹配
-        if nf == n:
-            best = f
+    # 1. 精确存在 → 无需修改
+    if wanted in files_on_disk:
+        ok += 1
+        continue
+
+    # 2. 大小写不敏感匹配
+    lower = wanted.lower()
+    found = None
+    for f in files_on_disk:
+        if f.lower() == lower:
+            found = f
             break
-        # 剥离常见前缀后匹配
-        for pfx in ['img ', 'gs ', 'egg ', 'xuemai ', 'icon ', 'item ']:
-            if nf.startswith(pfx) and nf[len(pfx):] == n:
-                best = f
+
+    # 3. 去掉常见前缀再匹配 (icon="1012" 匹配 "Img_1012.png")
+    if not found:
+        base = lower.rsplit('.', 1)[0]
+        for f in files_on_disk:
+            fb = f.lower().rsplit('.', 1)[0]
+            for pfx in ('img_', 'gs_', 'egg_', 'xuemai_', 'icon_', 'item_', 'bf_'):
+                if fb.startswith(pfx) and fb[len(pfx):] == base:
+                    found = f
+                    break
+            if found:
                 break
-        if best:
-            break
 
-    if best:
-        item.icon = best
+    if found:
+        item.icon = found
         item.save(update_fields=['icon'])
-        updated += 1
-        if updated <= 10:
-            print(f'  修复: {item.name} → {best}')
+        fixed += 1
+        if fixed <= 10:
+            print(f'  {item.name}: {wanted} → {found}')
     else:
-        # 反向查: 文件名里包含物品名
-        item_name = item.name.lower().replace('·', '').replace('「', '').replace('」', '')
-        for f in disk_files:
-            nf = f.rsplit('.', 1)[0].lower().replace('_', ' ').strip()
-            if item_name and item_name in nf:
-                item.icon = f
-                item.save(update_fields=['icon'])
-                updated += 1
-                if updated <= 10:
-                    print(f'  修复(名): {item.name} → {f}')
-                best = f
-                break
-        if not best:
-            skip += 1
+        no_file += 1
 
-print(f'\n修复: {updated}, 跳过(磁盘也缺): {skip}')
-if updated:
-    print('请运行 dumpdata 重新导出 fixture')
+print(f'\n已对齐: {ok}, 修复: {fixed}, 磁盘无文件: {no_file}')

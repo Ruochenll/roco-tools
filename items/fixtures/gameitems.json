@@ -149,7 +149,7 @@
   "fields": {
     "name": "「初心·迪莫」头像",
     "number": 0,
-    "icon": "img_1012.png",
+    "icon": "Img_1012.png",
     "main_category": "重要",
     "sub_category": "活动道具",
     "rarity": "橙",
@@ -341,7 +341,7 @@
   "fields": {
     "name": "阿布的蛋",
     "number": 0,
-    "icon": "egg_abu.png",
+    "icon": "Egg_abu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -357,7 +357,7 @@
   "fields": {
     "name": "阿布果实",
     "number": 0,
-    "icon": "gs_abu.png",
+    "icon": "Gs_abu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -373,7 +373,7 @@
   "fields": {
     "name": "阿米亚特的蛋",
     "number": 0,
-    "icon": "egg_amiyate.png",
+    "icon": "Egg_amiyate.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -389,7 +389,7 @@
   "fields": {
     "name": "阿米亚特果实",
     "number": 0,
-    "icon": "gs_amiyate.png",
+    "icon": "Gs_amiyate.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -421,7 +421,7 @@
   "fields": {
     "name": "矮脚爬爬的蛋",
     "number": 0,
-    "icon": "egg_judulangzhu.png",
+    "icon": "Egg_judulangzhu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -437,7 +437,7 @@
   "fields": {
     "name": "矮脚爬爬果实",
     "number": 0,
-    "icon": "gs_langzhu.png",
+    "icon": "Gs_langzhu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -469,7 +469,7 @@
   "fields": {
     "name": "爱心炫彩蛋",
     "number": 0,
-    "icon": "egg_tongyong.png",
+    "icon": "Egg_tongyong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -517,7 +517,7 @@
   "fields": {
     "name": "暗星球",
     "number": 0,
-    "icon": "img_daodanqiu.png",
+    "icon": "Img_daodanqiu.png",
     "main_category": "咕噜球",
     "sub_category": "特制咕噜球",
     "rarity": "紫",
@@ -565,7 +565,7 @@
   "fields": {
     "name": "白发懒人的蛋",
     "number": 0,
-    "icon": "egg_baifalanren.png",
+    "icon": "Egg_baifalanren.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -581,7 +581,7 @@
   "fields": {
     "name": "白发懒人果实",
     "number": 0,
-    "icon": "gs_keshuiwang.png",
+    "icon": "Gs_keshuiwang.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -661,7 +661,7 @@
   "fields": {
     "name": "斑斑的蛋",
     "number": 0,
-    "icon": "egg_banban.png",
+    "icon": "Egg_banban.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -677,7 +677,7 @@
   "fields": {
     "name": "斑斑果实",
     "number": 0,
-    "icon": "gs_banban.png",
+    "icon": "Gs_banban.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -693,7 +693,7 @@
   "fields": {
     "name": "板板壳的蛋",
     "number": 0,
-    "icon": "egg_banbanke.png",
+    "icon": "Egg_banbanke.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -709,7 +709,7 @@
   "fields": {
     "name": "板板壳果实",
     "number": 0,
-    "icon": "gs_kaka.png",
+    "icon": "Gs_kaka.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -757,7 +757,7 @@
   "fields": {
     "name": "爆焰仔的蛋",
     "number": 0,
-    "icon": "egg_baoyanzai.png",
+    "icon": "Egg_baoyanzai.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -853,7 +853,7 @@
   "fields": {
     "name": "贝瑟的蛋",
     "number": 0,
-    "icon": "egg_beise.png",
+    "icon": "Egg_beise.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -869,7 +869,7 @@
   "fields": {
     "name": "贝瑟果实",
     "number": 0,
-    "icon": "gs_beise.png",
+    "icon": "Gs_beise.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -885,7 +885,7 @@
   "fields": {
     "name": "奔波鼠的蛋",
     "number": 0,
-    "icon": "egg_benboshu.png",
+    "icon": "Egg_benboshu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -901,7 +901,7 @@
   "fields": {
     "name": "奔波鼠果实",
     "number": 0,
-    "icon": "gs_benboshu.png",
+    "icon": "Gs_benboshu.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -917,7 +917,7 @@
   "fields": {
     "name": "蹦蹦种子(彩玉球形态)的蛋",
     "number": 0,
-    "icon": "egg_bengbengzhongzi_caiyuqiu.png",
+    "icon": "Egg_bengbengzhongzi_caiyuqiu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -933,7 +933,7 @@
   "fields": {
     "name": "蹦蹦种子(短毛球形态)的蛋",
     "number": 0,
-    "icon": "egg_bengbengzhongzi_duanmaoqiu.png",
+    "icon": "Egg_bengbengzhongzi_duanmaoqiu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -949,7 +949,7 @@
   "fields": {
     "name": "蹦蹦种子(海神球形态)的蛋",
     "number": 0,
-    "icon": "egg_bengbengzhongzi.png",
+    "icon": "Egg_bengbengzhongzi.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -965,7 +965,7 @@
   "fields": {
     "name": "蹦蹦种子(象牙球形态)的蛋",
     "number": 0,
-    "icon": "egg_bengbengzhongzi_xiangyaqiu.png",
+    "icon": "Egg_bengbengzhongzi_xiangyaqiu.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -981,7 +981,7 @@
   "fields": {
     "name": "蹦蹦种子果实",
     "number": 0,
-    "icon": "gs_bengbengcao.png",
+    "icon": "Gs_bengbengcao.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -1045,7 +1045,7 @@
   "fields": {
     "name": "变幻球",
     "number": 0,
-    "icon": "img_miwuqiu.png",
+    "icon": "Img_miwuqiu.png",
     "main_category": "咕噜球",
     "sub_category": "特制咕噜球",
     "rarity": "紫",
@@ -1157,7 +1157,7 @@
   "fields": {
     "name": "冰系血脉秘药",
     "number": 0,
-    "icon": "xuemai_bing.png",
+    "icon": "Xuemai_bing.png",
     "main_category": "重要",
     "sub_category": "血脉修改道具",
     "rarity": "紫",
@@ -1189,7 +1189,7 @@
   "fields": {
     "name": "波波螺的蛋",
     "number": 0,
-    "icon": "egg_bobolouar.png",
+    "icon": "Egg_bobolouar.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -1205,7 +1205,7 @@
   "fields": {
     "name": "波波螺果实",
     "number": 0,
-    "icon": "gs_booboluo.png",
+    "icon": "Gs_booboluo.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -1221,7 +1221,7 @@
   "fields": {
     "name": "布瓜蝌的蛋",
     "number": 0,
-    "icon": "egg_buzhuake.png",
+    "icon": "Egg_buzhuake.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -1237,7 +1237,7 @@
   "fields": {
     "name": "布瓜蝌果实",
     "number": 0,
-    "icon": "gs_buzhuake.png",
+    "icon": "Gs_buzhuake.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -1269,7 +1269,7 @@
   "fields": {
     "name": "布鲁斯的蛋",
     "number": 0,
-    "icon": "egg_bulusi.png",
+    "icon": "Egg_bulusi.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -1285,7 +1285,7 @@
   "fields": {
     "name": "布鲁斯果实",
     "number": 0,
-    "icon": "gs_bulusi.png",
+    "icon": "Gs_bulusi.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -1301,7 +1301,7 @@
   "fields": {
     "name": "布是石的蛋",
     "number": 0,
-    "icon": "egg_xiaobushi.png",
+    "icon": "Egg_xiaobushi.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -1317,7 +1317,7 @@
   "fields": {
     "name": "布是石果实",
     "number": 0,
-    "icon": "gs_bushi.png",
+    "icon": "Gs_bushi.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -1541,7 +1541,7 @@
   "fields": {
     "name": "草头鸭的蛋",
     "number": 0,
-    "icon": "egg_caotouya.png",
+    "icon": "Egg_caotouya.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -1557,7 +1557,7 @@
   "fields": {
     "name": "草头鸭果实",
     "number": 0,
-    "icon": "gs_caotouya.png",
+    "icon": "Gs_caotouya.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -1829,7 +1829,7 @@
   "fields": {
     "name": "初遇火花",
     "number": 0,
-    "icon": "img_medalicon_bff_xiaohuomiao.png",
+    "icon": "img_MedalIcon_BFF_XiaoHuoMiao.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -1845,7 +1845,7 @@
   "fields": {
     "name": "初遇喵喵",
     "number": 0,
-    "icon": "img_medalicon_bff_miaomiao.png",
+    "icon": "img_MedalIcon_BFF_MiaoMiao.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -1861,7 +1861,7 @@
   "fields": {
     "name": "初遇水蓝蓝",
     "number": 0,
-    "icon": "img_medalicon_bff_shuilanlan.png",
+    "icon": "img_MedalIcon_BFF_ShuiLanLan.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -2149,7 +2149,7 @@
   "fields": {
     "name": "大师级决斗家",
     "number": 0,
-    "icon": "img_medalicon_brave.png",
+    "icon": "img_MedalIcon_Brave.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -3349,7 +3349,7 @@
   "fields": {
     "name": "方块炫彩蛋",
     "number": 0,
-    "icon": "egg_tongyong.png",
+    "icon": "Egg_tongyong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -3765,7 +3765,7 @@
   "fields": {
     "name": "格兰种子果实",
     "number": 0,
-    "icon": "gs_gelanhua.png",
+    "icon": "gs_Gelanhua.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -5253,7 +5253,7 @@
   "fields": {
     "name": "火红炫彩蛋",
     "number": 0,
-    "icon": "egg_tongyong.png",
+    "icon": "Egg_tongyong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -5301,7 +5301,7 @@
   "fields": {
     "name": "火花羁绊",
     "number": 0,
-    "icon": "img_medalicon_bff_xiaohuomiao.png",
+    "icon": "img_MedalIcon_BFF_XiaoHuoMiao.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -5541,7 +5541,7 @@
   "fields": {
     "name": "急急急鸭果实",
     "number": 0,
-    "icon": "gs_jijijiya.png",
+    "icon": "gs_JijijiYa.png",
     "main_category": "精灵果实",
     "sub_category": "精灵果实",
     "rarity": "紫",
@@ -12437,7 +12437,7 @@
   "fields": {
     "name": "皎皎明月",
     "number": 0,
-    "icon": "img_medalicon_moonlight.png",
+    "icon": "img_MedalIcon_Moonlight.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -12885,7 +12885,7 @@
   "fields": {
     "name": "可可果絮语",
     "number": 0,
-    "icon": "img_medalicon_kekeguo.png",
+    "icon": "img_MedalIcon_Kekeguo.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -13397,7 +13397,7 @@
   "fields": {
     "name": "老朋友火花",
     "number": 0,
-    "icon": "img_medalicon_bff_xiaohuomiao.png",
+    "icon": "img_MedalIcon_BFF_XiaoHuoMiao.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -13413,7 +13413,7 @@
   "fields": {
     "name": "老朋友喵喵",
     "number": 0,
-    "icon": "img_medalicon_bff_miaomiao.png",
+    "icon": "img_MedalIcon_BFF_MiaoMiao.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -13429,7 +13429,7 @@
   "fields": {
     "name": "老朋友水蓝蓝",
     "number": 0,
-    "icon": "img_medalicon_bff_shuilanlan.png",
+    "icon": "img_MedalIcon_BFF_ShuiLanLan.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -14053,7 +14053,7 @@
   "fields": {
     "name": "露萌的暗星球",
     "number": 0,
-    "icon": "img_daodanqiu.png",
+    "icon": "Img_daodanqiu.png",
     "main_category": "任务",
     "sub_category": "任务道具",
     "rarity": "紫",
@@ -14805,7 +14805,7 @@
   "fields": {
     "name": "喵喵羁绊",
     "number": 0,
-    "icon": "img_medalicon_bff_miaomiao.png",
+    "icon": "img_MedalIcon_BFF_MiaoMiao.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -14869,7 +14869,7 @@
   "fields": {
     "name": "命定之证",
     "number": 0,
-    "icon": "img_medalicon_brave.png",
+    "icon": "img_MedalIcon_Brave.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -22309,7 +22309,7 @@
   "fields": {
     "name": "契约之证",
     "number": 0,
-    "icon": "img_medalicon_fatecertificate.png",
+    "icon": "img_MedalIcon_FateCertificate.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -22517,7 +22517,7 @@
   "fields": {
     "name": "燃了鸭",
     "number": 0,
-    "icon": "img_medalicon_yajijiar003.png",
+    "icon": "img_MedalIcon_YaJiJiAr003.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -22709,7 +22709,7 @@
   "fields": {
     "name": "赛季炫彩精灵蛋",
     "number": 0,
-    "icon": "egg_tongyong.png",
+    "icon": "Egg_tongyong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -22981,7 +22981,7 @@
   "fields": {
     "name": "神奇的蛋",
     "number": 0,
-    "icon": "egg_tongyong.png",
+    "icon": "Egg_tongyong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "紫",
@@ -23381,7 +23381,7 @@
   "fields": {
     "name": "首领蹦蹦种子的蛋",
     "number": 0,
-    "icon": "egg_bengbengzhongzi.png",
+    "icon": "Egg_bengbengzhongzi.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -23397,7 +23397,7 @@
   "fields": {
     "name": "首领布是石的蛋",
     "number": 0,
-    "icon": "egg_xiaobushi.png",
+    "icon": "Egg_xiaobushi.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -23717,7 +23717,7 @@
   "fields": {
     "name": "水蓝蓝羁绊",
     "number": 0,
-    "icon": "img_medalicon_bff_shuilanlan.png",
+    "icon": "img_MedalIcon_BFF_ShuiLanLan.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -23877,7 +23877,7 @@
   "fields": {
     "name": "四角星炫彩蛋",
     "number": 0,
-    "icon": "egg_tongyong.png",
+    "icon": "Egg_tongyong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -24469,7 +24469,7 @@
   "fields": {
     "name": "同心相伴",
     "number": 0,
-    "icon": "img_medalicon_petblessing.png",
+    "icon": "img_MedalIcon_petblessing.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -26053,7 +26053,7 @@
   "fields": {
     "name": "炫彩精灵蛋",
     "number": 0,
-    "icon": "egg_tongyong.png",
+    "icon": "Egg_tongyong.png",
     "main_category": "精灵蛋",
     "sub_category": "精灵蛋",
     "rarity": "橙",
@@ -26533,7 +26533,7 @@
   "fields": {
     "name": "亚瑟的披风",
     "number": 0,
-    "icon": "img_medallcon_yasecloak.png",
+    "icon": "img_Medallcon_YaseCloak.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -26549,7 +26549,7 @@
   "fields": {
     "name": "亚瑟的王冠",
     "number": 0,
-    "icon": "img_medallcon_yasecrown.png",
+    "icon": "img_Medallcon_YaseCrown.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
@@ -27381,7 +27381,7 @@
   "fields": {
     "name": "熠熠星辉",
     "number": 0,
-    "icon": "img_medalicon_starlight.png",
+    "icon": "img_MedalIcon_Starlight.png",
     "main_category": "重要",
     "sub_category": "精灵奖牌",
     "rarity": "橙",
