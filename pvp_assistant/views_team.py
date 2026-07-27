@@ -42,10 +42,17 @@ def battle_calc(request):
 
 @require_POST
 def api_import_roster(request):
-    """阵容码解析 → 返回 JSON 精灵列表。"""
+    """阵容码解析 → 返回 JSON 精灵列表。支持纯字符码和带文字介绍的格式。"""
     code = request.POST.get('code', '').strip()
     if not code:
         return JsonResponse({'error': '请输入阵容码'}, status=400)
+
+    # 从可能的文字介绍中提取纯阵容码行
+    lines = [l.strip() for l in code.split('\n') if l.strip()]
+    code_lines = [l for l in lines if '~' in l and not l.startswith('#')]
+    if code_lines:
+        code = ''.join(code_lines)
+
     try:
         roster = format_roster(code)
     except Exception as e:
