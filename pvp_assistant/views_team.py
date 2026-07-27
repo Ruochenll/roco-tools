@@ -48,10 +48,16 @@ def api_import_roster(request):
         return JsonResponse({'error': '请输入阵容码'}, status=400)
 
     # 从可能的文字介绍中提取纯阵容码行
-    lines = [l.strip() for l in code.split('\n') if l.strip()]
-    code_lines = [l for l in lines if '~' in l and not l.startswith('#')]
-    if code_lines:
-        code = ''.join(code_lines)
+    # 阵容码字符集: A-Z a-z 0-9 ~ _
+    filtered = ''.join(c for c in code if c.isascii() and (c.isalnum() or c in '~_'))
+    # 找到阵容码段 (以 B~ 开头)
+    idx = filtered.find('B~')
+    if idx == -1:
+        idx = filtered.find('b~')
+    if idx != -1:
+        code = filtered[idx:]
+    else:
+        code = filtered
 
     try:
         roster = format_roster(code)
