@@ -16,7 +16,7 @@ def item_list(request):
     rarity = request.GET.get('rarity', '').strip()
     page = request.GET.get('page', '1')
 
-    qs = GameItem.objects.all()
+    qs = GameItem.objects.exclude(icon='')  # 隐藏无图片的未实装物品
     if search:
         qs = qs.filter(name__icontains=search)
     if category:
