@@ -11,8 +11,8 @@ git pull
 echo ">>> migrate..."
 python3.12 manage.py migrate --noinput 2>/dev/null
 
-echo ">>> collectstatic --clear..."
-python3.12 manage.py collectstatic --noinput --clear
+echo ">>> collectstatic..."
+python3.12 manage.py collectstatic --noinput
 
 echo ">>> restart gunicorn..."
 pkill -HUP gunicorn 2>/dev/null || pkill gunicorn; sleep 1

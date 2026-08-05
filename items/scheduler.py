@@ -3,7 +3,7 @@
 工作方式:
   - Django 启动时(apps.ready)拉起一个守护线程
   - 启动时若当前时段还没有数据,先补拉一次(带重试)
-  - 之后睡到下一个刷新点(8/12/16/20 北京时间),醒来拉取,
+  - 之后睡到下一个刷新点(8/12/16/20 北京时间),醒来等 20 秒再拉取,
     失败重试最多 MERCHANT_FETCH_RETRIES 次,每次间隔 MERCHANT_FETCH_RETRY_INTERVAL 秒
   - 全部失败也无妨:首页懒加载会在有人访问时继续兜底重试
 
@@ -62,7 +62,7 @@ def _loop():
         try:
             now = now_beijing()
             nxt = _next_refresh(now)
-            wait = (nxt - now).total_seconds() + 3  # 过点 3 秒再拉,给数据源留刷新时间
+            wait = (nxt - now).total_seconds() + 20  # 过点 20 秒再拉,给数据源留刷新时间
             logger.info('远行商人调度:下次拉取 %s(%.0f 秒后)', nxt.strftime('%m-%d %H:%M'), wait)
             time.sleep(max(wait, 1))
 
